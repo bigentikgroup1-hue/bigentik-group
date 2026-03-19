@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Initial variable placeholders. No specific design defined yet. */
+  --color-brand-primary: #000000;
+  --color-brand-secondary: #ffffff;
+  --color-background-base: #f9fafb;
+  --color-text-base: #111827;
+}
+
+/* Basic Reset & Base Setup */
+:root {
+  --background: var(--color-background-base);
+  --foreground: var(--color-text-base);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
