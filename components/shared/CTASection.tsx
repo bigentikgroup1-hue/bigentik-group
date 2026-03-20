@@ -1,16 +1,10 @@
 import React from 'react';
 
-interface CTASectionProps {
-  title?: string;
-  description?: string;
-  className?: string;
-}
 
-export const CTASection: React.FC<CTASectionProps> = ({
-  title = "Experimente el pináculo del lujo",
-  description = "Conéctese con nuestros especialistas para detalles exclusivos del proyecto.",
-  className = "py-24 px-6 text-center max-w-4xl mx-auto",
-}) => {
+export const CTASection: React.FC<{}> = ({ }) => {
+  const title = "Experimente el pináculo del lujo";
+  const description = "Conéctese con nuestros especialistas para detalles exclusivos del proyecto.";
+  const className = "py-24 px-6 text-center max-w-4xl mx-auto";
   return (
     <section className={className}>
       <h2 className="font-headline text-4xl md:text-5xl mb-6">{title}</h2>
