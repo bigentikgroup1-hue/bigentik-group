@@ -2,7 +2,9 @@ import React from 'react';
 import { CTASection } from '@/components/shared/CTASection';
 import { getTranslator, Locale } from '@/lib/i18n';
 
-export default async function AboutPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
   const t = await getTranslator(locale as Locale);
 
   return (

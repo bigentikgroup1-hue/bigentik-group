@@ -89,7 +89,9 @@
     },
     "cta": {
       "title": "Découvrez le summum du luxe",
-      "description": "Connectez-vous pour obtenir des détails exclusifs sur le projet."
+      "description": "Connectez-vous pour obtenir des détails exclusifs sur le projet.",
+      "contact_btn": "Nous Contacter",
+      "whatsapp_btn": "WhatsApp"
     }
   },
   "about": {

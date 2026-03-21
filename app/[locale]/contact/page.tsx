@@ -5,7 +5,9 @@ import { ContactInfo } from '@/components/contact/ContactInfo';
 import { GlobalOffices } from '@/components/contact/GlobalOffices';
 import { CTASection } from '@/components/shared/CTASection';
 
-export default async function ContactPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
   return (
     <main className="flex-1 bg-background">
       <ContactHero locale={locale} />

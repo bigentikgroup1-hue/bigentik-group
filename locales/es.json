@@ -89,7 +89,9 @@
     },
     "cta": {
       "title": "Experimente el pináculo del lujo",
-      "description": "Conéctese con nuestros especialistas para detalles exclusivos del proyecto."
+      "description": "Conéctese con nuestros especialistas para detalles exclusivos del proyecto.",
+      "contact_btn": "Contáctenos",
+      "whatsapp_btn": "WhatsApp"
     }
   },
   "about": {

@@ -89,7 +89,9 @@
     },
     "cta": {
       "title": "Experience the pinnacle of luxury",
-      "description": "Connect with our specialists for exclusive project details."
+      "description": "Connect with our specialists for exclusive project details.",
+      "contact_btn": "Contact Us",
+      "whatsapp_btn": "WhatsApp"
     }
   },
   "about": {

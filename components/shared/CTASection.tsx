@@ -15,10 +15,10 @@ export const CTASection = async ({ locale, children }: { locale: string; childre
       </p>
       <div className="flex flex-col sm:flex-row justify-center gap-6">
         <button className="editorial-gradient signature-gradient px-12 py-4 font-label text-sm tracking-widest uppercase text-on-primary hover:opacity-90 transition-opacity shadow-lg">
-          Contáctenos
+          {t('home.cta.contact_btn')}
         </button>
         <button className="border border-outline-variant/40 px-12 py-4 font-label text-sm tracking-widest uppercase hover:bg-surface-container transition-colors">
-          WhatsApp
+          {t('home.cta.whatsapp_btn')}
         </button>
       </div>
     </section>
