@@ -1,9 +1,11 @@
 import React from 'react';
+import { getTranslator, Locale } from '@/lib/i18n';
 
-
-export const CTASection: React.FC<{}> = ({ }) => {
-  const title = "Experimente el pináculo del lujo";
-  const description = "Conéctese con nuestros especialistas para detalles exclusivos del proyecto.";
+export const CTASection = async ({ locale, children }: { locale: string; children?: React.ReactNode }) => {
+  const t = await getTranslator(locale as Locale);
+  
+  const title = t('home.cta.title');
+  const description = t('home.cta.description');
   const className = "py-24 px-6 text-center max-w-4xl mx-auto";
   return (
     <section className={className}>

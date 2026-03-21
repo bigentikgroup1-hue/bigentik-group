@@ -1,6 +1,8 @@
 import React from 'react';
+import { getTranslator, Locale } from '@/lib/i18n';
 
-export const LifestyleSection = () => {
+export const LifestyleSection = async ({ locale }: { locale: string }) => {
+  const t = await getTranslator(locale as Locale);
   return (
     <section className="relative py-40 overflow-hidden bg-on-surface text-background">
       <div className="absolute inset-0 opacity-40">
@@ -13,11 +15,11 @@ export const LifestyleSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
         <div>
           <h2 className="font-headline text-6xl leading-tight mb-8">
-            Más Allá del <br/><span className="italic text-primary-fixed">Umbral.</span>
+            {t('home.lifestyle.title_1')} <br/><span className="italic text-primary-fixed">{t('home.lifestyle.title_2')}</span>
           </h2>
           <div className="pl-8 border-l border-primary-fixed/30 space-y-8">
             <p className="text-xl text-background/80 italic font-headline">
-              &quot;Bigentik no solo está construyendo casas; están construyendo el futuro del estilo de vida de Samaná, donde el lujo se encuentra en el silencio y la naturaleza.&quot;
+              {t('home.lifestyle.quote')}
             </p>
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-full bg-surface-container overflow-hidden">
@@ -27,9 +29,9 @@ export const LifestyleSection = () => {
                 />
               </div>
               <div>
-                <p className="text-xs uppercase tracking-widest font-bold">Julian V. Rosseau</p>
+                <p className="text-xs uppercase tracking-widest font-bold">{t('home.lifestyle.author_name')}</p>
                 <p className="text-[10px] uppercase tracking-widest text-primary-fixed/60">
-                  Inversionista de Cartera
+                  {t('home.lifestyle.author_role')}
                 </p>
               </div>
             </div>
@@ -37,15 +39,15 @@ export const LifestyleSection = () => {
         </div>
         <div className="grid grid-cols-2 gap-6">
           <div className="bg-surface/5 backdrop-blur-md p-8 border border-white/10">
-            <h4 className="font-headline text-3xl mb-2">300+</h4>
+            <h4 className="font-headline text-3xl mb-2">{t('home.lifestyle.stat_1_val')}</h4>
             <p className="text-[10px] uppercase tracking-widest text-background/60">
-              Propiedades Entregadas
+              {t('home.lifestyle.stat_1_lbl')}
             </p>
           </div>
           <div className="bg-surface/5 backdrop-blur-md p-8 border border-white/10 mt-12">
-            <h4 className="font-headline text-3xl mb-2">$500M+</h4>
+            <h4 className="font-headline text-3xl mb-2">{t('home.lifestyle.stat_2_val')}</h4>
             <p className="text-[10px] uppercase tracking-widest text-background/60">
-              Activos Gestionados
+              {t('home.lifestyle.stat_2_lbl')}
             </p>
           </div>
         </div>

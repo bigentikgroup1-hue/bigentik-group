@@ -1,0 +1,295 @@
+{
+  "header": {
+    "logo": "Bigentik Group",
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "about": "About Us",
+      "investment": "Investment",
+      "contact": "Contact"
+    },
+    "buttons": {
+      "whatsapp": "WhatsApp",
+      "cta": "Request Info"
+    }
+  },
+  "home": {
+    "hero": {
+      "subtitle": "The Peninsula Collection",
+      "title_1": "Defining Luxury in",
+      "title_2": "Las Terrenas.",
+      "description": "Curating extraordinary living experiences where architectural precision meets the unspoiled beauty of the Dominican north coast.",
+      "portfolio_btn": "Explore Portfolio",
+      "guide_btn": "View Investment Guide",
+      "scroll": "Scroll to discover"
+    },
+    "value_prop": {
+      "subtitle": "Our Philosophy",
+      "title_1": "The Art of",
+      "title_2": "Atmospheric Living",
+      "description": "We don’t just build properties; we curate ecosystems. Bigentik Group represents a shift towards intentional development, where every square inch is designed to harmonize with Samaná's tropical landscape.",
+      "card_title": "Architectural Integrity",
+      "card_desc": "Custom designs by internationally award-winning studios.",
+      "float_number": "01.",
+      "float_desc": "Unwavering standards in sustainable luxury and regional integration."
+    },
+    "featured_projects": {
+      "subtitle": "Distinctive Portfolio",
+      "title": "Current Masterpieces",
+      "link": "View All Developments",
+      "items": [
+        {
+          "title": "The Azure Reserve",
+          "description": "6-Bedroom Sanctuary with 270° ocean views.",
+          "location": "Las Terrenas, Samaná",
+          "status": "Available"
+        },
+        {
+          "title": "Terrenas Heights",
+          "description": "Condominium residences with contemporary design and panoramic views.",
+          "location": "Las Terrenas, Samaná",
+          "status": "Under Construction"
+        },
+        {
+          "title": "Playa Estela",
+          "description": "Beachfront Estates perfectly integrated into the tropical ecosystem.",
+          "location": "Las Terrenas, Samaná",
+          "status": "Sold"
+        }
+      ]
+    },
+    "investment": {
+      "subtitle": "Investment Portal",
+      "title": "Strategic Growth in the Dominican Republic",
+      "cards": [
+        {
+          "title": "Tax Incentives",
+          "description": "Take advantage of the CONFOTUR law, offering property tax exemptions for up to 15 years on qualified developments."
+        },
+        {
+          "title": "High Rental Yield",
+          "description": "Las Terrenas maintains an average annual ROI of 8-12% due to growing international demand and limited premium inventory."
+        },
+        {
+          "title": "Capital Appreciation",
+          "description": "Property values in Samaná have seen a steady 15% annual increase as infrastructure continues to expand."
+        }
+      ]
+    },
+    "lifestyle": {
+      "title_1": "Beyond the",
+      "title_2": "Threshold.",
+      "quote": "\"Bigentik is not just building homes; they are building the future of Samaná's lifestyle, where luxury meets silence and nature.\"",
+      "author_name": "Julian V. Rosseau",
+      "author_role": "Portfolio Investor",
+      "stat_1_val": "300+",
+      "stat_1_lbl": "Properties Delivered",
+      "stat_2_val": "$500M+",
+      "stat_2_lbl": "Assets Under Management"
+    },
+    "cta": {
+      "title": "Experience the pinnacle of luxury",
+      "description": "Connect with our specialists for exclusive project details."
+    }
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Our Heritage",
+      "title_1": "Defining the Future of",
+      "title_2": "Prestige.",
+      "description": "Bigentik Group represents a lineage of architectural excellence and strategic investment, curated for the world's most discerning individuals."
+    },
+    "philosophy": {
+      "title_1": "The Pillars of our",
+      "title_2": "Philosophy",
+      "cards": [
+        {
+          "title": "Architectural Integrity",
+          "description": "We believe space should be an extension of character. Every structural element is selected to harmonize with its natural environment, bringing uncompromising comfort."
+        },
+        {
+          "title": "Sustainable Legacy",
+          "description": "Our projects are built for generations. By integrating advanced sustainable technologies with timeless materials, we ensure lasting value and environmental respect."
+        },
+        {
+          "title": "Discreet Excellence",
+          "description": "Luxury feels best when subtle. Our services and developments prioritize privacy, security, and a seamless operational experience."
+        },
+        {
+          "title": "Global Management",
+          "description": "With a portfolio spanning three continents, we navigate global markets with local precision, ensuring our clients' assets are positioned for maximum growth."
+        }
+      ]
+    },
+    "founder": {
+      "quote": "\"We didn't set out to build the most buildings; we set out to build the most meaningful ones. Bigentik is about the spaces between the walls—the life that happens inside.\"",
+      "name": "Marcus V. Bigentik",
+      "role": "Founder & Chairman"
+    },
+    "presence": {
+      "subtitle": "Our Presence",
+      "title_1": "A Global Footprint of",
+      "title_2": "Trust",
+      "portal_title": "Investment Portal",
+      "portal_desc": "Secure access to exclusive project data and real-time performance metrics for our global partners.",
+      "portal_btn": "Enter Portal",
+      "aum_val": "$4.2B+",
+      "aum_lbl": "Assets Under Management",
+      "cities": "12 Cities"
+    }
+  },
+  "contact": {
+    "hero": {
+      "subtitle": "Connect with us",
+      "title": "Let's discuss your next investment.",
+      "description": "Whether you seek a private viewing or architectural consultation, our specialists are available for tailored conversations."
+    },
+    "form": {
+      "title": "Send an Inquiry",
+      "name": "Full Name",
+      "name_ph": "John Doe",
+      "email": "Email Address",
+      "email_ph": "email@example.com",
+      "interest": "Investment Interest",
+      "interest_opts": ["Residential Development", "Commercial Portfolio", "Luxury Penthouse", "General Inquiry"],
+      "message": "Message",
+      "message_ph": "How can we assist you?",
+      "submit": "Submit Request"
+    },
+    "info": {
+      "concierge_title": "Direct Concierge",
+      "concierge_desc": "Speak directly with our regional directors for immediate assistance.",
+      "europe_division": "European Division",
+      "mena_region": "MENA Region",
+      "hq_title": "Headquarters",
+      "hq_address_1": "128 Knightsbridge,",
+      "hq_address_2": "London, SW1X 7PA",
+      "hq_address_3": "United Kingdom",
+      "hq_hours_1": "Mon — Fri: 09:00 - 18:00",
+      "hq_hours_2": "Sat: By Appointment Only"
+    },
+    "offices": {
+      "subtitle": "Our Presence",
+      "description": "Strategically located in the world's most dynamic markets to serve our global clientele with local expertise.",
+      "cities": [
+        "London",
+        "Dubai",
+        "Singapore"
+      ]
+    }
+  },
+  "projects": {
+    "hero": {
+      "subtitle": "Our Portfolio",
+      "title_1": "Excellence and Architectural",
+      "title_2": "Vision",
+      "title_3": ".",
+      "location": "Las Terrenas, Samaná"
+    },
+    "filters": {
+      "all": "All Projects",
+      "available": "Available",
+      "construction": "Under Construction",
+      "sold": "Sold",
+      "filter_region": "Filter by Region"
+    },
+    "grid": {
+      "residencia_obsidian": {
+        "title": "Obsidian Residence",
+        "description": "Avant-garde architecture redefining luxury in the heart of Switzerland.",
+        "location": "Las Terrenas, Samaná • 2024",
+        "status": "Available"
+      },
+      "penthouse_skyline": {
+        "title": "Skyline Penthouse",
+        "description": "Panoramic views and minimalist interior design at the highest point of the city.",
+        "location": "Las Terrenas, Samaná • 2023",
+        "status": "Sold"
+      },
+      "villas_azure_bay": {
+        "title": "Azure Bay Villas",
+        "description": "Mediterranean exclusivity facing the Aegean Sea, where white merges with blue.",
+        "location": "Las Terrenas, Samaná • 2025",
+        "status": "Under Construction"
+      }
+    },
+    "quote": {
+      "text": "\"We don't just build structures; we sculpt environments that dialogue with their surroundings, creating a timeless intersection between human precision and natural grace.\"",
+      "author": "— Principal Architect, Bigentik Design Lab"
+    },
+    "overview": {
+      "title": "The Narrative",
+      "specs_title": "Project Specifications",
+      "area": "Total Area",
+      "completion": "Completion",
+      "units": "Units",
+      "location": "Location"
+    },
+    "highlights": {
+      "title": "Investment Potential",
+      "growth_title": "Capital Growth",
+      "growth_desc": "Projected annual appreciation of 18% based on current market trends in the Western Ridge corridor.",
+      "tax_title": "Tax Efficiency",
+      "tax_desc": "Qualified under the New Estate Law for significant property tax incentives over 10 years.",
+      "rental_title": "Exclusive Rental",
+      "rental_desc": "Managed premium rental program yielding an estimated 7.5% net return for investors."
+    },
+    "floor_plans": {
+      "subtitle": "Architectural Layouts",
+      "title": "Refined Living Spaces",
+      "btn_type_a": "Villa Type A",
+      "btn_type_b": "Villa Type B",
+      "level_title": "Level 01: The Social Core",
+      "level_desc": "Open-concept kitchen integrated with a sunken living area, flowing seamlessly into the infinity pool terrace.",
+      "features": [
+        "350 sqm Internal Area",
+        "Floor-to-ceiling glass walls",
+        "Private internal courtyard"
+      ]
+    },
+    "location_map": {
+      "title": "Strategic Location",
+      "desc": "Perfectly positioned away from urban noise, yet only 15 minutes from the central business district and international airport.",
+      "district": "Prime District 04",
+      "address": "Olive Ridge Road, South Sector"
+    },
+    "project_data": {
+      "the-olive-grove-estates": {
+        "title": "The Olive Grove Estates",
+        "collection": "Signature Collection",
+        "gallery": [
+          { "category": "Interior Spaces", "title": "Main Residence Living Room" },
+          { "category": "Interior Spaces", "title": "Kitchen & Dining" },
+          { "category": "Exteriors", "title": "Main Terrace" }
+        ],
+        "overview": {
+          "pullQuote": "An architectural dialogue between the untouched Mediterranean landscape and the precision of contemporary minimalist design.",
+          "paragraphs": [
+            "Situated in the heart of the reclaimed valley, The Olive Grove Estates represents Bigentik Group's most ambitious residential project to date. Every structure is oriented to maximize natural light whilst maintaining the thermal efficiency of traditional earth-based construction.",
+            "The palette is a direct reflection of the surrounding environment, incorporating sand-blasted limestone, aged oak, and our signature olive-toned bronze finishes."
+          ],
+          "specs": {
+            "area": "14,500 sqm",
+            "completion": "Q4 2025",
+            "units": "12 Private Villas",
+            "location": "Western Ridge"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "Curating the world's most prestigious real estate and investment opportunities since 2008.",
+    "company": "Company",
+    "nav_about": "About Us",
+    "nav_projects": "Projects",
+    "nav_portal": "Investment Portal",
+    "support": "Support",
+    "nav_contact": "Contact Us",
+    "nav_offices": "Office Locations",
+    "nav_privacy": "Privacy Policy",
+    "legal": "Legal",
+    "nav_terms": "Terms of Service",
+    "copyright": "© 2024 Bigentik Group. All rights reserved."
+  }
+}

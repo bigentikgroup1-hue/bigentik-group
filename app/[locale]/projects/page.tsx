@@ -4,14 +4,15 @@ import { ProjectsGrid } from '@/components/projects/ProjectsGrid';
 import { EditorialQuote } from '@/components/projects/EditorialQuote';
 import { CTASection } from '@/components/shared/CTASection';
 
-export default function ProjectsPage() {
+export default async function ProjectsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const resolvedParams = await params;
   return (
     <main className="pt-32 pb-24 bg-background">
       <ProjectsHero />
-      <ProjectsGrid />
-      <EditorialQuote />
+      <ProjectsGrid locale={resolvedParams.locale} />
+      <EditorialQuote locale={resolvedParams.locale} />
 
-      <CTASection />
+      <CTASection locale={resolvedParams.locale} />
     </main>
   );
 }

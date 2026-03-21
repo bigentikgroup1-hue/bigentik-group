@@ -1,6 +1,8 @@
 import React from 'react';
+import { getTranslator, Locale } from '@/lib/i18n';
 
-export const ContactInfo = () => {
+export const ContactInfo = async ({ locale }: { locale: string }) => {
+  const t = await getTranslator(locale as Locale);
   return (
     <div className="md:col-span-5 flex flex-col gap-6">
       {/* WhatsApp Section */}
@@ -9,9 +11,9 @@ export const ContactInfo = () => {
           <span className="material-symbols-outlined text-4xl mb-6" data-weight="fill">
             chat
           </span>
-          <h3 className="font-headline text-2xl mb-4">Conserjería Directa</h3>
+          <h3 className="font-headline text-2xl mb-4">{t('contact.info.concierge_title')}</h3>
           <p className="font-body text-sm opacity-80 mb-8 leading-relaxed">
-            Hable directamente con nuestros directores regionales para asistencia inmediata.
+            {t('contact.info.concierge_desc')}
           </p>
         </div>
         <div className="space-y-4">
@@ -21,7 +23,7 @@ export const ContactInfo = () => {
           >
             <div className="flex flex-col">
               <span className="font-label text-xs uppercase opacity-60">
-                División Europea
+                {t('contact.info.europe_division')}
               </span>
               <span className="font-body">+44 20 7946 0123</span>
             </div>
@@ -32,7 +34,7 @@ export const ContactInfo = () => {
             href="#"
           >
             <div className="flex flex-col">
-              <span className="font-label text-xs uppercase opacity-60">Región MENA</span>
+              <span className="font-label text-xs uppercase opacity-60">{t('contact.info.mena_region')}</span>
               <span className="font-body">+971 4 123 4567</span>
             </div>
             <span className="material-symbols-outlined">arrow_outward</span>
@@ -42,24 +44,24 @@ export const ContactInfo = () => {
 
       {/* Office Location Brief */}
       <div className="bg-surface-container p-10">
-        <h3 className="font-headline text-xl mb-6">Sede Central</h3>
+        <h3 className="font-headline text-xl mb-6">{t('contact.info.hq_title')}</h3>
         <div className="space-y-4 text-on-surface-variant font-body text-sm">
           <div className="flex gap-4">
             <span className="material-symbols-outlined text-primary">location_on</span>
             <p>
-              128 Knightsbridge,
+              {t('contact.info.hq_address_1')}
               <br />
-              London, SW1X 7PA
+              {t('contact.info.hq_address_2')}
               <br />
-              United Kingdom
+              {t('contact.info.hq_address_3')}
             </p>
           </div>
           <div className="flex gap-4">
             <span className="material-symbols-outlined text-primary">schedule</span>
             <p>
-              Lun — Vie: 09:00 - 18:00
+              {t('contact.info.hq_hours_1')}
               <br />
-              Sáb: Solo con cita previa
+              {t('contact.info.hq_hours_2')}
             </p>
           </div>
         </div>

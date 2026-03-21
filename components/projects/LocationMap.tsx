@@ -1,21 +1,23 @@
 import React from 'react';
+import { getTranslator, Locale } from '@/lib/i18n';
 
-export const LocationMap = () => {
+export const LocationMap = async ({ locale }: { locale: string }) => {
+  const t = await getTranslator(locale as Locale);
   return (
     <section className="py-32">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-4">
-            <h2 className="font-headline text-4xl mb-6">Ubicación Estratégica</h2>
+            <h2 className="font-headline text-4xl mb-6">{t('projects.location_map.title')}</h2>
             <p className="text-on-surface-variant mb-8 leading-relaxed">
-              Perfectamente posicionada lejos del ruido urbano, pero a solo 15 minutos del distrito central de negocios y del aeropuerto internacional.
+              {t('projects.location_map.desc')}
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-primary">location_on</span>
                 <div>
-                  <p className="font-bold">Distrito Prime 04</p>
-                  <p className="text-sm text-on-surface-variant">Olive Ridge Road, Sector Sur</p>
+                  <p className="font-bold">{t('projects.location_map.district')}</p>
+                  <p className="text-sm text-on-surface-variant">{t('projects.location_map.address')}</p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,9 @@
 import React from 'react';
+import { getTranslator, Locale } from '@/lib/i18n';
 
-export const HomeHero = () => {
+export const HomeHero = async ({ locale }: { locale: string }) => {
+  const t = await getTranslator(locale as Locale);
+
   return (
     <header className="relative h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -14,20 +17,20 @@ export const HomeHero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
         <div className="max-w-3xl">
           <span className="inline-block mb-4 text-xs uppercase tracking-[0.4em] text-white/90 font-semibold">
-            La Colección Península
+            {t('home.hero.subtitle')}
           </span>
           <h1 className="font-headline text-6xl md:text-8xl text-white leading-tight mb-8 -ml-1">
-            Definiendo el Lujo en <br/><span className="italic">Las Terrenas.</span>
+            {t('home.hero.title_1')} <br/><span className="italic">{t('home.hero.title_2')}</span>
           </h1>
           <p className="text-lg text-white/80 max-w-lg mb-10 leading-relaxed">
-            Curando experiencias de vida extraordinarias donde la precisión arquitectónica se encuentra con la belleza virgen de la costa norte dominicana.
+            {t('home.hero.description')}
           </p>
           <div className="flex gap-6">
             <button className="editorial-gradient px-10 py-4 text-xs uppercase tracking-widest font-bold text-on-primary">
-              Explorar Portafolio
+              {t('home.hero.portfolio_btn')}
             </button>
             <button className="bg-white/10 backdrop-blur-md px-10 py-4 text-xs uppercase tracking-widest font-bold text-white border border-white/20 hover:bg-white/20">
-              Ver Guía de Inversión
+              {t('home.hero.guide_btn')}
             </button>
           </div>
         </div>
@@ -35,7 +38,7 @@ export const HomeHero = () => {
       <div className="absolute bottom-12 right-6 hidden lg:block">
         <div className="flex items-center gap-4 text-white/60">
           <span className="text-[10px] uppercase tracking-[0.5em] rotate-90 origin-left translate-x-4">
-            Desplazar para descubrir
+            {t('home.hero.scroll')}
           </span>
           <div className="w-px h-24 bg-white/20"></div>
         </div>

@@ -1,22 +1,24 @@
 import React from 'react';
+import { getTranslator, Locale } from '@/lib/i18n';
 
-export const FloorPlans = () => {
+export const FloorPlans = async ({ locale }: { locale: string }) => {
+  const t = await getTranslator(locale as Locale);
   return (
     <section className="py-24 bg-surface-container-high">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div>
             <span className="font-label uppercase tracking-widest text-primary mb-4 block">
-              Distribuciones Arquitectónicas
+              {t('projects.floor_plans.subtitle')}
             </span>
-            <h2 className="font-headline text-4xl">Espacios de Vida Refinados</h2>
+            <h2 className="font-headline text-4xl">{t('projects.floor_plans.title')}</h2>
           </div>
           <div className="flex gap-4">
             <button className="px-8 py-3 bg-surface-container-lowest font-label uppercase tracking-widest text-xs border border-outline-variant/30">
-              Villa Tipo A
+              {t('projects.floor_plans.btn_type_a')}
             </button>
             <button className="px-8 py-3 bg-transparent font-label uppercase tracking-widest text-xs border border-outline-variant/30">
-              Villa Tipo B
+              {t('projects.floor_plans.btn_type_b')}
             </button>
           </div>
         </div>
@@ -30,9 +32,9 @@ export const FloorPlans = () => {
           </div>
           <div className="space-y-10">
             <div>
-              <h4 className="font-headline text-2xl mb-4">Nivel 01: El Núcleo Social</h4>
+              <h4 className="font-headline text-2xl mb-4">{t('projects.floor_plans.level_title')}</h4>
               <p className="text-on-surface-variant leading-relaxed">
-                Cocina de concepto abierto integrada con una sala de estar hundida, fluyendo sin interrupciones hacia la terraza con piscina infinita.
+                {t('projects.floor_plans.level_desc')}
               </p>
             </div>
             <ul className="space-y-4">
@@ -40,19 +42,19 @@ export const FloorPlans = () => {
                 <span className="material-symbols-outlined text-primary" data-weight="fill">
                   check_circle
                 </span>{" "}
-                350 m² de Área Interna
+                {t('projects.floor_plans.features.0')}
               </li>
               <li className="flex items-center gap-4 text-on-surface-variant">
                 <span className="material-symbols-outlined text-primary" data-weight="fill">
                   check_circle
                 </span>{" "}
-                Paredes de cristal de piso a techo
+                {t('projects.floor_plans.features.1')}
               </li>
               <li className="flex items-center gap-4 text-on-surface-variant">
                 <span className="material-symbols-outlined text-primary" data-weight="fill">
                   check_circle
                 </span>{" "}
-                Patio interno privado
+                {t('projects.floor_plans.features.2')}
               </li>
             </ul>
           </div>

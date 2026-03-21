@@ -1,6 +1,9 @@
 import React from 'react';
+import { getTranslator, Locale } from '@/lib/i18n';
 
-export const ValueProposition = () => {
+export const ValueProposition = async ({ locale }: { locale: string }) => {
+  const t = await getTranslator(locale as Locale);
+
   return (
     <section className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
@@ -14,36 +17,36 @@ export const ValueProposition = () => {
               />
             </div>
             <div className="absolute -bottom-12 -right-12 w-64 h-80 bg-primary-container p-8 hidden md:flex flex-col justify-end">
-              <span className="text-on-primary-container font-headline text-4xl mb-4 italic">01.</span>
+              <span className="text-on-primary-container font-headline text-4xl mb-4 italic">{t('home.value_prop.float_number')}</span>
               <p className="text-on-primary-container text-sm leading-relaxed font-medium">
-                Estándares inquebrantables en lujo sostenible e integración regional.
+                {t('home.value_prop.float_desc')}
               </p>
             </div>
           </div>
           <div className="space-y-8">
-            <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Nuestra Filosofía</span>
+            <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">{t('home.value_prop.subtitle')}</span>
             <h2 className="font-headline text-5xl leading-tight">
-              El Arte de <br/>Vivir la Atmósfera
+              {t('home.value_prop.title_1')} <br/>{t('home.value_prop.title_2')}
             </h2>
             <p className="text-on-surface-variant leading-relaxed text-lg max-w-md">
-              No solo construimos propiedades; curamos ecosistemas. Bigentik Group representa un cambio hacia el desarrollo intencional, donde cada pulgada cuadrada está diseñada para armonizar con el paisaje tropical de Samaná.
+              {t('home.value_prop.description')}
             </p>
             <div className="pt-8 space-y-6">
               <div className="flex items-start gap-4">
-                <span className="material-symbols-outlined text-primary mt-1">Nuestra Filosofía</span>
+                <span className="material-symbols-outlined text-primary mt-1">diamond</span>
                 <div>
-                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">Integridad Arquitectónica</h4>
+                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title')}</h4>
                   <p className="text-sm text-on-surface-variant">
-                    Diseños personalizados por estudios galardonados internacionalmente.
+                    {t('home.value_prop.card_desc')}
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <span className="material-symbols-outlined text-primary mt-1">Nuestra Filosofía</span>
+                <span className="material-symbols-outlined text-primary mt-1">eco</span>
                 <div>
-                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">Integridad Arquitectónica</h4>
+                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title')}</h4>
                   <p className="text-sm text-on-surface-variant">
-                    Diseños personalizados por estudios galardonados internacionalmente.
+                    {t('home.value_prop.card_desc')}
                   </p>
                 </div>
               </div>
