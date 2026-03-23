@@ -1,6 +1,8 @@
 import 'server-only';
+import type esDictionary from '@/locales/es.json';
 
 export type Locale = 'es' | 'en' | 'fr';
+export type Dictionary = typeof esDictionary;
 
 const dictionaries = {
   es: () => import('@/locales/es.json').then((module) => module.default),
@@ -8,7 +10,7 @@ const dictionaries = {
   fr: () => import('@/locales/fr.json').then((module) => module.default),
 };
 
-export const getDictionary = async (locale: Locale) => {
+export const getDictionary = async (locale: Locale): Promise<Dictionary> => {
   if (!dictionaries[locale]) {
     return dictionaries['es']();
   }

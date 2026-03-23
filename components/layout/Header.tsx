@@ -2,12 +2,15 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useTranslation } from '@/components/providers/TranslationProvider';
 import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher';
+import type { Dictionary } from '@/lib/i18n';
 
-export function Header() {
+type HeaderProps = {
+  dict: Dictionary;
+};
+
+export function Header({ dict }: HeaderProps) {
   const pathname = usePathname();
-  const t = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const currentLocale = pathname.split('/')[1] || 'es';
@@ -34,7 +37,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto glass-nav rounded-full px-6 md:px-10 py-3.5 flex items-center justify-between shadow-2xl border border-white/30 backdrop-blur-xl">
         <div className="flex items-center justify-between w-full lg:w-auto lg:gap-12">
           <Link href={getLocalizedLink('/')} onClick={closeMenu}>
-            <span className="font-headline text-2xl font-bold tracking-tight text-primary">{t('header.logo')}</span>
+            <span className="font-headline text-2xl font-bold tracking-tight text-primary">{dict.header.logo}</span>
           </Link>
           
           <button 
@@ -50,18 +53,18 @@ export function Header() {
           </button>
 
           <div className="hidden lg:flex items-center gap-8">
-            <Link className={getLinkClass('/')} href={getLocalizedLink('/')}>{t('header.nav.home')}</Link>
-            <Link className={getLinkClass('/projects')} href={getLocalizedLink('/projects')}>{t('header.nav.projects')}</Link>
-            <Link className={getLinkClass('/about')} href={getLocalizedLink('/about')}>{t('header.nav.about')}</Link>
-            <Link className={getLinkClass('/contact')} href={getLocalizedLink('/contact')}>{t('header.nav.contact')}</Link>
+            <Link className={getLinkClass('/')} href={getLocalizedLink('/')}>{dict.header.nav.home}</Link>
+            <Link className={getLinkClass('/projects')} href={getLocalizedLink('/projects')}>{dict.header.nav.projects}</Link>
+            <Link className={getLinkClass('/about')} href={getLocalizedLink('/about')}>{dict.header.nav.about}</Link>
+            <Link className={getLinkClass('/contact')} href={getLocalizedLink('/contact')}>{dict.header.nav.contact}</Link>
           </div>
         </div>
         
         <div className="hidden lg:flex items-center gap-5">
           <LanguageSwitcher />
           <div className="hidden md:flex items-center gap-4">
-            <button className="rounded-full px-6 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface/80 bg-surface/50 hover:bg-surface border border-outline-variant/30 transition-all">{t('header.buttons.whatsapp')}</button>
-            <button className="editorial-gradient rounded-full px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-primary shadow-lg hover:opacity-90 transition-all">{t('header.buttons.cta')}</button>
+            <button className="rounded-full px-6 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface/80 bg-surface/50 hover:bg-surface border border-outline-variant/30 transition-all">{dict.header.buttons.whatsapp}</button>
+            <button className="editorial-gradient rounded-full px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-primary shadow-lg hover:opacity-90 transition-all">{dict.header.buttons.cta}</button>
           </div>
         </div>
       </div>
@@ -69,10 +72,10 @@ export function Header() {
       {isMenuOpen && (
         <div className="absolute top-[calc(100%+0.5rem)] left-4 right-4 md:left-8 md:right-8 p-6 glass-nav rounded-2xl shadow-2xl border border-white/30 backdrop-blur-xl lg:hidden flex flex-col gap-6">
           <div className="flex flex-col gap-4">
-            <Link className={getLinkClass('/')} href={getLocalizedLink('/')} onClick={closeMenu}>{t('header.nav.home')}</Link>
-            <Link className={getLinkClass('/projects')} href={getLocalizedLink('/projects')} onClick={closeMenu}>{t('header.nav.projects')}</Link>
-            <Link className={getLinkClass('/about')} href={getLocalizedLink('/about')} onClick={closeMenu}>{t('header.nav.about')}</Link>
-            <Link className={getLinkClass('/contact')} href={getLocalizedLink('/contact')} onClick={closeMenu}>{t('header.nav.contact')}</Link>
+            <Link className={getLinkClass('/')} href={getLocalizedLink('/')} onClick={closeMenu}>{dict.header.nav.home}</Link>
+            <Link className={getLinkClass('/projects')} href={getLocalizedLink('/projects')} onClick={closeMenu}>{dict.header.nav.projects}</Link>
+            <Link className={getLinkClass('/about')} href={getLocalizedLink('/about')} onClick={closeMenu}>{dict.header.nav.about}</Link>
+            <Link className={getLinkClass('/contact')} href={getLocalizedLink('/contact')} onClick={closeMenu}>{dict.header.nav.contact}</Link>
           </div>
           
           <div className="h-px w-full bg-on-surface/10"></div>
@@ -83,10 +86,10 @@ export function Header() {
                <LanguageSwitcher />
              </div>
              <button className="w-full text-center rounded-full px-6 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface/80 bg-surface/50 hover:bg-surface border border-outline-variant/30 transition-all">
-                {t('header.buttons.whatsapp')}
+                {dict.header.buttons.whatsapp}
              </button>
              <button className="w-full text-center editorial-gradient rounded-full px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-primary shadow-lg hover:opacity-90 transition-all">
-                {t('header.buttons.cta')}
+                {dict.header.buttons.cta}
              </button>
           </div>
         </div>
