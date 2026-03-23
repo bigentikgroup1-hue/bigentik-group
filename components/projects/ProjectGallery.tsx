@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 export interface GalleryItem {
   url: string;
@@ -32,10 +33,12 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
       <div className="relative group overflow-hidden bg-surface-container h-[600px] md:h-[800px]">
         {/* Carousel Main Image */}
         <div className="absolute inset-0 transition-transform duration-700 ease-out">
-          <img
-            className="w-full h-full object-cover"
+          <Image
+            className="object-cover"
             alt={currentImage.title}
             src={currentImage.url}
+            fill
+            quality={100}
           />
         </div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { getTranslator, Locale } from '@/lib/i18n';
+import Image from 'next/image';
 
 export const FloorPlans = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
@@ -24,10 +25,13 @@ export const FloorPlans = async ({ locale }: { locale: string }) => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
           <div className="bg-white p-8 shadow-sm">
-            <img
-              className="w-full grayscale opacity-80 hover:opacity-100 transition-opacity"
+            <Image
+              className="w-full h-auto grayscale opacity-80 hover:opacity-100 transition-opacity"
               alt="Minimalist architectural floor plan drawing"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7Ep0KiHvj6OZln-I-PFogs4HEdpmwdPyP01KR0ABGsGb66qfqQKQ3aV4VYvrSy1gTbgWQZHYsar-QO8hOUTXczA7CI7BN_iPAekwuVsichMMlPW51soGFW4KCJD5Cnjk_SjqxhVi3C9prD_DQcCH4lMxSgbAKQQkMs0BCQwiarAhCFCBOgoK77WdpOmcSwm_0xv-WhjWqNQoXq4N_wSrDzoEopLg9WMTsyw-aCr6YFhbWFVBmETpRWWe5qf_hV6E01zi0i_iMrQ"
+              width={1000}
+              height={1000}
+              quality={100}
             />
           </div>
           <div className="space-y-10">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { getTranslator, Locale } from '@/lib/i18n';
+import Image from 'next/image';
 
 export const GlobalOffices = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
@@ -14,10 +15,12 @@ export const GlobalOffices = async ({ locale }: { locale: string }) => {
         </div>
         <div className="grid lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 aspect-[21/9] bg-surface-variant relative overflow-hidden">
-            <img
+            <Image
               alt="Mapa"
-              className="w-full h-full object-cover grayscale opacity-50"
+              className="object-cover grayscale opacity-50"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl33jWkoWt9cHAsDqFnnYYmBSgcMJ9MwrcPeBvq-GYXs65RaUsJ8ECH5THoN9ZPbC4NBW9Nbzu_Jwcrbe3QgsEuHIRBUuxkQMdJ7XQx5yrqaFaFAlCVTb0LjeixxXBmXHHBN_ji4xkeVuSrD13vz3HTyU0uW_XjPv7J4xxYEQ-BJJhqmEZMraFZdoxzk_KutrhupAUo2nOW-EozfMvvCjioHMpLqXSijQaZMgMRRKCcedmRGXAKcHN0PiXUFJkW-0qxu226jQTwA"
+              fill
+              quality={100}
             />
             <div className="absolute inset-0 bg-primary/5"></div>
           </div>

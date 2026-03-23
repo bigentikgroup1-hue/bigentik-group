@@ -1,5 +1,6 @@
 import React from 'react';
 import { getTranslator, Locale } from '@/lib/i18n';
+import Image from 'next/image';
 
 export const LocationMap = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
@@ -23,10 +24,12 @@ export const LocationMap = async ({ locale }: { locale: string }) => {
             </div>
           </div>
           <div className="md:col-span-8 h-[500px] bg-surface-container relative overflow-hidden">
-            <img
-              className="w-full h-full object-cover"
+            <Image
+              className="object-cover"
               alt="Stylized map of a coastal mountain region"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCF9xtE9wx3cqJJNfd88hnV7uVxMowaRg_1PoErosHwUVXevTvKOndVCWjb4BIjXwr4GsaktiyCTWrTMT1dHo2ROiqeLf-_CeNYlAXzn4k1-Q-rj8lkO3MtQu70emuBLoe3lN6p3j-dzBkjIdOBBCEHbIPGE6MgNUZktqeEi9iOHqBVav3LA4y__6T1W_7-6ZB2zFjGU9Ka_Yo5wfELSy0sEVoFJVrR7J4dDiQF91DaOjT2EnklPWEyhZdAa7ilC_P--8vNaU5mmg"
+              fill
+              quality={100}
             />
             <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">

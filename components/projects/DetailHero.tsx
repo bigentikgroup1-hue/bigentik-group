@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export interface DetailHeroProps {
   title: string;
@@ -9,10 +10,12 @@ export interface DetailHeroProps {
 export const DetailHero: React.FC<DetailHeroProps> = ({ title, collection, image }) => {
   return (
     <section className="relative h-[80vh] w-full overflow-hidden">
-      <img
-        className="w-full h-full object-cover"
+      <Image
+        className="object-cover"
         alt={title}
         src={image}
+        fill
+        quality={100}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-on-surface/60 to-transparent"></div>
       <div className="absolute bottom-16 left-0 w-full px-6">

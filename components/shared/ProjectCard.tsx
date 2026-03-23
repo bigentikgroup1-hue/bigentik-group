@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 type ProjectStatus = 'Disponible' | 'Vendido' | 'En Construcción';
 
@@ -35,10 +36,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <section className="relative h-[90vh] w-full overflow-hidden group">
       {image && (
-        <img
+        <Image
           alt={title}
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+          className="object-cover transition-transform duration-1000 group-hover:scale-105"
           src={image}
+          fill
+          quality={100}
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
