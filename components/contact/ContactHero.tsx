@@ -4,7 +4,7 @@ import { getTranslator, Locale } from '@/lib/i18n';
 export const ContactHero = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
   return (
-    <section className="relative pt-24 lg:pt-34 pb-16 px-6 max-w-7xl mx-auto">
+    <section className="relative pt-34 pb-16 px-6 max-w-7xl mx-auto">
       <div className="grid lg:grid-cols-2 gap-16 items-end">
         <div>
           <span className="font-label text-xs uppercase tracking-[0.2em] text-outline mb-4 block">
