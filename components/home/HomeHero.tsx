@@ -5,11 +5,11 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
 
   return (
-    <header className="relative h-screen flex items-center overflow-hidden">
+    <header className="relative h-screen flex items-center overflow-hidden lg:pt-34">
       <div className="absolute inset-0 z-0">
-        <img 
-          className="w-full h-full object-cover" 
-          alt="Aerial cinematic view of Las Terrenas coastline and luxury villas" 
+        <img
+          className="w-full h-full object-cover"
+          alt="Aerial cinematic view of Las Terrenas coastline and luxury villas"
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8QjJvw_iuZCjdytNi976SdMeOA8EkYuPoNFug0UQEE7GQ4EVwiuWF8I5e4lbYF5jIntIRz5V5WQumcBMJcwLKISwowqhcnMdEeLWdLlTkqSCViC1ttBvfrGMFXLc-_ubRwuM2bzjGAH743Hn2LWPx70IlFJNH9k_1CLv8HPRBHdsJFHSXqeYItFEmJojGtWAq6cIpPw62Hujjw0Xid6oisb5BNpxZeAkZ9YawyX6u_r-c5-zcIH7JZt_jXDA6in9gerIqbhMJMw"
         />
         <div className="absolute inset-0 bg-on-surface/20"></div>
@@ -20,7 +20,7 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
             {t('home.hero.subtitle')}
           </span>
           <h1 className="font-headline text-6xl md:text-8xl text-white leading-tight mb-8 -ml-1">
-            {t('home.hero.title_1')} <br/><span className="italic">{t('home.hero.title_2')}</span>
+            {t('home.hero.title_1')} <br /><span className="italic">{t('home.hero.title_2')}</span>
           </h1>
           <p className="text-lg text-white/80 max-w-lg mb-10 leading-relaxed">
             {t('home.hero.description')}
