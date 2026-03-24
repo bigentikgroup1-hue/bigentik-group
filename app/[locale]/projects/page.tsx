@@ -5,13 +5,22 @@ import { ProjectsGrid } from '@/components/projects/ProjectsGrid';
 import { EditorialQuote } from '@/components/projects/EditorialQuote';
 import { CTASection } from '@/components/shared/CTASection';
 
-export default async function ProjectsPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function ProjectsPage({ 
+  params,
+  searchParams
+  }: { 
+    params: Promise<{ locale: string }>,
+    searchParams: Promise<{ filter?: string }>
+  }) {
   const resolvedParams = await params;
+  const resolvedSearchParams = await searchParams;
+  const filter = resolvedSearchParams.filter || 'all';
+
   const dict = await getDictionary(resolvedParams.locale as Locale);
   return (
     <main className="pt-32 pb-24 bg-background">
-      <ProjectsHero dict={dict} />
-      <ProjectsGrid locale={resolvedParams.locale} />
+      <ProjectsHero dict={dict} currentFilter={filter} />
+      <ProjectsGrid locale={resolvedParams.locale} filter={filter} />
       <EditorialQuote locale={resolvedParams.locale} />
 
       <CTASection locale={resolvedParams.locale} />

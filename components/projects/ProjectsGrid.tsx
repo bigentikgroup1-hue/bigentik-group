@@ -3,7 +3,7 @@ import { ProjectCard } from '@/components/shared/ProjectCard';
 import { getTranslator, Locale } from '@/lib/i18n';
 import { projects } from '@/data/projects-i18n';
 
-export const ProjectsGrid = async ({ locale }: { locale: string }) => {
+export const ProjectsGrid = async ({ locale, filter = 'all' }: { locale: string; filter?: string }) => {
   const t = await getTranslator(locale as Locale);
 
   const getLocalizedValue = (val: any, loc: string) => {
@@ -11,17 +11,24 @@ export const ProjectsGrid = async ({ locale }: { locale: string }) => {
     return val[loc as Locale] || val.en || '';
   };
 
-  if (!projects || projects.length === 0) {
+  let filteredProjects = projects;
+  if (filter === 'sold') {
+    filteredProjects = projects.filter(p => p.status === 'sold');
+  } else if (filter === 'construction') {
+    filteredProjects = projects.filter(p => p.status === 'in construction');
+  }
+
+  if (!filteredProjects || filteredProjects.length === 0) {
     return (
       <div className="py-20 text-center">
-        <p className="text-on-surface-variant font-headline text-2xl">No projects available</p>
+        <p className="text-on-surface-variant font-headline text-2xl">No projects found for this filter</p>
       </div>
     );
   }
 
   return (
     <>
-      {projects.map((project, index) => {
+      {filteredProjects.map((project, index) => {
         const title = getLocalizedValue(project.title, locale);
         const description = getLocalizedValue(project.description, locale);
         const location = getLocalizedValue(project.location, locale);
