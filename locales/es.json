@@ -89,7 +89,7 @@
     },
     "cta": {
       "title": "Experimente el pináculo del lujo",
-      "description": "Conéctese con nuestros especialistas para detalles exclusivos del proyecto.",
+      "description": "Conéctese con nuestros especialistas para detalles exclusivos de nuestros proyectos.",
       "contact_btn": "Contáctenos",
       "whatsapp_btn": "WhatsApp"
     }
@@ -99,45 +99,46 @@
       "subtitle": "Nuestro Patrimonio",
       "title_1": "Definiendo el Futuro del",
       "title_2": "Prestigio.",
-      "description": "Bigentik Group representa un linaje de excelencia arquitectónica e inversión estratégica, seleccionada para las personas más exigentes del mundo."
+      "description": "Bigentik Group representa un linaje de excelencia arquitectónica e inversión estratégica en la República Dominicana, seleccionada para las personas más exigentes del mundo."
     },
     "philosophy": {
       "title_1": "Los Pilares de nuestra",
       "title_2": "Filosofía",
       "cards": [
         {
-          "title": "Integridad Arquitectónica",
-          "description": "Creemos que el espacio debe ser una extensión del carácter. Cada elemento estructural se selecciona para armonizar con su entorno natural, brindando un confort sin compromisos."
+          "title": "Misión",
+          "description": "Somos una empresa comprometida en desarrollar proyectos de alta calidad en un ambiente sostenible de respeto a la naturaleza y su entorno social."
         },
         {
-          "title": "Legado Sostenible",
-          "description": "Nuestros proyectos están construidos para generaciones. Al integrar tecnologías sostenibles avanzadas con materiales atemporales, aseguramos un valor duradero y respeto ambiental."
+          "title": "Visión",
+          "description": "Ser lideres en el desarrollo de proyectos turisticos en Republica Dominicana y referentes en todo el caribe."
         },
         {
-          "title": "Excelencia Discreta",
-          "description": "El lujo se siente más cuando es sutil. Nuestros servicios y desarrollos priorizan la privacidad, la seguridad y una experiencia operativa fluida."
-        },
-        {
-          "title": "Gestión Global",
-          "description": "Con una cartera que abarca tres continentes, navegamos los mercados globales con precisión local, asegurando que los activos de nuestros clientes estén posicionados para el máximo crecimiento."
+          "title": "Valores",
+          "description": "Somos un equipo comprometidos con la excelencia, enfocados en mantener los cinco valores que nos caracterizan: 1) Transparencia 2) Calidad 3) Responsabilidad 4) Confianza 5) Respeto"
         }
       ]
     },
-    "founder": {
-      "quote": "\"No nos propusimos construir la mayor cantidad de edificios; nos propusimos construir los más significativos. Bigentik trata sobre el espacio entre las paredes—la vida que sucede dentro.\"",
-      "name": "Marcus V. Bigentik",
-      "role": "Fundador y Presidente"
+    "founder1": {
+      "quote": "Arquitecto de profesión mas de 15 años de experiencia en el diseño y desarrollo de proyectos, especialmente turísticos  inmobiliarios",
+      "name": "Nicolas Benjamin",
+      "role": "Cofundador"
+    },
+    "founder2": {
+      "quote": "Con más de 15 años de experienca en venta de propiedades inmobiliarias",
+      "name": "Jose Manuel King Medina",
+      "role": "Cofundador"
     },
     "presence": {
       "subtitle": "Nuestra Presencia",
-      "title_1": "Una Huella Global de",
-      "title_2": "Confianza",
-      "portal_title": "Portal de Inversión",
-      "portal_desc": "Acceso seguro a datos exclusivos de proyectos y métricas de rendimiento en tiempo real para nuestros socios globales.",
-      "portal_btn": "Entrar al Portal",
-      "aum_val": "$4.2B+",
-      "aum_lbl": "Activos Bajo Gestión",
-      "cities": "12 Ciudades"
+      "title_1": "Su inversión",
+      "title_2": "Nuestra prioridad",
+      "portal_title": "Invertir con serenidad",
+      "portal_desc": "Desarrollamos nuestros proyectos inmobiliarias primero para la satisfacción de nuestros inversores y nuestros colaboradores. La calidad es primordial para nuestra empresa. Nos aseguramos de tener un servicio irreprochable en cada etapa, con transparencia, para una total serenidad de nuestros clientes.",
+      "properties_developed": "850",
+      "properties_lbl": "Propiedades desarrolladas",
+      "clients_number": "500",
+      "clients_lbl": "Clientes satisfechos"
     }
   },
   "contact": {
@@ -153,7 +154,12 @@
       "email": "Correo Electrónico",
       "email_ph": "correo@ejemplo.com",
       "interest": "Interés de Inversión",
-      "interest_opts": ["Desarrollo Residencial", "Cartera Comercial", "Penthouse de Lujo", "Consulta General"],
+      "interest_opts": [
+        "Desarrollo Residencial",
+        "Cartera Comercial",
+        "Penthouse de Lujo",
+        "Consulta General"
+      ],
       "message": "Mensaje",
       "message_ph": "¿Cómo podemos ayudarle?",
       "submit": "Enviar Solicitud"
@@ -260,9 +266,18 @@
         "title": "The Olive Grove Estates",
         "collection": "Colección Signature",
         "gallery": [
-          { "category": "Espacios Interiores", "title": "Salón de la Residencia Principal" },
-          { "category": "Espacios Interiores", "title": "Cocina y Comedor" },
-          { "category": "Exteriores", "title": "Terraza Principal" }
+          {
+            "category": "Espacios Interiores",
+            "title": "Salón de la Residencia Principal"
+          },
+          {
+            "category": "Espacios Interiores",
+            "title": "Cocina y Comedor"
+          },
+          {
+            "category": "Exteriores",
+            "title": "Terraza Principal"
+          }
         ],
         "overview": {
           "pullQuote": "Un diálogo arquitectónico entre el paisaje virgen del Mediterráneo y la precisión del diseño minimalista contemporáneo.",
@@ -292,6 +307,6 @@
     "nav_privacy": "Política de Privacidad",
     "legal": "Legal",
     "nav_terms": "Términos de Servicio",
-    "copyright": "© 2024 Bigentik Group. Todos los derechos reservados."
+    "copyright": "© 2026 Bigentik Group. Todos los derechos reservados."
   }
 }
