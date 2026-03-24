@@ -165,25 +165,18 @@
       "submit": "Enviar Solicitud"
     },
     "info": {
-      "concierge_title": "Conserjería Directa",
-      "concierge_desc": "Hable directamente con nuestros directores regionales para asistencia inmediata.",
-      "europe_division": "División Europea",
-      "mena_region": "Región MENA",
+      "concierge_title": "Asesoría Directa",
+      "concierge_desc": "Hable directamente con nuestros agentes para asistencia inmediata.",
       "hq_title": "Sede Central",
-      "hq_address_1": "128 Knightsbridge,",
-      "hq_address_2": "London, SW1X 7PA",
-      "hq_address_3": "United Kingdom",
-      "hq_hours_1": "Lun — Vie: 09:00 - 18:00",
+      "hq_address_1": "Nicole Apart-Hotel,",
+      "hq_address_2": "C. Juan Pablo Duarte 32000",
+      "hq_address_3": "Las Terrenas, Samaná, República Dominicana",
+      "hq_hours_1": "Lun — Vie: 9:00 AM - 5:00 PM",
       "hq_hours_2": "Sáb: Solo con cita previa"
     },
     "offices": {
       "subtitle": "Nuestra Presencia",
-      "description": "Ubicados estratégicamente en los mercados más dinámicos del mundo para servir a nuestra clientela global con experiencia local.",
-      "cities": [
-        "Londres",
-        "Dubái",
-        "Singapur"
-      ]
+      "description": "Ubicados estratégicamente en el mercado más dinámico del mundo para servir a nuestra clientela global con experiencia local."
     }
   },
   "projects": {

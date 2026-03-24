@@ -15,40 +15,8 @@ export const GlobalOffices = async ({ locale }: { locale: string }) => {
         </div>
         <div className="grid lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 aspect-[21/9] bg-surface-variant relative overflow-hidden">
-            <Image
-              alt="Mapa"
-              className="object-cover grayscale opacity-50"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl33jWkoWt9cHAsDqFnnYYmBSgcMJ9MwrcPeBvq-GYXs65RaUsJ8ECH5THoN9ZPbC4NBW9Nbzu_Jwcrbe3QgsEuHIRBUuxkQMdJ7XQx5yrqaFaFAlCVTb0LjeixxXBmXHHBN_ji4xkeVuSrD13vz3HTyU0uW_XjPv7J4xxYEQ-BJJhqmEZMraFZdoxzk_KutrhupAUo2nOW-EozfMvvCjioHMpLqXSijQaZMgMRRKCcedmRGXAKcHN0PiXUFJkW-0qxu226jQTwA"
-              fill
-              quality={100}
-            />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.32128690178553!2d-69.53886823319844!3d19.31970471229724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaefbfdffc17ddd%3A0xdc95914da0201e79!2sBigentik%20Group!5e0!3m2!1sen!2sdo!4v1774311995887!5m2!1sen!2sdo" width="100%" height="100%" loading="lazy"></iframe>
             <div className="absolute inset-0 bg-primary/5"></div>
-          </div>
-          <div className="space-y-12">
-            <div>
-              <h4 className="font-label text-xs uppercase tracking-widest text-primary mb-4">
-                {t('contact.offices.cities.0')}
-              </h4>
-              <p className="font-body text-sm leading-relaxed">
-                {t('contact.offices.description')}
-              </p>
-            </div>
-            <div>
-              <h4 className="font-label text-xs uppercase tracking-widest text-primary mb-4">
-                {t('contact.offices.cities.1')}
-              </h4>
-              <p className="font-body text-sm leading-relaxed">
-                {t('contact.offices.description')}
-              </p>
-            </div>
-            <div>
-              <h4 className="font-label text-xs uppercase tracking-widest text-primary mb-4">
-                {t('contact.offices.cities.2')}
-              </h4>
-              <p className="font-body text-sm leading-relaxed">
-                {t('contact.offices.description')}
-              </p>
-            </div>
           </div>
         </div>
       </div>
