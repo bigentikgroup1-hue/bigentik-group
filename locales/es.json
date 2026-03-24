@@ -20,7 +20,6 @@
       "title_2": "Las Terrenas.",
       "description": "Curando experiencias de vida extraordinarias donde la precisión arquitectónica se encuentra con la belleza virgen de la costa norte dominicana.",
       "portfolio_btn": "Explorar Portafolio",
-      "guide_btn": "Ver Guía de Inversión",
       "scroll": "Desplazar para descubrir"
     },
     "value_prop": {
@@ -28,8 +27,14 @@
       "title_1": "El Arte de",
       "title_2": "Vivir la Atmósfera",
       "description": "No solo construimos propiedades; curamos ecosistemas. Bigentik Group representa un cambio hacia el desarrollo intencional, donde cada pulgada cuadrada está diseñada para armonizar con el paisaje tropical de Samaná.",
-      "card_title": "Integridad Arquitectónica",
-      "card_desc": "Diseños personalizados por estudios galardonados internacionalmente.",
+      "card_title1": "Materiales de Alta Calidad",
+      "card_title2": "La Mejor Ubicación en Las Terrenas",
+      "card_title3": "Confotur: Exención de Impuestos",
+      "card_title4": "Gestión del Alquiler",
+      "card_desc1": "La calidad de la construcción es siempre de primer nivel y terminada con los mejores materiales.",
+      "card_desc2": "Buscamos siempre las mejores ubicaciones donde implementar nuestras construcciones.",
+      "card_desc3": "Siempre aplicamos para la Certificación CONFOTUR (Ley 158-01) que exonera a los primeros dueños de todo impuesto predial por los próximos 15 años.",
+      "card_desc4": "Gestionamos el alquiler y rentabilidad de las propiedades de nuestros clientes.",
       "float_number": "01.",
       "float_desc": "Estándares inquebrantables en lujo sostenible e integración regional."
     },
@@ -79,12 +84,12 @@
     "lifestyle": {
       "title_1": "Más Allá del",
       "title_2": "Umbral.",
-      "quote": "\"Bigentik no solo está construyendo casas; están construyendo el futuro del estilo de vida de Samaná, donde el lujo se encuentra en el silencio y la naturaleza.\"",
+      "quote": "\"Bigentik no solo está construyendo propiedades; están construyendo el futuro del estilo de vida de Samaná, donde el lujo se encuentra en el silencio y la naturaleza.\"",
       "author_name": "Julian V. Rosseau",
       "author_role": "Inversionista de Cartera",
-      "stat_1_val": "300+",
+      "stat_1_val": "300",
       "stat_1_lbl": "Propiedades Entregadas",
-      "stat_2_val": "$500M+",
+      "stat_2_val": "500",
       "stat_2_lbl": "Activos Gestionados"
     },
     "cta": {

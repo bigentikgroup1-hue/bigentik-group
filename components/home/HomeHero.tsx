@@ -33,9 +33,6 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
             <button className="editorial-gradient px-10 py-4 text-xs uppercase tracking-widest font-bold text-on-primary">
               {t('home.hero.portfolio_btn')}
             </button>
-            <button className="bg-white/10 backdrop-blur-md px-10 py-4 text-xs uppercase tracking-widest font-bold text-white border border-white/20 hover:bg-white/20">
-              {t('home.hero.guide_btn')}
-            </button>
           </div>
         </div>
       </div>

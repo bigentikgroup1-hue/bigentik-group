@@ -11,9 +11,9 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="relative">
             <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden">
-              <Image 
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-700" 
-                alt="Modern architectural detail of a luxury villa entrance" 
+              <Image
+                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                alt="Modern architectural detail of a luxury villa entrance"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXcnUdz24a1XCD7NRmthNk2lEk7tqvS_hUTlmtbyCFYm5FJQEKEw6hZjkB1TTLvCz09wO7eaNd4Q1tUJxe-lxgGvCTkoJQ3ZgO6bcl2H2uoLhT6fl5eSqU4UJXhNN7RXHRx-T5o40eI2xkuyFDqUQBEEvKxvvHLds2VFRWirzKlnkM4j7L-CIX-I1P83f15pIzyc68M5pNX74umLLz9VHwCPdOiIdwyAqH-5dNvefhbCKGBX-AIs39uwQB-AdwRMCUJq45npuJhg"
                 fill
                 quality={100}
@@ -29,7 +29,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
           <div className="space-y-8">
             <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">{t('home.value_prop.subtitle')}</span>
             <h2 className="font-headline text-5xl leading-tight">
-              {t('home.value_prop.title_1')} <br/>{t('home.value_prop.title_2')}
+              {t('home.value_prop.title_1')} <br />{t('home.value_prop.title_2')}
             </h2>
             <p className="text-on-surface-variant leading-relaxed text-lg max-w-md">
               {t('home.value_prop.description')}
@@ -38,18 +38,36 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
               <div className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-primary mt-1">diamond</span>
                 <div>
-                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title')}</h4>
-                  <p className="text-sm text-on-surface-variant">
-                    {t('home.value_prop.card_desc')}
+                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title1')}</h4>
+                  <p className="text-on-surface-variant text-sm leading-relaxed font-medium">
+                    {t('home.value_prop.card_desc1')}
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <span className="material-symbols-outlined text-primary mt-1">eco</span>
+                <span className="material-symbols-outlined text-primary mt-1">location_on</span>
                 <div>
-                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title')}</h4>
-                  <p className="text-sm text-on-surface-variant">
-                    {t('home.value_prop.card_desc')}
+                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title2')}</h4>
+                  <p className="text-on-surface-variant text-sm leading-relaxed font-medium">
+                    {t('home.value_prop.card_desc2')}
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <span className="material-symbols-outlined text-primary mt-1">attach_money</span>
+                <div>
+                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title3')}</h4>
+                  <p className="text-on-surface-variant text-sm leading-relaxed font-medium">
+                    {t('home.value_prop.card_desc3')}
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <span className="material-symbols-outlined text-primary mt-1">home_work</span>
+                <div>
+                  <h4 className="font-bold text-sm uppercase tracking-wider mb-1">{t('home.value_prop.card_title4')}</h4>
+                  <p className="text-on-surface-variant text-sm leading-relaxed font-medium">
+                    {t('home.value_prop.card_desc4')}
                   </p>
                 </div>
               </div>
