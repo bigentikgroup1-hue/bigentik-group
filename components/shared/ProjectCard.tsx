@@ -1,31 +1,38 @@
 import React from 'react';
 import Image from 'next/image';
 
-type ProjectStatus = 'Disponible' | 'Vendido' | 'En Construcción';
-
 export interface ProjectCardProps {
   title: string;
+  slug?: string;
   description?: string;
   image?: string;
+  images?: string[];
   location?: string;
-  status?: ProjectStatus;
+  status?: string;
+  statusText?: string;
   link?: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
+  slug,
   description = "",
   image = "",
+  images = [],
   location = "",
   status,
+  statusText,
   link = "#",
 }) => {
-  const getStatusClasses = (status?: ProjectStatus) => {
+  const getStatusClasses = (status?: string) => {
     switch (status) {
+      case 'available':
       case 'Disponible':
         return 'bg-primary text-on-primary';
+      case 'sold':
       case 'Vendido':
         return 'bg-on-surface text-surface';
+      case 'in construction':
       case 'En Construcción':
         return 'bg-secondary text-on-secondary';
       default:
@@ -37,22 +44,22 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
     <section className="relative h-[90vh] w-full overflow-hidden group">
       {image && (
         <Image
-          alt={title}
-          className="object-cover transition-transform duration-1000 group-hover:scale-105"
+          alt={slug || title}
+          className="object-fit transition-transform duration-1000 group-hover:scale-105"
           src={image}
           fill
           quality={100}
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-      
+
       <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-20">
         <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
               {status && (
                 <span className={`${getStatusClasses(status)} text-[10px] uppercase tracking-widest px-3 py-1 font-bold`}>
-                  {status}
+                  {statusText || status}
                 </span>
               )}
               {location && (

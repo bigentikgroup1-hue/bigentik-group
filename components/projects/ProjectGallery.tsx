@@ -34,7 +34,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
         {/* Carousel Main Image */}
         <div className="absolute inset-0 transition-transform duration-700 ease-out">
           <Image
-            className="object-cover"
+            className="object-fit"
             alt={currentImage.title}
             src={currentImage.url}
             fill
@@ -62,9 +62,8 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
             <div
               key={index}
               onClick={() => setCurrentIndex(index)}
-              className={`w-2 h-2 rounded-full cursor-pointer transition-colors ${
-                index === currentIndex ? "bg-[#7E9247]" : "bg-white/40 hover:bg-white/60"
-              }`}
+              className={`w-2 h-2 rounded-full cursor-pointer transition-colors ${index === currentIndex ? "bg-[#7E9247]" : "bg-white/40 hover:bg-white/60"
+                }`}
             ></div>
           ))}
         </div>

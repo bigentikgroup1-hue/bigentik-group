@@ -34,9 +34,6 @@ export const ProjectsHero = ({ dict }: { dict: Dictionary }) => {
               {dict.projects.filters.all}
             </button>
             <button className="px-8 py-3 bg-surface-container text-on-surface text-xs font-label uppercase tracking-widest hover:bg-surface-container-high transition-all">
-              {dict.projects.filters.available}
-            </button>
-            <button className="px-8 py-3 bg-surface-container text-on-surface text-xs font-label uppercase tracking-widest hover:bg-surface-container-high transition-all">
               {dict.projects.filters.construction}
             </button>
             <button className="px-8 py-3 bg-surface-container text-on-surface text-xs font-label uppercase tracking-widest hover:bg-surface-container-high transition-all">

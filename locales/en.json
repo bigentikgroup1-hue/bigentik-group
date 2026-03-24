@@ -20,7 +20,6 @@
       "title_2": "Las Terrenas.",
       "description": "Curating extraordinary living experiences where architectural precision meets the unspoiled beauty of the Dominican north coast.",
       "portfolio_btn": "Explore Portfolio",
-      "guide_btn": "View Investment Guide",
       "scroll": "Scroll to discover"
     },
     "value_prop": {
@@ -28,8 +27,14 @@
       "title_1": "The Art of",
       "title_2": "Atmospheric Living",
       "description": "We don’t just build properties; we curate ecosystems. Bigentik Group represents a shift towards intentional development, where every square inch is designed to harmonize with Samaná's tropical landscape.",
-      "card_title": "Architectural Integrity",
-      "card_desc": "Custom designs by internationally award-winning studios.",
+      "card_title1": "High Quality Materials",
+      "card_title2": "Best Location in Las Terrenas",
+      "card_title3": "Confotur: Tax Exemption",
+      "card_title4": "Rental Management",
+      "card_desc1": "Construction quality is always top-notch and finished with the best materials.",
+      "card_desc2": "We always seek the best locations to implement our developments.",
+      "card_desc3": "We always apply for the CONFOTUR Certification (Law 158-01) which exempts first owners from property taxes for 15 years.",
+      "card_desc4": "We manage the rental and profitability of our clients' properties.",
       "float_number": "01.",
       "float_desc": "Unwavering standards in sustainable luxury and regional integration."
     },
@@ -116,17 +121,8 @@
         {
           "title": "Discreet Excellence",
           "description": "Luxury feels best when subtle. Our services and developments prioritize privacy, security, and a seamless operational experience."
-        },
-        {
-          "title": "Global Management",
-          "description": "With a portfolio spanning three continents, we navigate global markets with local precision, ensuring our clients' assets are positioned for maximum growth."
         }
       ]
-    },
-    "founder": {
-      "quote": "\"We didn't set out to build the most buildings; we set out to build the most meaningful ones. Bigentik is about the spaces between the walls—the life that happens inside.\"",
-      "name": "Marcus V. Bigentik",
-      "role": "Founder & Chairman"
     },
     "presence": {
       "subtitle": "Our Presence",
@@ -134,10 +130,20 @@
       "title_2": "Trust",
       "portal_title": "Investment Portal",
       "portal_desc": "Secure access to exclusive project data and real-time performance metrics for our global partners.",
-      "portal_btn": "Enter Portal",
-      "aum_val": "$4.2B+",
-      "aum_lbl": "Assets Under Management",
-      "cities": "12 Cities"
+      "properties_developed": "850",
+      "properties_lbl": "Properties Developed",
+      "clients_number": "500",
+      "clients_lbl": "Satisfied Clients"
+    },
+    "founder1": {
+      "quote": "Architect by profession with more than 15 years of experience in the design and development of projects, especially tourism and real estate.",
+      "name": "Nicolas Benjamin",
+      "role": "Cofounder"
+    },
+    "founder2": {
+      "quote": "With more than 15 years of experience in real estate sales",
+      "name": "Jose Manuel King Medina",
+      "role": "Cofounder"
     }
   },
   "contact": {
@@ -153,7 +159,12 @@
       "email": "Email Address",
       "email_ph": "email@example.com",
       "interest": "Investment Interest",
-      "interest_opts": ["Residential Development", "Commercial Portfolio", "Luxury Penthouse", "General Inquiry"],
+      "interest_opts": [
+        "Residential Development",
+        "Commercial Portfolio",
+        "Luxury Penthouse",
+        "General Inquiry"
+      ],
       "message": "Message",
       "message_ph": "How can we assist you?",
       "submit": "Submit Request"
@@ -161,8 +172,6 @@
     "info": {
       "concierge_title": "Direct Concierge",
       "concierge_desc": "Speak directly with our regional directors for immediate assistance.",
-      "europe_division": "European Division",
-      "mena_region": "MENA Region",
       "hq_title": "Headquarters",
       "hq_address_1": "128 Knightsbridge,",
       "hq_address_2": "London, SW1X 7PA",
@@ -172,12 +181,7 @@
     },
     "offices": {
       "subtitle": "Our Presence",
-      "description": "Strategically located in the world's most dynamic markets to serve our global clientele with local expertise.",
-      "cities": [
-        "London",
-        "Dubai",
-        "Singapore"
-      ]
+      "description": "Strategically located in the world's most dynamic markets to serve our global clientele with local expertise."
     }
   },
   "projects": {
@@ -192,8 +196,7 @@
       "all": "All Projects",
       "available": "Available",
       "construction": "Under Construction",
-      "sold": "Sold",
-      "filter_region": "Filter by Region"
+      "sold": "Sold"
     },
     "grid": {
       "residencia_obsidian": {
@@ -244,9 +247,9 @@
       "level_title": "Level 01: The Social Core",
       "level_desc": "Open-concept kitchen integrated with a sunken living area, flowing seamlessly into the infinity pool terrace.",
       "features": [
-        "350 sqm Internal Area",
-        "Floor-to-ceiling glass walls",
-        "Private internal courtyard"
+        "350 m² de Área Interna",
+        "Paredes de cristal de piso a techo",
+        "Patio interno privado"
       ]
     },
     "location_map": {
@@ -260,15 +263,24 @@
         "title": "The Olive Grove Estates",
         "collection": "Signature Collection",
         "gallery": [
-          { "category": "Interior Spaces", "title": "Main Residence Living Room" },
-          { "category": "Interior Spaces", "title": "Kitchen & Dining" },
-          { "category": "Exteriors", "title": "Main Terrace" }
+          {
+            "category": "Interior Spaces",
+            "title": "Main Residence Living Room"
+          },
+          {
+            "category": "Interior Spaces",
+            "title": "Kitchen & Dining"
+          },
+          {
+            "category": "Exteriors",
+            "title": "Main Terrace"
+          }
         ],
         "overview": {
           "pullQuote": "An architectural dialogue between the untouched Mediterranean landscape and the precision of contemporary minimalist design.",
           "paragraphs": [
-            "Situated in the heart of the reclaimed valley, The Olive Grove Estates represents Bigentik Group's most ambitious residential project to date. Every structure is oriented to maximize natural light whilst maintaining the thermal efficiency of traditional earth-based construction.",
-            "The palette is a direct reflection of the surrounding environment, incorporating sand-blasted limestone, aged oak, and our signature olive-toned bronze finishes."
+            "Ubicado en el corazón del valle recuperado, The Olive Grove Estates representa el proyecto residencial más ambicioso de Bigentik Group hasta la fecha. Cada estructura está orientada para maximizar la luz natural manteniendo la eficiencia térmica de la construcción tradicional basada en la tierra.",
+            "La paleta es un reflejo directo del entorno circundante, incorporando piedra caliza pulida con chorro de arena, roble envejecido y nuestros exclusivos acabados de bronce en tonos oliva."
           ],
           "specs": {
             "area": "14,500 sqm",
