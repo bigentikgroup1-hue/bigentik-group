@@ -43,14 +43,6 @@ export const ProjectsHero = ({ dict }: { dict: Dictionary }) => {
               {dict.projects.filters.sold}
             </button>
           </div>
-          <div className="flex items-center gap-2 text-on-surface-variant">
-            <span className="material-symbols-outlined text-xl" data-icon="filter_list">
-              filter_list
-            </span>
-            <span className="text-xs font-label uppercase tracking-widest">
-              {dict.projects.filters.filter_region}
-            </span>
-          </div>
         </div>
       </section>
     </>

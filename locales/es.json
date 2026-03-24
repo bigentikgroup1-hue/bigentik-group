@@ -196,8 +196,7 @@
       "all": "Todos los Proyectos",
       "available": "Disponible",
       "construction": "En Construcción",
-      "sold": "Vendido",
-      "filter_region": "Filtrar por Región"
+      "sold": "Vendido"
     },
     "grid": {
       "residencia_obsidian": {
