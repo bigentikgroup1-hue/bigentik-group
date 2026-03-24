@@ -8,8 +8,11 @@ import { getDictionary, Locale } from '@/lib/i18n';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Real Estate Platform',
-  description: 'Base project for real estate platform',
+  title: 'Bigentik Group',
+  description: 'Bigentik Group',
+  icons: {
+    icon: '/bigentik-logo.svg',
+  },
 };
 
 export default async function RootLayout({
@@ -26,9 +29,9 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
       </head>
       <body className={`${inter.className} bg-background text-on-surface font-body antialiased min-h-screen flex flex-col`}>
         <Header dict={dictionary} />

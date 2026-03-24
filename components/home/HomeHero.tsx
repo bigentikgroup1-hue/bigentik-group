@@ -9,9 +9,9 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
     <header className="relative h-screen flex items-center overflow-hidden lg:pt-34">
       <div className="absolute inset-0 z-0">
         <Image
-          className="object-cover"
+          className="object-cover opacity-80"
           alt="Aerial cinematic view of Las Terrenas coastline and luxury villas"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8QjJvw_iuZCjdytNi976SdMeOA8EkYuPoNFug0UQEE7GQ4EVwiuWF8I5e4lbYF5jIntIRz5V5WQumcBMJcwLKISwowqhcnMdEeLWdLlTkqSCViC1ttBvfrGMFXLc-_ubRwuM2bzjGAH743Hn2LWPx70IlFJNH9k_1CLv8HPRBHdsJFHSXqeYItFEmJojGtWAq6cIpPw62Hujjw0Xid6oisb5BNpxZeAkZ9YawyX6u_r-c5-zcIH7JZt_jXDA6in9gerIqbhMJMw"
+          src="/home-hero-bg.webp"
           fill
           priority
           quality={100}
@@ -34,14 +34,6 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
               {t('home.hero.portfolio_btn')}
             </button>
           </div>
-        </div>
-      </div>
-      <div className="absolute bottom-12 right-6 hidden lg:block">
-        <div className="flex items-center gap-4 text-white/60">
-          <span className="text-[10px] uppercase tracking-[0.5em] rotate-90 origin-left translate-x-4">
-            {t('home.hero.scroll')}
-          </span>
-          <div className="w-px h-24 bg-white/20"></div>
         </div>
       </div>
     </header>
