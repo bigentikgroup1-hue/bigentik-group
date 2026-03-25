@@ -20,7 +20,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </div>
           <div className="lg:col-span-5 relative mt-12 lg:mt-0">
             <div className="relative aspect-[4/5] bg-surface-container-highest overflow-hidden shadow-2xl">
-              <Image className="object-cover grayscale-[20%]" data-alt="Modern minimalist architectural detail showing concrete and glass" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1VttA5yrGDZHgADeWPbt1BezmdlaQxU4PTICHXzrIIcugGgkDmRgQ92Xo850c93eAk3mUTcCkbfDBDKKIQz1UDjho_EreuSY0lILFbDkBH1NH2J-hRY3dUDzzVEqGRqbDrrvW9Jw_TlGcTxUgQR17cKQV3i-cVT6eeQDB58ycxSGHm78RiC4SvebW0S9ddzfMCXjmeyhv7TVDuY9C1fEzPKlkDTRzZNlcn1VNgVr-m2RM4U0J9lLVw-hemVxzH5F5LsCsVZbA7A" alt="Modern minimalist architectural detail showing concrete and glass" fill quality={100} />
+              <Image className="object-cover grayscale-[20%]" data-alt="Modern luxury beachfront architecture detail" src="/about-hero-arch.png" alt="Modern luxury beachfront architecture detail" fill quality={100} />
             </div>
             <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-primary/5 -z-10 rounded-full blur-3xl"></div>
           </div>
@@ -110,7 +110,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px]">
             <div className="md:col-span-2 md:row-span-2 bg-surface-container-highest p-8 md:p-12 flex flex-col justify-end relative overflow-hidden group min-h-[300px]">
-              <Image className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end corporate buildings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0Hrd1Q1-LXyEsHGM6e0rYd4o0HSAp7EW3pdupGrsEAoOz7ThPJouPQKyxdU-fuxmkGkWJH9t7AJ_v3xbUMBI5j8OQ7PSDV0CMaaUwD2ZIYnIog58Lf4qCIiQC0qpdllNAlY_Miq8yZ1IS2lks34EktMnySqYrUnMIf0QRcHRgapidHtWx65WZJtTT53gqkI6V07OArTWq12Fv9E_Gu1xIldFMd208DTztWPAbFRVHMSrpnXbq61zlG5CHwgIQHIwchL3kqGIU8A" alt="Skyline of high-end corporate buildings" fill quality={100} />
+              <Image className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/corporate-bento.png" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
               <div className="relative z-10">
                 <h3 className="text-2xl md:text-4xl font-headline mb-4">{t('about.presence.portal_title')}</h3>
                 <p className="max-w-xs text-on-surface-variant mb-6 text-sm md:text-base">{t('about.presence.portal_desc')}</p>
