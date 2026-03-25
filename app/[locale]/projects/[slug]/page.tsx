@@ -17,7 +17,7 @@ const getLocalizedValue = (val: any, loc: string) => {
 
 export default async function ProjectDetailPage({ params }: { params: Promise<{ slug: string, locale: string }> }) {
   const resolvedParams = await params;
-  
+
   const project = projects.find(p => p.slug === resolvedParams.slug);
 
   if (!project) {
@@ -41,7 +41,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   }));
 
   return (
-    <main className="pt-20 bg-background">
+    <main className="bg-background">
       <DetailHero
         title={title}
         collection={""}

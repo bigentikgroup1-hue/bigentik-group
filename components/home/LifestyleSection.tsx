@@ -28,9 +28,9 @@ export const LifestyleSection = async ({ locale }: { locale: string }) => {
               <div className="relative w-12 h-12 rounded-full bg-surface-container overflow-hidden">
                 <Image
                   alt="Portrait of an investor"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLavd-1E6RHh041tbo3eyzetoZhU3HADIBk8BA2xRa1-ip5rK0YyiozvtDYvuha6u-6Z8Crz016vaBFu2GDdmOgpaNbMlDpELdXBgHtUKyi9odza1p5H1PRLIC2pHsQq41kimz9gfqkKU-NBChahLwHF3JZTqbYrWic8gjqgvmpqeJ8jDMJPWXUG-3wt1d12TEXExQmD7uZdMibdxTHFIC4iID6PY8TDRQCH80bG99Fm6BYme1mdPqHbIDbt5tv43yuo9lcZwEAQ"
+                  src="/nicolas-benjamin.png"
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   quality={100}
                 />
               </div>

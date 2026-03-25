@@ -12,9 +12,9 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
           <div className="relative">
             <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden">
               <Image
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                alt="Modern architectural detail of a luxury villa entrance"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXcnUdz24a1XCD7NRmthNk2lEk7tqvS_hUTlmtbyCFYm5FJQEKEw6hZjkB1TTLvCz09wO7eaNd4Q1tUJxe-lxgGvCTkoJQ3ZgO6bcl2H2uoLhT6fl5eSqU4UJXhNN7RXHRx-T5o40eI2xkuyFDqUQBEEvKxvvHLds2VFRWirzKlnkM4j7L-CIX-I1P83f15pIzyc68M5pNX74umLLz9VHwCPdOiIdwyAqH-5dNvefhbCKGBX-AIs39uwQB-AdwRMCUJq45npuJhg"
+                className="object-cover"
+                alt="Modern luxury real estate construction in a Caribbean beach zone"
+                src="/caribbean-construction.png"
                 fill
                 quality={100}
               />
