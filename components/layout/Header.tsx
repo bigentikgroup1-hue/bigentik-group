@@ -69,8 +69,17 @@ export function Header({ dict }: HeaderProps) {
         <div className="hidden lg:flex items-center gap-5">
           <LanguageSwitcher />
           <div className="hidden md:flex items-center gap-4">
-            <button className="rounded-full px-6 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface/80 bg-surface/50 hover:bg-surface border border-outline-variant/30 transition-all">{dict.header.buttons.whatsapp}</button>
-            <button className="editorial-gradient rounded-full px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-primary shadow-lg hover:opacity-90 transition-all">{dict.header.buttons.cta}</button>
+            <Link
+              href={`https://wa.me/18097575168?text=${encodeURIComponent("Hola Grupo BIGENTIK, Estaba viendo su web y me interesa más información sobre los proyectos. Mi nombre es: ")}`}
+              target='_blank'
+              className="rounded-full px-6 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface/80 bg-surface/50 hover:bg-surface border border-outline-variant/30 transition-all">
+              {dict.header.buttons.whatsapp}
+            </Link>
+            <Link
+              href={`/${currentLocale}/contact`}
+              className="editorial-gradient rounded-full px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-primary shadow-lg hover:opacity-90 transition-all">
+              {dict.header.buttons.cta}
+            </Link>
           </div>
         </div>
       </div>
@@ -91,12 +100,17 @@ export function Header({ dict }: HeaderProps) {
               <span className="text-[10px] uppercase tracking-[0.2em] text-on-surface/60 font-bold">Language</span>
               <LanguageSwitcher />
             </div>
-            <button className="w-full text-center rounded-full px-6 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface/80 bg-surface/50 hover:bg-surface border border-outline-variant/30 transition-all">
+            <Link
+              href={`https://wa.me/18097575168?text=${encodeURIComponent("Hola Grupo BIGENTIK, Estaba viendo su web y me interesa más información sobre los proyectos. Mi nombre es: ")}`}
+              target='_blank'
+              className="w-full text-center rounded-full px-6 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface/80 bg-surface/50 hover:bg-surface border border-outline-variant/30 transition-all">
               {dict.header.buttons.whatsapp}
-            </button>
-            <button className="w-full text-center editorial-gradient rounded-full px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-primary shadow-lg hover:opacity-90 transition-all">
+            </Link>
+            <Link
+              href={`/${currentLocale}/contact`}
+              className="w-full text-center editorial-gradient rounded-full px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold text-on-primary shadow-lg hover:opacity-90 transition-all">
               {dict.header.buttons.cta}
-            </button>
+            </Link>
           </div>
         </div>
       )}
