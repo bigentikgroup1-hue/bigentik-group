@@ -3,6 +3,10 @@ import { Project } from "@/types/project";
 export const projects: Project[] = [
   {
     slug: "sol-de-arena-II",
+    price: "US$329,000",
+    rooms: "2/3",
+    units: "117",
+    locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.999757964637!2d-69.5160428!3d19.325816799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaef104c5726bf9%3A0xb50178be9b7b638c!2sResidencial%20Sol%20de%20arena!5e0!3m2!1sen!2sdo!4v1774561821646!5m2!1sen!2sdo",
     title: {
       en: "Sol de Arena II",
       es: "Sol de Arena II",
@@ -10,7 +14,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "Proyecto frente al mar excepcional en Playa El Portillo con un diseño ultra moderno y de clase alta.",
-      es: "Proyecto frente al mar excepcional en Playa El Portillo con un diseño ultra moderno y de clase alta.",
+      es: "Después de haber realizado muchos proyectos inmobiliarios exitosos en Las Terrenas, el GRUPO BIGENTIK ahora se muda a la exclusiva zona de la playa El Portillo, con el propósito de construir una comunidad frente al mar excepcional de 117 unidades de clase alta. Sol de Arena brinda apartamentos con un diseño ultra moderno y con grandes aperturas para disfrutar a lo máximo del paisaje de playa y de la maravillosa vista al mar.",
       fr: "Proyecto frente al mar excepcional en Playa El Portillo con un diseño ultra moderno y de clase alta."
     },
     coverImage: "https://bigentik.com/wp-content/uploads/2024/02/Sol-de-Arena-fase-2-bigentik-group-las-terrenas-samana-dominican-republic-HEADER-1024x576.jpg",

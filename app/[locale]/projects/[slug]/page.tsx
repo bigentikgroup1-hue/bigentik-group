@@ -54,9 +54,10 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
         pullQuote={description}
         paragraphs={[]}
         specs={{
-          area: "-",
+          price: project.price || "-",
           completion: statusText || "-",
-          units: "-",
+          units: project.units || "-",
+          rooms: project.rooms || "-",
           location: location || "-"
         }}
         locale={resolvedParams.locale}
@@ -64,9 +65,9 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
 
       <InvestmentHighlights locale={resolvedParams.locale} />
 
-      <FloorPlans locale={resolvedParams.locale} />
+      {/* <FloorPlans locale={resolvedParams.locale} /> */}
 
-      <LocationMap locale={resolvedParams.locale} />
+      <LocationMap locale={resolvedParams.locale} locationLink={project?.locationLink || ""} title={title} location={location} />
 
       <CTASection locale={resolvedParams.locale} />
     </main>

@@ -2,7 +2,8 @@ import React from 'react';
 import { getTranslator, Locale } from '@/lib/i18n';
 
 export interface ProjectSpecs {
-  area: string;
+  price?: string;
+  rooms?: string;
   completion: string;
   units: string;
   location: string;
@@ -35,13 +36,13 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
             ))}
           </div>
         </div>
-        
+
         <div className="md:col-span-5 bg-surface p-12 shadow-sm">
           <h3 className="font-headline text-2xl mb-8">{t('projects.overview.specs_title')}</h3>
           <ul className="space-y-6">
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
-              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.area')}</span>
-              <span className="font-body text-lg">{specs.area}</span>
+              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.price')}</span>
+              <span className="font-body text-lg">{specs.price}</span>
             </li>
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.completion')}</span>
@@ -50,6 +51,10 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.units')}</span>
               <span className="font-body text-lg">{specs.units}</span>
+            </li>
+            <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
+              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.rooms')}</span>
+              <span className="font-body text-lg">{specs.rooms}</span>
             </li>
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.location')}</span>

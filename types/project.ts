@@ -16,5 +16,13 @@ export interface Project {
   status?: "in construction" | "sold";
   featured?: boolean;
   createdAt?: string;
+  price?: string;
+  rooms?: string;
+  units?: string;
+  locationLink?: string;
+  unitsCharacteristics?: string;
+  rentValue?: string;
+  sellValue?: string;
+  projectComodities?: string;
   [key: string]: any; // Catch-all for any additional un-specified fields
 }
