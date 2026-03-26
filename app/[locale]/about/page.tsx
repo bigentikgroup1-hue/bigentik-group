@@ -2,6 +2,7 @@ import React from 'react';
 import { CTASection } from '@/components/shared/CTASection';
 import { getTranslator, Locale } from '@/lib/i18n';
 import Image from 'next/image';
+import { AnimatedCounter } from '@/components/shared/AnimatedCounter';
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const resolvedParams = await params;
   const locale = resolvedParams.locale;
@@ -112,19 +113,23 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <div className="md:col-span-2 md:row-span-2 bg-surface-container-highest p-8 md:p-12 flex flex-col justify-end relative overflow-hidden group min-h-[300px]">
               <Image className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/corporate-bento.png" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
               <div className="relative z-10">
-                <h3 className="text-2xl md:text-4xl font-headline mb-4">{t('about.presence.portal_title')}</h3>
-                <p className="max-w-xs text-on-surface-variant mb-6 text-sm md:text-base">{t('about.presence.portal_desc')}</p>
+                <h1 className="text-2xl md:text-6xl font-headline mb-4">{t('about.presence.portal_title')}</h1>
+                <p className="text-on-surface-variant mb-6 text-sm md:text-xl">{t('about.presence.portal_desc')}</p>
               </div>
             </div>
             <div className="md:col-span-2 bg-primary text-on-primary p-8 md:p-12 flex items-center min-h-[200px]">
               <div>
-                <span className="text-4xl md:text-5xl font-headline italic mb-2 block">{t('about.presence.properties_developed')}</span>
+                <span className="text-4xl md:text-5xl font-headline italic mb-2 block">
+                  <AnimatedCounter value={t('about.presence.properties_developed')} />+
+                </span>
                 <p className="text-xs md:text-sm font-label uppercase tracking-widest opacity-80">{t('about.presence.properties_lbl')}</p>
               </div>
             </div>
             <div className="md:col-span-2 bg-surface-container-lowest p-8 flex flex-col justify-center text-center min-h-[150px]">
-              <div>
-                <span className="text-4xl md:text-5xl font-headline italic mb-2 block">{t('about.presence.clients_number')}</span>
+              <div className="flex flex-col items-center">
+                <span className="text-4xl md:text-5xl font-headline italic mb-2 block">
+                  <AnimatedCounter value={t('about.presence.clients_number')} />+
+                </span>
                 <p className="text-xs md:text-sm font-label uppercase tracking-widest opacity-80">{t('about.presence.clients_lbl')}</p>
               </div>
             </div>
