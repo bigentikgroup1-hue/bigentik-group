@@ -15,13 +15,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <ValueProposition locale={locale} />
       <FeaturedProjects locale={locale} />
       <InvestmentBenefits locale={locale} />
-      <LifestyleSection locale={locale} />
-      
-      <div className="py-32 px-6">
-        {/* We use the shared CTA Section here but because it was explicitly requested by the user previously to remove its props, 
-            we simply use it as is, and inject the buttons inside it via children in the next step. */}
-        <CTASection locale={locale} />
-      </div>
+      {/* <LifestyleSection locale={locale} /> */}
+
+      {/* <div className="py-32 px-6"> */}
+      <CTASection locale={locale} />
+      {/* </div> */}
     </main>
   );
 }

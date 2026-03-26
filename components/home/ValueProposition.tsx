@@ -19,12 +19,6 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
                 quality={100}
               />
             </div>
-            <div className="absolute -bottom-12 -right-12 w-64 h-80 bg-primary-container p-8 hidden md:flex flex-col justify-end">
-              <span className="text-on-primary-container font-headline text-4xl mb-4 italic">{t('home.value_prop.float_number')}</span>
-              <p className="text-on-primary-container text-sm leading-relaxed font-medium">
-                {t('home.value_prop.float_desc')}
-              </p>
-            </div>
           </div>
           <div className="space-y-8">
             <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">{t('home.value_prop.subtitle')}</span>

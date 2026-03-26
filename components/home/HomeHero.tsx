@@ -30,7 +30,7 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
             {t('home.hero.description')}
           </p>
           <div className="flex gap-6">
-            <button className="editorial-gradient px-10 py-4 text-xs uppercase tracking-widest font-bold text-on-primary">
+            <button className="editorial-gradient px-10 py-4 text-xs uppercase tracking-widest font-bold text-on-primary cursor-pointer">
               {t('home.hero.portfolio_btn')}
             </button>
           </div>

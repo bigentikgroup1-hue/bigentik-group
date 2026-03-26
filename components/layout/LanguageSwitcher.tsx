@@ -51,7 +51,7 @@ export const LanguageSwitcher = () => {
                 <button
                   key={loc}
                   onClick={() => handleLocaleChange(loc)}
-                  className="text-[9px] uppercase font-bold tracking-widest px-3 py-1.5 rounded-full text-on-surface/60 hover:text-primary hover:bg-white/50 transition-colors shrink-0"
+                  className="text-[9px] uppercase font-bold tracking-widest px-3 py-1.5 rounded-full text-on-surface/60 hover:text-primary hover:bg-white/50 transition-colors shrink-0 cursor-pointer"
                 >
                   {loc}
                 </button>

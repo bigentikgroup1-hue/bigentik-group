@@ -8,7 +8,7 @@ export function Footer({ dict, locale }: { dict: Dictionary, locale: string }) {
   return (
     <footer className="bg-surface-container-highest py-20">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-4">
             <Image
               src="/bigentik-logo.svg"
