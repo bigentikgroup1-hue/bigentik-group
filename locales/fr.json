@@ -226,6 +226,8 @@
       "title": "La Narrative",
       "specs_title": "Spécifications du Projet",
       "area": "Superficie Totale",
+      "price": "Prix à partir de",
+      "rooms": "Chambres",
       "completion": "Achèvement",
       "units": "Unités",
       "location": "Emplacement"

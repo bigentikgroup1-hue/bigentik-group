@@ -226,6 +226,8 @@
       "title": "The Narrative",
       "specs_title": "Project Specifications",
       "area": "Total Area",
+      "price": "Price From",
+      "rooms": "Rooms",
       "completion": "Completion",
       "units": "Units",
       "location": "Location"
