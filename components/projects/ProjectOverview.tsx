@@ -26,7 +26,7 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
             {t('projects.overview.title')}
           </span>
           <div className="border-l-4 border-primary pl-8 mb-12">
-            <blockquote className="font-headline text-3xl italic text-on-surface-variant leading-relaxed">
+            <blockquote className="font-headline text-2xl italic text-on-surface-variant leading-relaxed">
               &quot;{pullQuote}&quot;
             </blockquote>
           </div>
