@@ -37,7 +37,7 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
           </div>
         </div>
 
-        <div className="md:col-span-5 bg-surface p-12 shadow-sm">
+        <div className="md:col-span-5 h-fit bg-surface p-12 shadow-sm">
           <h3 className="font-headline text-2xl mb-8">{t('projects.overview.specs_title')}</h3>
           <ul className="space-y-6">
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
