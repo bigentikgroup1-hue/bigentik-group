@@ -31,15 +31,23 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
   return (
     <section className="py-24 px-6 max-w-7xl mx-auto">
       <div className="relative group overflow-hidden bg-surface-container h-[600px] md:h-[800px]">
-        {/* Carousel Main Image */}
-        <div className="absolute inset-0 transition-transform duration-700 ease-out">
-          <Image
-            className="object-fit"
-            alt={currentImage.title}
-            src={currentImage.url}
-            fill
-            quality={100}
-          />
+        {/* Carousel Slider */}
+        <div
+          className="flex h-full w-[100%] transition-transform duration-700 ease-in-out"
+          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        >
+          {images.map((img, index) => (
+            <div key={index} className="relative h-full min-w-full flex-shrink-0">
+              <Image
+                className="object-cover"
+                alt={img.title}
+                src={img.url}
+                fill
+                quality={100}
+                priority={index === 0}
+              />
+            </div>
+          ))}
         </div>
 
         {/* Navigation Arrows */}
