@@ -30,7 +30,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
 
   return (
     <section className="py-24 px-6 max-w-7xl mx-auto">
-      <div className="relative group overflow-hidden bg-surface-container h-[700px]">
+      <div className="relative group overflow-hidden bg-surface-container h-[50vh] min-h-[400px] md:h-[700px] md:min-h-0">
         {/* Carousel Slider */}
         <div
           className="flex h-full w-[100%] transition-transform duration-700 ease-in-out"
@@ -39,7 +39,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
           {images.map((img, index) => (
             <div key={index} className="relative h-full min-w-full flex-shrink-0">
               <Image
-                className="object-fit"
+                className="object-contain md:object-cover"
                 alt={img.title}
                 src={img.url}
                 fill
@@ -53,13 +53,13 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
         {/* Navigation Arrows */}
         <button
           onClick={prevSlide}
-          className="absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 backdrop-blur-md text-white border border-white/20 hover:bg-white/20 transition-all opacity-0 group-hover:opacity-100"
+          className="absolute z-10 left-4 md:left-6 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-black/30 md:bg-white/10 backdrop-blur-md text-white border border-white/20 hover:bg-black/50 md:hover:bg-white/20 transition-all opacity-100 md:opacity-0 group-hover:opacity-100"
         >
           <span className="material-symbols-outlined">chevron_left</span>
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 backdrop-blur-md text-white border border-white/20 hover:bg-white/20 transition-all opacity-0 group-hover:opacity-100"
+          className="absolute z-10 right-4 md:right-6 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-black/30 md:bg-white/10 backdrop-blur-md text-white border border-white/20 hover:bg-black/50 md:hover:bg-white/20 transition-all opacity-100 md:opacity-0 group-hover:opacity-100"
         >
           <span className="material-symbols-outlined">chevron_right</span>
         </button>

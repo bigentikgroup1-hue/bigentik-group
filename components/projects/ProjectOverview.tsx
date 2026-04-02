@@ -42,23 +42,23 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
           <ul className="space-y-6">
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.price')}</span>
-              <span className="font-body text-lg">{specs.price}</span>
+              <span className="font-body text-md md:text-lg">{specs.price}</span>
             </li>
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.completion')}</span>
-              <span className="font-body text-lg">{specs.completion}</span>
+              <span className="font-body text-md md:text-lg">{specs.completion}</span>
             </li>
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.units')}</span>
-              <span className="font-body text-lg">{specs.units}</span>
+              <span className="font-body text-md md:text-lg">{specs.units}</span>
             </li>
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.rooms')}</span>
-              <span className="font-body text-lg">{specs.rooms}</span>
+              <span className="font-body text-md md:text-lg">{specs.rooms}</span>
             </li>
             <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.location')}</span>
-              <span className="font-body text-lg">{specs.location}</span>
+              <span className="font-body text-md md:text-lg">{specs.location}</span>
             </li>
           </ul>
         </div>
