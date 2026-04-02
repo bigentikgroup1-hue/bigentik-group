@@ -30,7 +30,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
 
   return (
     <section className="py-24 px-6 max-w-7xl mx-auto">
-      <div className="relative group overflow-hidden bg-surface-container h-[600px] md:h-[800px]">
+      <div className="relative group overflow-hidden bg-surface-container h-[700px]">
         {/* Carousel Slider */}
         <div
           className="flex h-full w-[100%] transition-transform duration-700 ease-in-out"
@@ -39,7 +39,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
           {images.map((img, index) => (
             <div key={index} className="relative h-full min-w-full flex-shrink-0">
               <Image
-                className="object-cover"
+                className="object-fit"
                 alt={img.title}
                 src={img.url}
                 fill
