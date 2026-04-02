@@ -26,8 +26,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   const getStatusClasses = (status?: string) => {
     switch (status) {
-      case 'available':
-      case 'Disponible':
+      case 'preSale':
+      case 'Preventa':
         return 'bg-primary text-on-primary';
       case 'sold':
       case 'Vendido':

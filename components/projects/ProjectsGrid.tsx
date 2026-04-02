@@ -16,6 +16,8 @@ export const ProjectsGrid = async ({ locale, filter = 'all' }: { locale: string;
     filteredProjects = projects.filter(p => p.status === 'sold');
   } else if (filter === 'construction') {
     filteredProjects = projects.filter(p => p.status === 'in construction');
+  } else if (filter === 'preSale') {
+    filteredProjects = projects.filter(p => p.status === 'preSale');
   }
 
   if (!filteredProjects || filteredProjects.length === 0) {
@@ -36,6 +38,7 @@ export const ProjectsGrid = async ({ locale, filter = 'all' }: { locale: string;
         let statusText = '';
         if (project.status === 'sold') statusText = t('projects.filters.sold');
         else if (project.status === 'in construction') statusText = t('projects.filters.construction');
+        else if (project.status === 'preSale') statusText = t('projects.filters.preSale');
 
         return (
           <ProjectCard

@@ -19,23 +19,25 @@ export const ContactInfo = async ({ locale }: { locale: string }) => {
         <div className="space-y-4">
           <a
             className="flex items-center justify-between p-4 bg-white/10 hover:bg-white/20 transition-colors"
-            href="#"
+            href={`https://wa.me/18097575168?text=${encodeURIComponent("Hola Grupo BIGENTIK, Estaba viendo su web y me interesa más información sobre los proyectos. Mi nombre es: ")}`}
+            target='_blank'
           >
             <div className="flex flex-col">
               <span className="font-label text-xs uppercase opacity-60">
-                {t('contact.info.europe_division')}
+                Jose Manuel King Medina
               </span>
-              <span className="font-body">+44 20 7946 0123</span>
+              <span className="font-body">+1 (809) 757-5168</span>
             </div>
             <span className="material-symbols-outlined">arrow_outward</span>
           </a>
           <a
             className="flex items-center justify-between p-4 bg-white/10 hover:bg-white/20 transition-colors"
-            href="#"
+            href={`https://wa.me/18097809991?text=${encodeURIComponent("Hola Grupo BIGENTIK, Estaba viendo su web y me interesa más información sobre los proyectos. Mi nombre es: ")}`}
+            target='_blank'
           >
             <div className="flex flex-col">
-              <span className="font-label text-xs uppercase opacity-60">{t('contact.info.mena_region')}</span>
-              <span className="font-body">+971 4 123 4567</span>
+              <span className="font-label text-xs uppercase opacity-60">Nicolás Benjamín</span>
+              <span className="font-body">+1 (809) 780-9991</span>
             </div>
             <span className="material-symbols-outlined">arrow_outward</span>
           </a>

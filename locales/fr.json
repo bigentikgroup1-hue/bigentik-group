@@ -130,9 +130,9 @@
       "title_2": "Confiance",
       "portal_title": "Portail d'Investissement",
       "portal_desc": "Accès sécurisé à des données de projet exclusives et aux indicateurs de performance.",
-      "properties_developed": "850",
+      "properties_developed": "10+",
       "properties_lbl": "propriétés aménagées",
-      "clients_number": "500",
+      "clients_number": "200+",
       "clients_lbl": "clients satisfaits"
     },
     "founder1": {
@@ -196,7 +196,8 @@
       "all": "Tous les Projets",
       "available": "Disponible",
       "construction": "En Construction",
-      "sold": "Vendu"
+      "sold": "Vendu",
+      "preSale": "Prévente"
     },
     "grid": {
       "residencia_obsidian": {

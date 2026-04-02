@@ -13,7 +13,7 @@ export interface Project {
   coverImage: string;
   images: string[];
   location: LocalizedText;
-  status?: "in construction" | "sold";
+  status?: "in construction" | "sold" | "preSale";
   featured?: boolean;
   createdAt?: string;
   price?: string;

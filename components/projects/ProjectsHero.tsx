@@ -44,6 +44,9 @@ export const ProjectsHero = ({ dict, currentFilter = 'all' }: { dict: Dictionary
             <Link href="?filter=sold" className={getFilterClass('sold')}>
               {dict.projects.filters.sold}
             </Link>
+            <Link href="?filter=preSale" className={getFilterClass('preSale')}>
+              {dict.projects.filters.preSale}
+            </Link>
           </div>
         </div>
       </section>

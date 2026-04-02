@@ -130,9 +130,9 @@
       "title_2": "Trust",
       "portal_title": "Investment Portal",
       "portal_desc": "Secure access to exclusive project data and real-time performance metrics for our global partners.",
-      "properties_developed": "850",
+      "properties_developed": "10+",
       "properties_lbl": "Properties Developed",
-      "clients_number": "500",
+      "clients_number": "200+",
       "clients_lbl": "Satisfied Clients"
     },
     "founder1": {
@@ -196,7 +196,8 @@
       "all": "All Projects",
       "available": "Available",
       "construction": "Under Construction",
-      "sold": "Sold"
+      "sold": "Sold",
+      "preSale": "Pre-Sale"
     },
     "grid": {
       "residencia_obsidian": {

@@ -140,9 +140,9 @@
       "title_2": "Nuestra prioridad",
       "portal_title": "Invertir con serenidad",
       "portal_desc": "Desarrollamos nuestros proyectos inmobiliarias primero para la satisfacción de nuestros inversores y nuestros colaboradores. La calidad es primordial para nuestra empresa. Nos aseguramos de tener un servicio irreprochable en cada etapa, con transparencia, para una total serenidad de nuestros clientes.",
-      "properties_developed": "850",
+      "properties_developed": "10+",
       "properties_lbl": "Propiedades desarrolladas",
-      "clients_number": "500",
+      "clients_number": "200+",
       "clients_lbl": "Clientes satisfechos"
     }
   },
@@ -195,7 +195,8 @@
     "filters": {
       "all": "Todos los Proyectos",
       "construction": "En Construcción",
-      "sold": "Entregado"
+      "sold": "Entregado",
+      "preSale": "Preventa"
     },
     "grid": {
       "residencia_obsidian": {

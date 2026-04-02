@@ -31,26 +31,26 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       {/* Brand Philosophy: Tonal Layers */}
       <section className="py-20 md:py-32 bg-surface-container-low">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-12">
             <div className="lg:col-span-4">
               <h2 className="font-headline text-3xl md:text-4xl leading-tight text-balance">{t('about.philosophy.title_1')} <span className="italic">{t('about.philosophy.title_2')}</span></h2>
             </div>
-            <div className="lg:col-span-8 grid md:grid-cols-2 gap-12">
-              <div className="space-y-4">
-                <span className="text-primary font-headline text-3xl italic">01.</span>
-                <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.0.title')}</h3>
-                <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.0.description')}</p>
-              </div>
-              <div className="space-y-4">
-                <span className="text-primary font-headline text-3xl italic">02.</span>
-                <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.1.title')}</h3>
-                <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.1.description')}</p>
-              </div>
-              <div className="space-y-4">
-                <span className="text-primary font-headline text-3xl italic">03.</span>
-                <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.2.title')}</h3>
-                <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.2.description')}</p>
-              </div>
+          </div>
+          <div className="lg:col-span-8 grid md:grid-cols-3 gap-12">
+            <div className="space-y-4">
+              <span className="text-primary font-headline text-3xl italic">01.</span>
+              <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.0.title')}</h3>
+              <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.0.description')}</p>
+            </div>
+            <div className="space-y-4">
+              <span className="text-primary font-headline text-3xl italic">02.</span>
+              <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.1.title')}</h3>
+              <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.1.description')}</p>
+            </div>
+            <div className="space-y-4">
+              <span className="text-primary font-headline text-3xl italic">03.</span>
+              <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.2.title')}</h3>
+              <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.2.description')}</p>
             </div>
           </div>
         </div>
