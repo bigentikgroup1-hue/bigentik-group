@@ -159,12 +159,7 @@
       "email": "Email",
       "email_ph": "email@exemple.com",
       "interest": "Intérêt d'Investissement",
-      "interest_opts": [
-        "Développement Résidentiel",
-        "Portefeuille Commercial",
-        "Penthouse de Luxe",
-        "Demande Générale"
-      ],
+      "interest_ph": "En quoi êtes-vous intéressé ?",
       "message": "Message",
       "message_ph": "Comment pouvons-nous vous aider ?",
       "submit": "Soumettre la Demande"

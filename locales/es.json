@@ -159,12 +159,7 @@
       "email": "Correo Electrónico",
       "email_ph": "correo@ejemplo.com",
       "interest": "Interés de Inversión",
-      "interest_opts": [
-        "Desarrollo Residencial",
-        "Cartera Comercial",
-        "Penthouse de Lujo",
-        "Consulta General"
-      ],
+      "interest_ph": "¿En qué está interesado?",
       "message": "Mensaje",
       "message_ph": "¿Cómo podemos ayudarle?",
       "submit": "Enviar Solicitud"

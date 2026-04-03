@@ -159,12 +159,7 @@
       "email": "Email Address",
       "email_ph": "email@example.com",
       "interest": "Investment Interest",
-      "interest_opts": [
-        "Residential Development",
-        "Commercial Portfolio",
-        "Luxury Penthouse",
-        "General Inquiry"
-      ],
+      "interest_ph": "What are you interested in?",
       "message": "Message",
       "message_ph": "How can we assist you?",
       "submit": "Submit Request"
