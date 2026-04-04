@@ -27,7 +27,7 @@
   --color-surface-container-high: #ebe8e1;
   --color-on-primary-fixed-variant: #3c4d07;
   --color-secondary: #665d4d;
-  --color-primary: #51631d;
+  --color-primary: #726b63;
   --color-on-error: #ffffff;
   --color-on-secondary-container: #6b6151;
   --color-tertiary-container: #73766c;
@@ -84,7 +84,7 @@ html {
   }
 
   .editorial-gradient {
-    background: linear-gradient(135deg, #51631D 0%, #697c34 100%);
+    background: linear-gradient(135deg, #726b63 0%, #6b655d 100%);
   }
 
   .glass-nav {
