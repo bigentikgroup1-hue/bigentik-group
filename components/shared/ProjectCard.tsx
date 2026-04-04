@@ -1,5 +1,8 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
+import { CldImage } from 'next-cloudinary';
 
 export interface ProjectCardProps {
   title: string;
@@ -43,9 +46,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <section className="relative h-[90vh] w-full overflow-hidden group">
       {image && (
-        <Image
-          alt={slug || title}
+        <CldImage
           className="object-fit transition-transform duration-1000 group-hover:scale-105"
+          alt={title}
           src={image}
           fill
           quality={100}

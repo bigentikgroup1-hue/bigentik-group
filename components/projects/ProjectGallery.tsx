@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { CldImage } from 'next-cloudinary';
 
 export interface GalleryItem {
   url: string;
@@ -38,13 +39,14 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ images }) => {
         >
           {images.map((img, index) => (
             <div key={index} className="relative h-full min-w-full flex-shrink-0">
-              <Image
+              <CldImage
                 className="object-contain md:object-cover"
                 alt={img.title}
                 src={img.url}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1920px) 100vw, 1920px"
                 quality={100}
-                priority={index === 0}
+                preload
               />
             </div>
           ))}

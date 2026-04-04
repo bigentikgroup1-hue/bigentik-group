@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import Image from 'next/image';
+import { CldImage } from 'next-cloudinary';
 
 export interface DetailHeroProps {
   title: string;
@@ -10,7 +12,7 @@ export interface DetailHeroProps {
 export const DetailHero: React.FC<DetailHeroProps> = ({ title, collection, image }) => {
   return (
     <section className="relative h-[80vh] w-full overflow-hidden">
-      <Image
+      <CldImage
         className="object-cover"
         alt={title}
         src={image}
