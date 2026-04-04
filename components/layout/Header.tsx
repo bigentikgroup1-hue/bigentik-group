@@ -52,7 +52,7 @@ export function Header({ dict }: HeaderProps) {
           {/* Left: Hamburger Icon */}
           <div className="flex-1 flex justify-start">
             <button
-              className="text-on-surface hover:text-primary transition-colors focus:outline-none flex items-center justify-center p-2 -ml-2"
+              className="text-on-surface hover:text-primary transition-colors focus:outline-none flex items-center justify-center p-2 -ml-2 cursor-pointer"
               onClick={() => setIsMenuOpen(true)}
               aria-label="Open menu"
               aria-expanded={isMenuOpen}
