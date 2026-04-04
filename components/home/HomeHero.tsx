@@ -9,9 +9,9 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
     <header className="relative h-screen flex items-center overflow-hidden lg:pt-34">
       <div className="absolute inset-0 z-0">
         <Image
-          className="object-cover opacity-80"
+          className="object-cover"
           alt="Aerial cinematic view of Las Terrenas coastline and luxury villas"
-          src="/home-hero-bg.webp"
+          src="/home-hero-bg.jpg"
           fill
           priority
           quality={100}

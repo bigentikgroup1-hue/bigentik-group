@@ -14,7 +14,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
               <Image
                 className="object-cover"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
-                src="/caribbean-construction.png"
+                src="/value-proposition.jpg"
                 fill
                 quality={100}
               />
