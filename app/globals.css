@@ -49,9 +49,9 @@
   --color-on-background: #1c1c18;
   --color-on-secondary: #ffffff;
 
-  --font-headline: "Noto Serif", serif;
-  --font-body: "Inter", sans-serif;
-  --font-label: "Inter", sans-serif;
+  --font-headline: "Droid Serif", serif;
+  --font-body: "Droid Serif", serif;
+  --font-label: "Droid Serif", serif;
 
   --radius-DEFAULT: 0.125rem;
   --radius-lg: 0.25rem;
