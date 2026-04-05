@@ -19,7 +19,7 @@ export const ProjectsHero = ({ dict, currentFilter = 'all' }: { dict: Dictionary
             <span className="text-xs font-label uppercase tracking-[0.3em] text-primary mb-6 block">
               {dict.projects.hero.subtitle}
             </span>
-            <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-tighter leading-none mb-8">
+            <h1 className="font-headline text-6xl tracking-tighter leading-none mb-8">
               {dict.projects.hero.title_1} <br />
               <span className="italic font-normal">{dict.projects.hero.title_2}</span> {dict.projects.hero.title_3}
             </h1>

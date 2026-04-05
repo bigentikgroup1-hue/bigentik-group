@@ -15,7 +15,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
           <div className="lg:col-span-7 z-10">
             <span className="text-sm font-label uppercase tracking-[0.3em] text-primary mb-6 block">{t('about.hero.subtitle')}</span>
-            <h1 className="font-headline text-4xl md:text-6xl lg:text-8xl leading-[1.1] mb-8 text-balance -tracking-wider">{t('about.hero.title_1')} <span className="italic text-primary">{t('about.hero.title_2')}</span></h1>
+            <h1 className="font-headline text-6xl leading-[1.1] mb-8 text-balance -tracking-wider">{t('about.hero.title_1')} <span className="italic text-primary">{t('about.hero.title_2')}</span></h1>
             <div className="w-24 h-1 bg-primary mb-8"></div>
             <p className="text-lg md:text-xl text-on-surface-variant max-w-lg leading-relaxed">{t('about.hero.description')}</p>
           </div>

@@ -10,7 +10,7 @@ export const ContactHero = async ({ locale }: { locale: string }) => {
           <span className="font-label text-xs uppercase tracking-[0.2em] text-outline mb-4 block">
             {t('contact.hero.subtitle')}
           </span>
-          <h1 className="font-headline text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8">
+          <h1 className="font-headline text-6xl leading-[1.1] mb-8">
             {t('contact.hero.title')}
           </h1>
           <p className="font-body text-lg text-on-surface-variant max-w-md leading-relaxed">
