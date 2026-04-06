@@ -111,7 +111,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px]">
             <div className="md:col-span-2 md:row-span-2 bg-surface-container-highest p-8 md:p-12 flex flex-col justify-end relative overflow-hidden group min-h-[300px]">
-              <Image className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/corporate-bento.png" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
+              <Image className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/value-proposition.jpg" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
               <div className="relative z-10">
                 <h1 className="text-2xl md:text-6xl font-headline mb-4">{t('about.presence.portal_title')}</h1>
                 <p className="text-on-surface-variant mb-6 text-sm md:text-xl">{t('about.presence.portal_desc')}</p>
