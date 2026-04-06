@@ -36,6 +36,7 @@ export const FeaturedProjects = async ({ locale }: { locale: string }) => {
           let statusText = '';
           if (project.status === 'sold') statusText = t('projects.filters.sold');
           else if (project.status === 'in construction') statusText = t('projects.filters.construction');
+          else if (project.status === 'preSale') statusText = t('projects.filters.preSale');
 
           return (
             <ProjectCard
