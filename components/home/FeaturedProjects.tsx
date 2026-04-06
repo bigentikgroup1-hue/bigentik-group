@@ -44,6 +44,7 @@ export const FeaturedProjects = async ({ locale }: { locale: string }) => {
               slug={project.slug}
               description={description}
               image={project.coverImage}
+              imageMobile={project.coverImageMobile}
               images={project.images}
               location={location}
               status={project.status}
