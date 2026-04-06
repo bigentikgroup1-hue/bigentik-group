@@ -46,6 +46,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
         title={title}
         collection={""}
         image={project.coverImage || (project.images[0] ?? "")}
+        imageMobile={project.coverImageMobile}
       />
 
       {galleryMapped.length > 0 && <ProjectGallery images={galleryMapped} />}
