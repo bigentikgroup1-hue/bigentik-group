@@ -47,6 +47,7 @@ export const ProjectsGrid = async ({ locale, filter = 'all' }: { locale: string;
             slug={project.slug}
             description={description}
             image={project.coverImage}
+            imageMobile={project.coverImageMobile}
             images={project.images}
             location={location}
             status={project.status}

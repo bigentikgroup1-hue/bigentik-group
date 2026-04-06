@@ -11,6 +11,7 @@ export interface Project {
   title: LocalizedText;
   description: LocalizedText;
   coverImage: string;
+  coverImageMobile: string;
   images: string[];
   location: LocalizedText;
   status?: "in construction" | "sold" | "preSale";

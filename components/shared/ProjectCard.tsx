@@ -9,6 +9,7 @@ export interface ProjectCardProps {
   slug?: string;
   description?: string;
   image?: string;
+  imageMobile?: string;
   images?: string[];
   location?: string;
   status?: string;
@@ -21,6 +22,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   slug,
   description = "",
   image = "",
+  imageMobile = "",
   images = [],
   location = "",
   status,
@@ -47,9 +49,18 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
     <section className="relative h-[90vh] w-full overflow-hidden group">
       {image && (
         <CldImage
-          className="object-fit transition-transform duration-1000 group-hover:scale-105"
+          className="object-fit transition-transform duration-1000 group-hover:scale-105 hidden md:block"
           alt={title}
           src={image}
+          fill
+          quality={100}
+        />
+      )}
+      {imageMobile && (
+        <CldImage
+          className="object-fit transition-transform duration-1000 group-hover:scale-105 md:hidden"
+          alt={title}
+          src={imageMobile}
           fill
           quality={100}
         />
