@@ -8,10 +8,20 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
   return (
     <header className="relative h-screen flex items-center overflow-hidden lg:pt-34">
       <div className="absolute inset-0 z-0">
+        {/* Desktop Image */}
         <Image
-          className="object-cover"
+          className="object-cover hidden md:block"
           alt="Aerial cinematic view of Las Terrenas coastline and luxury villas"
           src="/home-hero-bg.jpg"
+          fill
+          priority
+          quality={100}
+        />
+        {/* Mobile Image */}
+        <Image
+          className="object-cover md:hidden"
+          alt="Aerial cinematic view of Las Terrenas coastline and luxury villas"
+          src="/home-hero-mobile.jpg"
           fill
           priority
           quality={100}
