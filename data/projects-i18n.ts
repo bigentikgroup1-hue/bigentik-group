@@ -18,7 +18,7 @@ export const projects: Project[] = [
       fr: "Après avoir réalisé de nombreux projets immobiliers à succès à Las Terrenas, le GROUPE BIGENTIK s'installe désormais dans la zone exclusive de la plage d'El Portillo, dans le but de construire une communauté en bord de mer exceptionnelle de 117 unités haut de gamme. Sol de Arena propose des appartements au design ultra-moderne avec de grandes ouvertures pour profiter pleinement du paysage balnéaire et de la magnifique vue sur l'océan."
     },
     coverImage: "IMG_1_sdbgr4",
-    coverImageMobile: "xiwara_card_mobile_glyt6d",
+    coverImageMobile: "xiwara_card_mobile_okp9rk",
     images: [
       "IMG_1_sdbgr4",
       "IMG_2_obcjxe",
@@ -61,7 +61,7 @@ export const projects: Project[] = [
       fr: "L'Aparthotel Manuela est le sixième projet de condominiums à Las Terrenas réalisé par le Groupe de Construction BIGENTIK. Il se compose de : 36 appartements au total, répartis dans 5 bâtiments. 21 appartements de 2 chambres, 7 studios de type Penthouse avec 1 chambre, 6 appartements de 3 chambres, 2 studios de type Penthouse de 2 chambres. Piscine, Parkings, Espace commercial de 300 m2."
     },
     coverImage: "IMG_1_vx4aog",
-    coverImageMobile: "manuela_card_mobile_uxrw61",
+    coverImageMobile: "manuela_card_mobile_il3bjy",
     images: [
       "IMG_1_vx4aog",
       "IMG_2_ma29x7",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
       fr: "Après avoir réalisé de nombreux projets immobiliers à succès à Las Terrenas, le GROUPE BIGENTIK s'installe désormais dans la zone exclusive de la plage d'El Portillo, dans le but de construire une communauté en bord de mer exceptionnelle de 117 unités haut de gamme. Sol de Arena propose des appartements au design ultra-moderne avec de grandes ouvertures pour profiter pleinement du paysage balnéaire et de la magnifique vue sur l'océan."
     },
     coverImage: "IMG_1_snizgw",
-    coverImageMobile: "solArena2_card_mobile_k2ampl",
+    coverImageMobile: "solArena2_card_mobile_vp6eyl",
     images: [
       "IMG_1_snizgw",
       "IMG_2_q2uio5",
@@ -133,7 +133,7 @@ export const projects: Project[] = [
       fr: "Après avoir réalisé de nombreux projets immobiliers à succès à Las Terrenas, le GROUPE BIGENTIK s'installe désormais dans la zone exclusive de la plage d'El Portillo, dans le but de construire une communauté en bord de mer exceptionnelle de 117 unités haut de gamme. Sol de Arena propose des appartements au design ultra-moderne avec de grandes ouvertures pour profiter pleinement du paysage balnéaire et de la magnifique vue sur l'océan. À l'intérieur des appartements, on trouve des espaces de vie spacieux et lumineux, et des espaces sociaux exceptionnels autour de l'impressionnante piscine."
     },
     coverImage: "IMG_1_g1hzef",
-    coverImageMobile: "solArena_card_mobile_ajoxv4",
+    coverImageMobile: "solArena_card_mobile_wdtyux",
     images: [
       "IMG_1_g1hzef",
       "IMG_2_jtlrp0",
@@ -176,7 +176,7 @@ export const projects: Project[] = [
       fr: "À Luxury Hills, le Bigentik Group s'est concentré sur la mise en œuvre de sa construction pour tirer le meilleur parti du splendide paysage environnant : collines infinies et palmeraies. Luxury Hills est situé au sein de l'une des communautés les plus exclusives et les mieux situées de Las Terrenas : Bonita Village Residences. Entouré de maisons à un million de dollars, il offre une atmosphère relaxante. Luxury Hills est un projet de 27 appartements au total, à seulement 5 minutes à pied de la magnifique plage de Las Ballenas."
     },
     coverImage: "IMG_1_pzuikl",
-    coverImageMobile: "luxury_card_mobile_j44s24",
+    coverImageMobile: "luxury_card_mobile_foioqp",
     images: ["IMG_1_pzuikl",
       "IMG_2_gjvn2i",
       "IMG_3_npguwv",
