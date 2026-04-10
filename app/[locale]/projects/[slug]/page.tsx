@@ -34,6 +34,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   let statusText = '';
   if (project.status === 'sold') statusText = t('projects.filters.sold');
   else if (project.status === 'in construction') statusText = t('projects.filters.construction');
+  else if (project.status === 'preSale') statusText = t('projects.filters.preSale');
 
   const galleryMapped = project.images.map((img: string, i: number) => ({
     url: img,
