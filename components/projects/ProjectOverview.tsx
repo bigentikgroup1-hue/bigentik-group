@@ -7,6 +7,7 @@ export interface ProjectSpecs {
   completion: string;
   units: string;
   location: string;
+  amenities?: string;
 }
 
 export interface ProjectOverviewProps {
@@ -40,26 +41,32 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
         <div className="md:col-span-5 h-fit bg-surface p-12 shadow-sm">
           <h3 className="font-headline text-2xl mb-8">{t('projects.overview.specs_title')}</h3>
           <ul className="space-y-6">
-            <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
+            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.price')}</span>
               <span className="font-body text-md md:text-lg">{specs.price}</span>
             </li>
-            <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
+            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.completion')}</span>
               <span className="font-body text-md md:text-lg">{specs.completion}</span>
             </li>
-            <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
+            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.units')}</span>
               <span className="font-body text-md md:text-lg">{specs.units}</span>
             </li>
-            <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
+            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.rooms')}</span>
               <span className="font-body text-md md:text-lg">{specs.rooms}</span>
             </li>
-            <li className="flex justify-between items-end border-b border-outline-variant/30 pb-2">
+            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
               <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.location')}</span>
               <span className="font-body text-md md:text-lg">{specs.location}</span>
             </li>
+            {specs.amenities && (
+              <li className="flex justify-between items-top border-b border-outline-variant/30 pb-2">
+                <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.amenities')}</span>
+                <span className="font-body text-md md:text-lg whitespace-pre-line">{specs.amenities}</span>
+              </li>
+            )}
           </ul>
         </div>
       </div>

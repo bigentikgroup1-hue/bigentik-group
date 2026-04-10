@@ -226,7 +226,8 @@
       "rooms": "Chambres",
       "completion": "Achèvement",
       "units": "Unités",
-      "location": "Emplacement"
+      "location": "Emplacement",
+      "amenities": "Commodités"
     },
     "highlights": {
       "title": "Potentiel d'Investissement",
@@ -252,7 +253,7 @@
     },
     "location_map": {
       "title": "Emplacement Stratégique",
-      "desc": "Parfaitement positionné loin du bruit urbain, mais à seulement 15 minutes du quartier central des affaires et de l'aéroport international.",
+      "desc": "Las Terrenas est une ville côtière pittoresque située sur la côte nord de la République dominicaine, dans la péninsule de Samaná. En vingt ans, ce petit village de pêcheurs aux infrastructures rudimentaires s'est transformé en une destination touristique florissante, prisée des touristes comme des expatriés, sans rien perdre de son charme ni de sa beauté naturelle époustouflante. Les visiteurs sont conquis par ses paysages pittoresques, ses plages de sable blanc immaculées, ses palmeraies à perte de vue et la gentillesse de ses habitants. Las Terrenas offre tout le nécessaire pour profiter pleinement de la douceur de vivre caribéenne.",
       "district": "Quartier Premier 04",
       "address": "Olive Ridge Road, Secteur Sud"
     },

@@ -225,7 +225,8 @@
       "rooms": "Habitaciones",
       "completion": "Finalización",
       "units": "Unidades",
-      "location": "Ubicación"
+      "location": "Ubicación",
+      "amenities": "Amenidades"
     },
     "highlights": {
       "title": "Potencial de Inversión",
@@ -251,7 +252,7 @@
     },
     "location_map": {
       "title": "Ubicación Estratégica",
-      "desc": "Perfectamente posicionada lejos del ruido urbano, pero a solo 15 minutos del distrito central de negocios y del aeropuerto internacional.",
+      "desc": "Las Terrenas es un pintoresco pueblo costero ubicado en la costa norte de la República Dominicana, en la península de Samaná. En los últimos 20 años, Las Terrenas ha evolucionado de un pequeño pueblo de pescadores con escasa infraestructura a un destino turístico en auge, tanto para turistas como para expatriados, sin perder ni un ápice de su encanto y su naturaleza impresionante. Sus visitantes se enamoran de sus paisajes pintorescos, sus playas vírgenes de arena blanca, sus interminables palmerales y la amabilidad de sus habitantes. Las Terrenas lo tiene todo para disfrutar del estilo de vida caribeño, tranquilo y relajado.",
       "district": "Distrito Prime 04",
       "address": "Olive Ridge Road, Sector Sur"
     },

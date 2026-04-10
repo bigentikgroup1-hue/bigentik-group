@@ -29,6 +29,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   const title = getLocalizedValue(project.title, resolvedParams.locale);
   const description = getLocalizedValue(project.description, resolvedParams.locale);
   const location = getLocalizedValue(project.location, resolvedParams.locale);
+  const amenities = getLocalizedValue(project.amenities, resolvedParams.locale);
 
   let statusText = '';
   if (project.status === 'sold') statusText = t('projects.filters.sold');
@@ -59,7 +60,8 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
           completion: statusText || "-",
           units: project.units || "-",
           rooms: project.rooms || "-",
-          location: location || "-"
+          location: location || "-",
+          ...(amenities && { amenities })
         }}
         locale={resolvedParams.locale}
       />

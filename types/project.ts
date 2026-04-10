@@ -16,6 +16,7 @@ export interface Project {
   location: LocalizedText;
   status?: "in construction" | "sold" | "preSale";
   featured?: boolean;
+  amenities?: LocalizedText;
   createdAt?: string;
   price?: string;
   rooms?: string;
