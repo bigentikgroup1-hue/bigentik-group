@@ -40,17 +40,17 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <div className="space-y-4">
               <span className="text-primary font-headline text-3xl italic">01.</span>
               <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.0.title')}</h3>
-              <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.0.description')}</p>
+              <p className="text-on-surface-variant leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.0.description')}</p>
             </div>
             <div className="space-y-4">
               <span className="text-primary font-headline text-3xl italic">02.</span>
               <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.1.title')}</h3>
-              <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.1.description')}</p>
+              <p className="text-on-surface-variant leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.1.description')}</p>
             </div>
             <div className="space-y-4">
               <span className="text-primary font-headline text-3xl italic">03.</span>
               <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.2.title')}</h3>
-              <p className="text-on-surface-variant leading-relaxed">{t('about.philosophy.cards.2.description')}</p>
+              <p className="text-on-surface-variant leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.2.description')}</p>
             </div>
           </div>
         </div>

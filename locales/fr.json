@@ -111,16 +111,16 @@
       "title_2": "Philosophie",
       "cards": [
         {
-          "title": "Intégrité Architecturale",
-          "description": "Nous croyons que l'espace devrait être une extension de votre caractère. Chaque élément s'harmonise avec l'environnement naturel pour un confort absolu."
+          "title": "Mission",
+          "description": "Nous sommes une entreprise engagée dans le développement de projets de haute qualité dans un environnement durable respectueux de la nature et de son environnement social."
         },
         {
-          "title": "Héritage Durable",
-          "description": "Nos projets sont construits pour des générations, intégrant des technologies durables avancées avec des matériaux intemporels."
+          "title": "Vision",
+          "description": "Être des leaders dans le développement de projets touristiques en République Dominicaine et une référence dans toutes les Caraïbes."
         },
         {
-          "title": "Excellence Discrète",
-          "description": "Le luxe s'apprécie le mieux lorsqu'il est subtil. Nos services donnent la priorité à l'intimité, la sécurité et une expérience fluide."
+          "title": "Valeurs",
+          "description": "Nous sommes une équipe engagée vers l'excellence, concentrée sur le maintien des cinq valeurs qui nous caractérisent :\n1) Transparence\n2) Qualité\n3) Responsabilité\n4) Confiance\n5) Respect"
         }
       ]
     },
