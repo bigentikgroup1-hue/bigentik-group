@@ -6,12 +6,12 @@ export const EditorialQuote = async ({ locale }: { locale: string }) => {
   return (
     <section className="bg-surface-container mt-32 py-24">
       <div className="max-w-4xl mx-auto px-6 border-l-4 border-primary pl-12">
-        <blockquote className="font-headline text-3xl md:text-4xl italic leading-relaxed text-on-surface">
+        <blockquote className="font-headline text-3xl md:text-4xl leading-relaxed text-on-surface">
           {t('projects.quote.text')}
         </blockquote>
-        <cite className="block mt-8 font-label text-xs uppercase tracking-[0.3em] text-on-surface-variant not-italic">
+        <span className="block mt-8 font-label text-xs uppercase tracking-[0.3em] text-on-surface-variant">
           {t('projects.quote.author')}
-        </cite>
+        </span>
       </div>
     </section>
   );

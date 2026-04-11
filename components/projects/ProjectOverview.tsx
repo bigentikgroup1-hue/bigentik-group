@@ -21,13 +21,13 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
   const t = await getTranslator(locale as Locale);
   return (
     <section className="py-24 bg-surface-container-low">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-20">
+      <div className="max-w-8xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-20">
         <div className="md:col-span-7">
-          <span className="font-label uppercase tracking-widest text-primary mb-6 block">
+          <span className="font-label uppercase tracking-widest text-primary mb-18 block">
             {t('projects.overview.title')}
           </span>
           <div className="border-l-4 border-primary pl-8 mb-12">
-            <blockquote className="font-headline text-2xl italic text-on-surface-variant leading-relaxed whitespace-pre-line">
+            <blockquote className="font-headline text-md text-on-surface-variant leading-relaxed whitespace-pre-line">
               &quot;{pullQuote}&quot;
             </blockquote>
           </div>
@@ -38,33 +38,33 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
           </div>
         </div>
 
-        <div className="md:col-span-5 h-fit bg-surface p-12 shadow-sm">
-          <h3 className="font-headline text-2xl mb-8">{t('projects.overview.specs_title')}</h3>
+        <div className="md:col-span-4 md:col-start-9 h-fit bg-surface p-8 shadow-sm">
+          <h3 className="font-headline text-xl mb-8">{t('projects.overview.specs_title')}</h3>
           <ul className="space-y-6">
-            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
-              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.price')}</span>
-              <span className="font-body text-md md:text-lg">{specs.price}</span>
+            <li className="flex justify-between items-start border-b border-outline-variant/30 pb-4">
+              <span className="font-label uppercase text-[10px] tracking-widest text-outline pt-1">{t('projects.overview.price')}</span>
+              <span className="font-body text-sm md:text-base text-right">{specs.price}</span>
             </li>
-            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
-              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.completion')}</span>
-              <span className="font-body text-md md:text-lg">{specs.completion}</span>
+            <li className="flex justify-between items-start border-b border-outline-variant/30 pb-4">
+              <span className="font-label uppercase text-[10px] tracking-widest text-outline pt-1">{t('projects.overview.completion')}</span>
+              <span className="font-body text-sm md:text-base text-right">{specs.completion}</span>
             </li>
-            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
-              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.units')}</span>
-              <span className="font-body text-md md:text-lg">{specs.units}</span>
+            <li className="flex justify-between items-start border-b border-outline-variant/30 pb-4">
+              <span className="font-label uppercase text-[10px] tracking-widest text-outline pt-1">{t('projects.overview.units')}</span>
+              <span className="font-body text-sm md:text-base text-right">{specs.units}</span>
             </li>
-            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
-              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.rooms')}</span>
-              <span className="font-body text-md md:text-lg">{specs.rooms}</span>
+            <li className="flex justify-between items-start border-b border-outline-variant/30 pb-4">
+              <span className="font-label uppercase text-[10px] tracking-widest text-outline pt-1">{t('projects.overview.rooms')}</span>
+              <span className="font-body text-sm md:text-base text-right">{specs.rooms}</span>
             </li>
-            <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
-              <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.location')}</span>
-              <span className="font-body text-md md:text-lg">{specs.location}</span>
+            <li className="flex justify-between items-start border-b border-outline-variant/30 pb-4">
+              <span className="font-label uppercase text-[10px] tracking-widest text-outline pt-1">{t('projects.overview.location')}</span>
+              <span className="font-body text-sm md:text-base text-right max-w-[60%]">{specs.location}</span>
             </li>
             {specs.amenities && (
-              <li className="flex justify-between items-top border-b border-outline-variant/30 pb-2">
-                <span className="font-label uppercase text-xs tracking-widest text-outline">{t('projects.overview.amenities')}</span>
-                <span className="font-body text-md md:text-lg whitespace-pre-line">{specs.amenities}</span>
+              <li className="flex justify-between items-start border-b border-outline-variant/30 pb-4">
+                <span className="font-label uppercase text-[10px] tracking-widest text-outline pt-1">{t('projects.overview.amenities')}</span>
+                <span className="font-body text-sm md:text-base text-right max-w-[65%] whitespace-pre-line">{specs.amenities}</span>
               </li>
             )}
           </ul>

@@ -8,17 +8,17 @@ export function Footer({ dict, locale }: { dict: Dictionary, locale: string }) {
   return (
     <footer className="bg-surface-container-highest py-20">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          <div className="md:col-span-4">
-            <Image
+        <div className="grid grid-cols-1 md:grid-cols-14 gap-12">
+          <div className="md:col-span-1">
+            {/* <Image
               src="/bigentik-logo.svg"
               alt="Bigentik Group Logo"
               width={150}
               height={100}
             />
-            <p className="text-on-surface-variant leading-relaxed max-w-xs">{dict.footer.description}</p>
+            <p className="text-on-surface-variant leading-relaxed max-w-xs">{dict.footer.description}</p> */}
           </div>
-          <div className="md:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="md:col-span-12 grid grid-cols-2 md:grid-cols-5 gap-12">
             <div className="space-y-4">
               <h5 className="text-xs font-label uppercase tracking-[0.2em] text-on-surface font-bold">{dict.footer.company}</h5>
               <ul className="space-y-2 text-sm text-on-surface-variant">
@@ -27,6 +27,7 @@ export function Footer({ dict, locale }: { dict: Dictionary, locale: string }) {
                 <li><Link className="hover:text-primary transition-colors" href="/contact">{dict.footer.nav_contact}</Link></li>
               </ul>
             </div>
+            <div />
             <div className="space-y-4">
               <h5 className="text-xs font-label uppercase tracking-[0.2em] text-on-surface font-bold">{dict.footer.nav_projects}</h5>
               <ul className="space-y-2 text-sm text-on-surface-variant">
@@ -39,6 +40,7 @@ export function Footer({ dict, locale }: { dict: Dictionary, locale: string }) {
                 ))}
               </ul>
             </div>
+            <div />
             <div className="space-y-4">
               <h5 className="text-xs font-label uppercase tracking-[0.2em] text-on-surface font-bold">{dict.footer.legal}</h5>
               <ul className="space-y-2 text-sm text-on-surface-variant">

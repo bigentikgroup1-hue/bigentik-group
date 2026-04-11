@@ -15,11 +15,11 @@ export const FeaturedProjects = async ({ locale }: { locale: string }) => {
 
   return (
     <section className="bg-surface-container-low pt-32 pb-0">
-      <div className="max-w-7xl mx-auto px-6 mb-20">
+      <div className="max-w-8xl mx-auto px-6 mb-20">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div>
             <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">{t('home.featured_projects.subtitle')}</span>
-            <h2 className="font-headline text-5xl mt-4">{t('home.featured_projects.title')}</h2>
+            <h2 className="font-headline text-3xl mt-4">{t('home.featured_projects.title')}</h2>
           </div>
           <a href={`/${locale}/projects`} className="text-xs uppercase tracking-widest font-bold border-b-2 border-primary pb-2">
             {t('home.featured_projects.link')}

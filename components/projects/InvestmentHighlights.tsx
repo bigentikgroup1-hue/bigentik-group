@@ -5,7 +5,7 @@ export const InvestmentHighlights = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
   return (
     <section className="py-32 max-w-7xl mx-auto px-6">
-      <h2 className="font-headline text-4xl mb-16 text-center">{t('projects.highlights.title')}</h2>
+      <h2 className="font-headline text-3xl mb-16 text-center">{t('projects.highlights.title')}</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-surface-container p-10 group hover:bg-primary transition-colors duration-500">
           <span className="material-symbols-outlined text-4xl text-primary mb-6 group-hover:text-on-primary">

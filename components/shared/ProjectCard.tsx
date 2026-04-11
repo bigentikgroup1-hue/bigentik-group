@@ -68,7 +68,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
       <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-20">
-        <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row md:items-end justify-between gap-8">
+        <div className="max-w-8xl mx-auto w-full flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
               {status && (
@@ -82,14 +82,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                 </span>
               )}
             </div>
-            <h2 className="font-headline text-4xl md:text-6xl text-white mb-2">{title}</h2>
+            <h2 className="font-headline text-3xl md:text-4xl text-white mb-2">{title}</h2>
             {description && (
               <p className="text-white/60 max-w-md font-light line-clamp-3">{description}</p>
             )}
           </div>
           <div>
             <a className="inline-flex items-center gap-4 text-white group/btn" href={link}>
-              <span className="text-sm font-medium tracking-widest uppercase">Ver Detalles del Proyecto</span>
+              <span className="text-sm tracking-widest uppercase">Ver Detalles del Proyecto</span>
               <span className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center group-hover/btn:bg-white group-hover/btn:text-on-surface transition-all">
                 <span className="material-symbols-outlined">arrow_forward</span>
               </span>

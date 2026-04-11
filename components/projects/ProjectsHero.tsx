@@ -7,7 +7,7 @@ import Link from 'next/link';
 export const ProjectsHero = ({ dict, currentFilter = 'all' }: { dict: Dictionary, currentFilter?: string }) => {
   const getFilterClass = (filter: string) => {
     return currentFilter === filter
-      ? "px-8 py-3 bg-on-surface text-surface text-xs font-label uppercase tracking-widest transition-all"
+      ? "px-8 py-3 bg-primary text-surface text-xs font-label uppercase tracking-widest transition-all"
       : "px-8 py-3 bg-surface-container text-on-surface text-xs font-label uppercase tracking-widest hover:bg-surface-container-high transition-all";
   };
 
@@ -19,9 +19,8 @@ export const ProjectsHero = ({ dict, currentFilter = 'all' }: { dict: Dictionary
             <span className="text-xs font-label uppercase tracking-[0.3em] text-primary mb-6 block">
               {dict.projects.hero.subtitle}
             </span>
-            <h1 className="font-headline text-6xl tracking-tighter leading-none mb-8">
-              {dict.projects.hero.title_1} <br />
-              <span className="italic font-normal">{dict.projects.hero.title_2}</span> {dict.projects.hero.title_3}
+            <h1 className="font-headline text-3xl tracking-tighter leading-none mb-8">
+              {dict.projects.hero.title_1} {dict.projects.hero.title_2} {dict.projects.hero.title_3}
             </h1>
           </div>
           <div className="md:col-span-4 pb-2">

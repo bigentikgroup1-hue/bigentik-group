@@ -8,7 +8,7 @@ export const LocationMap = async ({ locale, locationLink, title, location }: { l
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-4">
-            <h2 className="font-headline text-4xl mb-6">{t('projects.location_map.title')}</h2>
+            <h2 className="font-headline text-3xl mb-6">{t('projects.location_map.title')}</h2>
             <p className="text-on-surface-variant mb-8 leading-relaxed">
               {t('projects.location_map.desc')}
             </p>

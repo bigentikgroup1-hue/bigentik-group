@@ -6,11 +6,15 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
 
   return (
-    <section className="py-32 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-24 items-center">
-          <div className="relative">
-            <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden">
+    <section className="py-32 px-10">
+      <div className="max-w-8xl mx-auto">
+        <div className="gap-24 items-center">
+          <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">{t('home.value_prop.subtitle')}</span>
+          <h2 className="font-headline text-2xl leading-tight">
+            {t('home.value_prop.title_1')} {t('home.value_prop.title_2')}
+          </h2>
+          <div className="relative pt-20 pb-20 grid lg:grid-cols-2 gap-10">
+            <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-264 w-full ">
               <Image
                 className="object-cover"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
@@ -19,16 +23,21 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
                 quality={100}
               />
             </div>
+            <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-264 w-full">
+              <Image
+                className="object-cover"
+                alt="Modern luxury real estate construction in a Caribbean beach zone"
+                src="/value-proposition-2.jpg"
+                fill
+                quality={100}
+              />
+            </div>
           </div>
           <div className="space-y-8">
-            <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">{t('home.value_prop.subtitle')}</span>
-            <h2 className="font-headline text-5xl leading-tight">
-              {t('home.value_prop.title_1')} <br />{t('home.value_prop.title_2')}
-            </h2>
-            <p className="text-on-surface-variant leading-relaxed text-lg max-w-md">
+            {/* <p className="text-on-surface-variant leading-relaxed text-lg max-w-md">
               {t('home.value_prop.description')}
-            </p>
-            <div className="pt-8 space-y-6">
+            </p> */}
+            <div className="grid lg:grid-cols-4 space-y-6">
               <div className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-primary mt-1">diamond</span>
                 <div>

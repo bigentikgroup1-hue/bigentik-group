@@ -37,11 +37,8 @@ export const DetailHero: React.FC<DetailHeroProps> = ({ title, collection, image
 
       <div className="absolute inset-0 bg-gradient-to-t from-on-surface/60 via-on-surface/20 to-transparent"></div>
       <div className="absolute bottom-16 left-0 w-full px-6 z-10">
-        <div className="max-w-7xl mx-auto">
-          <span className="text-primary-fixed font-label uppercase tracking-[0.3em] mb-4 block">
-            {collection}
-          </span>
-          <h1 className="text-white font-headline text-5xl md:text-7xl max-w-4xl leading-tight -ml-1">
+        <div className="max-w-8xl mx-auto">
+          <h1 className="text-background justify-start font-headline text-5xl max-w-4xl leading-tight ml-4 md:ml-8">
             {title}
           </h1>
         </div>

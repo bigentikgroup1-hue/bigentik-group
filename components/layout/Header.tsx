@@ -47,8 +47,8 @@ export function Header({ dict }: HeaderProps) {
 
   return (
     <>
-      <nav className="fixed top-6 left-0 right-0 z-40 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto glass-nav rounded-full px-6 md:px-10 h-16 md:h-20 flex items-center justify-between shadow-2xl border border-white/30 backdrop-blur-xl">
+      <nav className="fixed left-0 right-0 z-40">
+        <div className="mx-auto glass-nav px-6 md:px-10 h-16 md:h-24 flex items-center justify-between shadow-2xl border border-white/30 backdrop-blur-xl">
           {/* Left: Hamburger Icon */}
           <div className="flex-1 flex justify-start">
             <button
