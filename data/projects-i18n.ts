@@ -66,7 +66,7 @@ export const projects: Project[] = [
       fr: "L'Aparthotel Manuela est le sixième projet de condominiums à Las Terrenas réalisé par le Groupe de Construction BIGENTIK. La propriété est située au cœur de la zone touristique, à une courte distance des plages, restaurants, boutiques et banques.\n\nLe projet se compose de 36 appartements répartis dans 5 bâtiments.\n\nTypes d'unités:\n• 21 appartements de 2 chambres.\n• 6 appartements de 3 chambres.\n• 7 studios de type Penthouse avec 1 chambre.\n• 2 studios de type Penthouse avec 2 chambres.\n\nLe complexe dispose d'une piscine et de 52 places de parking.\n\nEspace commercial : Il dispose d'un espace commercial de 300 m² conçu pour un usage flexible, tel qu'un restaurant, une réception, un espace de coworking ou des bureaux."
     },
     coverImage: "IMG_2_ma29x7",
-    coverImageMobile: "manuela_card_mobile_il3bjy",
+    coverImageMobile: "Manuela-port-mobile_it06yv",
     images: [
       "IMG_1_vx4aog",
       "IMG_2_ma29x7",
@@ -148,7 +148,7 @@ export const projects: Project[] = [
       fr: "•2 piscines\n•Bar-restaurant\n•Gimnasio\n•Área de yoga\n•Spa\n•Boutique"
     },
     coverImage: "IMG_2_jtlrp0",
-    coverImageMobile: "solArena_card_mobile_wdtyux",
+    coverImageMobile: "SolArena2-port-mobile_dkbimz",
     images: [
       "IMG_1_g1hzef",
       "IMG_2_jtlrp0",
@@ -191,7 +191,7 @@ export const projects: Project[] = [
       fr: "À Luxury Hills, le Bigentik Group s'est concentré sur la mise en œuvre de sa construction pour tirer le meilleur parti du splendide paysage environnant : collines infinies et palmeraies. Luxury Hills est situé au sein de l'une des communautés les plus exclusives et les mieux situées de Las Terrenas : Bonita Village Residences. Entouré de maisons à un million de dollars, il offre une atmosphère relaxante. Luxury Hills est un projet de 27 appartements au total, à seulement 5 minutes à pied de la magnifique plage de Las Ballenas."
     },
     coverImage: "Luxury-port_kagaap",
-    coverImageMobile: "luxury_card_mobile_foioqp",
+    coverImageMobile: "Luxury-port-mobile_yqyzyw",
     images: ["Luxury-port_kagaap",
       "IMG_1_pzuikl",
       "IMG_2_gjvn2i",
