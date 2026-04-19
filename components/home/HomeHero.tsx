@@ -6,7 +6,7 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
   const t = await getTranslator(locale as Locale);
 
   return (
-    <header className="relative h-screen flex items-center justify-start overflow-hidden lg:pt-200">
+    <header className="relative h-[100dvh] flex flex-col justify-end overflow-hidden pt-24 pb-12 md:pb-[6vh]">
       <div className="absolute inset-0 z-0">
         {/* Desktop Image */}
         <Image
@@ -28,7 +28,7 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
         />
         <div className="absolute inset-0 bg-on-surface/20"></div>
       </div>
-      <div className="relative z-10 max-w-8xl mx-auto px-6 w-full self-end pb-12 md:self-auto md:pb-0">
+      <div className="relative z-10 max-w-8xl mx-auto px-6 w-full">
         <div className="max-w-3xl">
           <span className="inline-block mb-4 text-xs uppercase tracking-[0.4em] text-white/90 font-semibold">
             {t('home.hero.subtitle')}
