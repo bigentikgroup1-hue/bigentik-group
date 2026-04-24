@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: 'Bigentik Group Website <onboarding@resend.dev>',
+      from: 'Bigentik Group Website <no-reply@bigentik.com>',
       to: 'bigentikgroup1@gmail.com',
       subject: 'Nueva propuesta de interes - Bigentik Website',
       html: `
