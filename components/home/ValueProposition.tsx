@@ -16,18 +16,18 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
           <div className="relative pt-20 pb-20 grid lg:grid-cols-2 gap-10">
             <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-264 w-full hidden md:block">
               <Image
-                className="object-cover"
+                className="object-contain"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
-                src="/value-proposition.jpg"
+                src="/value-proposition.png"
                 fill
                 quality={100}
               />
             </div>
             <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-264 w-full hidden md:block">
               <Image
-                className="object-cover"
+                className="object-contain"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
-                src="/value-proposition-2.jpg"
+                src="/value-proposition-2.png"
                 fill
                 quality={100}
               />
@@ -36,7 +36,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
               <Image
                 className="object-cover"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
-                src="/value-proposition-mobile.jpg"
+                src="/value-proposition.png"
                 fill
                 quality={100}
               />
@@ -45,7 +45,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
               <Image
                 className="object-cover"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
-                src="/value-proposition-2-mobile.jpg"
+                src="/value-proposition-2.png"
                 fill
                 quality={100}
               />

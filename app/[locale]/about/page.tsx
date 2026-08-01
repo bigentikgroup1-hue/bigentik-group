@@ -15,13 +15,13 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
           <div className="lg:col-span-7 z-10">
             <span className="text-sm font-label uppercase tracking-[0.3em] text-primary mb-6 block">{t('about.hero.subtitle')}</span>
-            <h1 className="font-headline text-3xl leading-[1.1] mb-8 text-balance -tracking-wider">{t('about.hero.title_1')} <span className="text-primary">{t('about.hero.title_2')}</span></h1>
+            <h1 className="tracking-[0.1em] font-headline text-3xl leading-[1.1] mb-8 text-balance -tracking-wider">{t('about.hero.title_1')} <span className="text-primary font-urbanist tracking-[0.3em]">{t('about.hero.title_2')}</span></h1>
             <div className="w-24 h-1 bg-primary mb-8"></div>
             <p className="text-lg md:text-xl text-on-surface-variant max-w-lg leading-relaxed">{t('about.hero.description')}</p>
           </div>
           <div className="lg:col-span-5 relative mt-12 lg:mt-0">
             <div className="relative aspect-[4/5] bg-surface-container-highest overflow-hidden shadow-2xl">
-              <Image className="object-cover grayscale-[20%]" data-alt="Modern luxury beachfront architecture detail" src="/about-hero-arch.png" alt="Modern luxury beachfront architecture detail" fill quality={100} />
+              <Image className="object-cover grayscale-[20%]" data-alt="Modern luxury beachfront architecture detail" src="/nosotros-2.png" alt="Modern luxury beachfront architecture detail" fill quality={100} />
             </div>
             <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-primary/5 -z-10 rounded-full blur-3xl"></div>
           </div>
@@ -113,15 +113,15 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px]">
             <div className="md:col-span-2 md:row-span-2 bg-surface-container-highest p-8 md:p-12 flex flex-col justify-end relative overflow-hidden group min-h-[300px]">
-              <Image className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/value-proposition.jpg" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
+              <Image className="object-cover opacity-5 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/nosotros-1.png" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
               <div className="relative z-10">
                 <h1 className="text-3xl font-headline mb-4">{t('about.presence.portal_title')}</h1>
                 <p className="text-on-surface-variant mb-6 text-sm md:text-xl">{t('about.presence.portal_desc')}</p>
               </div>
             </div>
-            <div className="md:col-span-2 bg-primary text-on-primary p-8 md:p-12 flex items-center min-h-[200px]">
+            <div className="md:col-span-2 bg-primary text-on-primary p-8 md:p-12 flex justify-center items-center min-h-[200px]">
               <div>
-                <span className="text-4xl md:text-5xl font-headline mb-2 block">
+                <span className="text-4xl md:text-5xl font-headline mb-2 block text-center">
                   <AnimatedCounter value={t('about.presence.properties_developed')} />+
                 </span>
                 <p className="text-xs md:text-sm font-label uppercase tracking-widest opacity-80">{t('about.presence.properties_lbl')}</p>

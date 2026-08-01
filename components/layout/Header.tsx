@@ -70,9 +70,9 @@ export function Header({ dict }: HeaderProps) {
           <div className="flex-1 flex justify-center">
             <Link href={getLocalizedLink('/')} onClick={closeMenu}>
               <Image
-                src="/bigentik-logo.svg"
+                src="/bigentik-logo.png"
                 alt="Bigentik Group Logo"
-                width={90}
+                width={150}
                 height={55}
                 // className="w-auto h-auto max-h-12"
                 priority
