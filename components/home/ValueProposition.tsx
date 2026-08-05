@@ -14,7 +14,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
             {t('home.value_prop.title_1')} {t('home.value_prop.title_2')}
           </h2>
           <div className="relative pt-20 pb-20 grid lg:grid-cols-2 gap-10">
-            <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-264 w-full hidden md:block">
+            <div className="relative aspect-[4/5] overflow-hidden h-full w-full">
               <Image
                 className="object-contain"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
@@ -23,7 +23,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
                 quality={100}
               />
             </div>
-            <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-264 w-full hidden md:block">
+            <div className="relative aspect-[4/5] overflow-hidden h-full w-full">
               <Image
                 className="object-contain"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
@@ -32,7 +32,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
                 quality={100}
               />
             </div>
-            <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-120 w-full md:hidden">
+            {/* <div className="relative aspect-[4/5] bg-surface-container-high overflow-hidden h-120 w-full md:hidden">
               <Image
                 className="object-cover"
                 alt="Modern luxury real estate construction in a Caribbean beach zone"
@@ -49,7 +49,7 @@ export const ValueProposition = async ({ locale }: { locale: string }) => {
                 fill
                 quality={100}
               />
-            </div>
+            </div> */}
           </div>
           <div className="space-y-8">
             {/* <p className=" leading-relaxed text-lg max-w-md">
