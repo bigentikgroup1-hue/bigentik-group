@@ -23,15 +23,15 @@ export const ProjectOverview = async ({ pullQuote, paragraphs, specs, locale }: 
     <section className="py-24 bg-surface-container-low">
       <div className="max-w-8xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-20">
         <div className="md:col-span-7">
-          <span className="font-label uppercase tracking-widest text-primary mb-18 block">
+          <span className="font-label uppercase tracking-widest  mb-18 block">
             {t('projects.overview.title')}
           </span>
-          <div className="border-l-4 border-primary pl-8 mb-12">
-            <blockquote className="font-headline text-md text-on-surface-variant leading-relaxed whitespace-pre-line">
+          <div className="border-l-4 border-coffee-intense pl-8 mb-12">
+            <blockquote className="font-headline text-md  leading-relaxed whitespace-pre-line">
               &quot;{pullQuote}&quot;
             </blockquote>
           </div>
-          <div className="space-y-6 text-on-surface-variant leading-relaxed text-lg">
+          <div className="space-y-6  leading-relaxed text-lg">
             {paragraphs.map((p, idx) => (
               <p key={idx}>{p}</p>
             ))}

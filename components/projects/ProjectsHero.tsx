@@ -7,8 +7,8 @@ import Link from 'next/link';
 export const ProjectsHero = ({ dict, currentFilter = 'all' }: { dict: Dictionary, currentFilter?: string }) => {
   const getFilterClass = (filter: string) => {
     return currentFilter === filter
-      ? "px-8 py-3 bg-primary text-surface text-xs font-label uppercase tracking-widest transition-all"
-      : "px-8 py-3 bg-surface-container text-on-surface text-xs font-label uppercase tracking-widest hover:bg-surface-container-high transition-all";
+      ? "px-8 py-3 bg-coffee-intense text-surface text-xs font-label uppercase tracking-widest transition-all"
+      : "px-8 py-3 bg-bone-white text-xs font-label uppercase tracking-widest hover:bg-white transition-all";
   };
 
   return (
@@ -16,15 +16,15 @@ export const ProjectsHero = ({ dict, currentFilter = 'all' }: { dict: Dictionary
       <section className="max-w-7xl mx-auto px-6 mb-24">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
           <div className="md:col-span-8">
-            <span className="text-xs font-label uppercase tracking-[0.3em] text-primary mb-6 block">
+            <span className="text-xs font-label uppercase tracking-[0.3em]  mb-6 block">
               {dict.projects.hero.subtitle}
             </span>
-            <h1 className="font-headline text-3xl tracking-tighter leading-none mb-8">
+            <h1 className="tracking-[0.05em] uppercase font-urbanist text-3xl leading-none mb-8">
               {dict.projects.hero.title_1} {dict.projects.hero.title_2} {dict.projects.hero.title_3}
             </h1>
           </div>
           <div className="md:col-span-4 pb-2">
-            <p className="text-on-surface-variant font-body leading-relaxed max-w-sm">
+            <p className=" font-body leading-relaxed max-w-sm">
               {dict.projects.hero.location}
             </p>
           </div>

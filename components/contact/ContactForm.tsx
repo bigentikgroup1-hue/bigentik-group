@@ -59,7 +59,7 @@ export const ContactForm = ({ dict }: { dict: Dictionary }) => {
               {dict.contact.form.name}
             </label>
             <input
-              className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary px-0 py-2 transition-all placeholder:text-outline-variant/60"
+              className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-coffee-intense px-0 py-2 transition-all placeholder:text-coffee-soft"
               placeholder={dict.contact.form.name_ph}
               type="text"
               name="name"
@@ -71,7 +71,7 @@ export const ContactForm = ({ dict }: { dict: Dictionary }) => {
               {dict.contact.form.email}
             </label>
             <input
-              className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary px-0 py-2 transition-all placeholder:text-outline-variant/60"
+              className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-coffee-intense px-0 py-2 transition-all placeholder:text-coffee-soft"
               placeholder={dict.contact.form.email_ph}
               type="email"
               name="email"
@@ -85,7 +85,7 @@ export const ContactForm = ({ dict }: { dict: Dictionary }) => {
             {dict.contact.form.interest}
           </label>
           <textarea
-            className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary px-0 py-2 transition-all placeholder:text-outline-variant/60 resize-none"
+            className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-coffee-intense px-0 py-2 transition-all placeholder:text-coffee-soft resize-none"
             placeholder={dict.contact.form.interest_ph}
             rows={1}
             name="interest"
@@ -98,7 +98,7 @@ export const ContactForm = ({ dict }: { dict: Dictionary }) => {
             {dict.contact.form.message}
           </label>
           <textarea
-            className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary px-0 py-2 transition-all placeholder:text-outline-variant/60 resize-none"
+            className="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-coffee-intense px-0 py-2 transition-all placeholder:text-coffee-soft resize-none"
             placeholder={dict.contact.form.message_ph}
             rows={4}
             name="message"
@@ -115,7 +115,7 @@ export const ContactForm = ({ dict }: { dict: Dictionary }) => {
         </button>
 
         {status === 'success' && (
-          <p className="text-primary mt-4 text-sm text-center">¡Mensaje enviado con éxito!</p>
+          <p className=" mt-4 text-sm text-center">¡Mensaje enviado con éxito!</p>
         )}
         {status === 'error' && (
           <p className="text-error mt-4 text-sm text-center">{errorMessage}</p>

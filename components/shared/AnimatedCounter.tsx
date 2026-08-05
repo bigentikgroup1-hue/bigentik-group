@@ -5,9 +5,10 @@ import React, { useEffect, useState, useRef } from 'react';
 interface AnimatedCounterProps {
   value: string | number;
   duration?: number;
+  className?: string;
 }
 
-export const AnimatedCounter: React.FC<AnimatedCounterProps> = ({ value, duration = 2000 }) => {
+export const AnimatedCounter: React.FC<AnimatedCounterProps> = ({ value, duration = 2000, className }) => {
   const [count, setCount] = useState(0);
   const target = parseInt(value.toString().replace(/[^0-9]/g, ''), 10) || 0;
   const ref = useRef<HTMLSpanElement>(null);
@@ -48,5 +49,5 @@ export const AnimatedCounter: React.FC<AnimatedCounterProps> = ({ value, duratio
     window.requestAnimationFrame(step);
   }, [target, duration, isVisible]);
 
-  return <span ref={ref}>{count}</span>;
+  return <span ref={ref} className={className || "text-inherit"}>{count}</span>;
 };

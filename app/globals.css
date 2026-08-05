@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-surface-container: #f1eee7;
+  --color-surface-container: #e7ded5;
   --color-on-surface: #1c1c18;
   --color-background: #fcf9f2;
   --color-surface-bright: #fcf9f2;
   --color-outline: #76786a;
-  --color-surface-container-low: #f6f3ec;
+  --color-surface-container-low: #e7ded5;
   --color-primary-fixed: #d5ec96;
   --color-outline-variant: #c6c8b7;
   --color-secondary-fixed: #eee1cc;
@@ -27,7 +27,7 @@
   --color-surface-container-high: #ebe8e1;
   --color-on-primary-fixed-variant: #3c4d07;
   --color-secondary: #665d4d;
-  --color-primary: #726b63;
+  --color-primary: #816d58;
   --color-on-error: #ffffff;
   --color-on-secondary-container: #6b6151;
   --color-tertiary-container: #73766c;
@@ -35,7 +35,7 @@
   --color-on-secondary-fixed: #211b0e;
   --color-error-container: #ffdad6;
   --color-on-tertiary: #ffffff;
-  --color-surface-container-highest: #e5e2db;
+  --color-surface-container-highest: #e7ded5;
   --color-surface-dim: #dcdad3;
   --color-surface: #fcf9f2;
   --color-surface-container-lowest: #ffffff;
@@ -49,10 +49,16 @@
   --color-on-background: #1c1c18;
   --color-on-secondary: #ffffff;
 
-  --font-headline: "Droid Serif", serif;
-  --font-body: "Droid Serif", serif;
-  --font-label: "Droid Serif", serif;
+  --color-coffee-intense: #816d58;
+  --color-coffee-medium: #685e5a;
+  --color-coffee-soft: #95857c;
+  --color-bone-white: #e7ded5;
+
+  --font-headline: "Urbanist", sans-serif;
+  --font-body: "Aileron", sans-serif;
+  --font-label: "Aileron", sans-serif;
   --font-urbanist: "Urbanist", sans-serif;
+  --font-aileron: "Aileron", sans-serif;
 
   --radius-DEFAULT: 0.125rem;
   --radius-lg: 0.25rem;
@@ -64,6 +70,36 @@
 html {
   font-size: 100%;
   /* Keep mobile at 100% scale */
+}
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote {
+    color: var(--color-coffee-medium);
+  }
+
+  p,
+  span,
+  label,
+  option,
+  select,
+  input,
+  textarea {
+    color: var(--color-coffee-soft);
+  }
+
+  button:active,
+  button.active,
+  button[data-active="true"] {
+    background-color: var(--color-coffee-intense);
+    color: #ffffff;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -85,12 +121,11 @@ html {
   }
 
   .editorial-gradient {
-    background: linear-gradient(135deg, #726b63 0%, #6b655d 100%);
+    background: var(--color-coffee-intense)
   }
 
   .glass-nav {
-    background: rgba(252, 249, 242, 0.8);
-    backdrop-filter: blur(20px);
+    background: #e7ded5;
   }
 
   .text-balance {

@@ -14,10 +14,10 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       <section className="relative min-h-[80vh] flex items-center px-6 overflow-hidden">
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
           <div className="lg:col-span-7 z-10">
-            <span className="text-sm font-label uppercase tracking-[0.3em] text-primary mb-6 block">{t('about.hero.subtitle')}</span>
-            <h1 className="tracking-[0.1em] font-headline text-3xl leading-[1.1] mb-8 text-balance -tracking-wider">{t('about.hero.title_1')} <span className="text-primary font-urbanist tracking-[0.3em]">{t('about.hero.title_2')}</span></h1>
+            <span className="text-sm font-label uppercase tracking-[0.3em]  mb-6 block">{t('about.hero.subtitle')}</span>
+            <h1 className="tracking-[0.05em] uppercase font-urbanist text-3xl leading-[1.1] mb-8 text-balance -tracking-wider">{t('about.hero.title_1')} <span className="uppercase font-urbanist tracking-[0.3em]">{t('about.hero.title_2')}</span></h1>
             <div className="w-24 h-1 bg-primary mb-8"></div>
-            <p className="text-lg md:text-xl text-on-surface-variant max-w-lg leading-relaxed">{t('about.hero.description')}</p>
+            <p className="text-lg md:text-xl  max-w-lg leading-relaxed">{t('about.hero.description')}</p>
           </div>
           <div className="lg:col-span-5 relative mt-12 lg:mt-0">
             <div className="relative aspect-[4/5] bg-surface-container-highest overflow-hidden shadow-2xl">
@@ -32,27 +32,27 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       <section className="py-20 md:py-32 bg-surface-container-low">
         <div className="max-w-9xl mx-auto px-14 pb-12">
           <div className="lg:col-span-4">
-            <h2 className="font-headline text-3xl leading-tight text-balance text-center">{t('about.philosophy.title_1')} <span>{t('about.philosophy.title_2')}</span></h2>
+            <h2 className="tracking-[0.1em] uppercase font-urbanist text-3xl leading-tight text-balance text-center">{t('about.philosophy.title_1')} <span>{t('about.philosophy.title_2')}</span></h2>
           </div>
         </div>
         <div className="max-w-9xl mx-auto px-14">
           <div className="lg:col-span-12 grid md:grid-cols-5 gap-8">
             <div className="space-y-4">
-              <span className="text-primary font-headline text-3xl">01.</span>
+              <span className=" font-headline text-3xl">01.</span>
               <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.0.title')}</h3>
-              <p className="text-on-surface-variant leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.0.description')}</p>
+              <p className=" leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.0.description')}</p>
             </div>
             <div></div>
             <div className="space-y-4">
-              <span className="text-primary font-headline text-3xl">02.</span>
+              <span className=" font-headline text-3xl">02.</span>
               <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.1.title')}</h3>
-              <p className="text-on-surface-variant leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.1.description')}</p>
+              <p className=" leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.1.description')}</p>
             </div>
             <div></div>
             <div className="space-y-4">
-              <span className="text-primary font-headline text-3xl">03.</span>
+              <span className=" font-headline text-3xl">03.</span>
               <h3 className="text-lg font-semibold uppercase tracking-widest">{t('about.philosophy.cards.2.title')}</h3>
-              <p className="text-on-surface-variant leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.2.description')}</p>
+              <p className=" leading-relaxed whitespace-pre-line">{t('about.philosophy.cards.2.description')}</p>
             </div>
           </div>
         </div>
@@ -67,13 +67,13 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             </div>
           </div>
           <div className="lg:col-span-6 order-2 lg:order-2 flex justify-center">
-            <div className="border-l-4 border-primary pl-6 md:pl-12 py-4">
-              <blockquote className="font-headline text-2xl leading-relaxed text-on-surface mb-8 break-words text-balance">{t('about.founder1.quote')}</blockquote>
+            <div className="border-l-4 border-coffee-intense pl-6 md:pl-12 py-4">
+              <blockquote className="font-headline text-2xl leading-relaxed mb-8 break-words text-balance">{t('about.founder1.quote')}</blockquote>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-px bg-outline"></div>
                 <div>
                   <p className="font-semibold uppercase tracking-widest text-sm">{t('about.founder1.name')}</p>
-                  <p className="text-xs text-on-surface-variant uppercase tracking-widest">{t('about.founder1.role')}</p>
+                  <p className="text-xs  uppercase tracking-widest">{t('about.founder1.role')}</p>
                 </div>
               </div>
             </div>
@@ -85,13 +85,13 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       <section className="py-20 md:py-32 bg-surface">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 order-2 lg:order-1">
-            <div className="border-r-4 border-primary pl-6 md:pl-12 py-4">
-              <blockquote className="font-headline text-2xl leading-relaxed text-on-surface mb-8 break-words text-balance">{t('about.founder2.quote')}</blockquote>
+            <div className="border-r-4 border-coffee-intense pl-6 md:pl-12 py-4">
+              <blockquote className="font-headline text-2xl leading-relaxed mb-8 break-words text-balance">{t('about.founder2.quote')}</blockquote>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-px bg-outline"></div>
                 <div>
                   <p className="font-semibold uppercase tracking-widest text-sm">{t('about.founder2.name')}</p>
-                  <p className="text-xs text-on-surface-variant uppercase tracking-widest">{t('about.founder2.role')}</p>
+                  <p className="text-xs  uppercase tracking-widest">{t('about.founder2.role')}</p>
                 </div>
               </div>
             </div>
@@ -108,23 +108,20 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       <section className="py-20 md:py-32 bg-surface-container-low">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12 md:mb-16">
-            <span className="text-sm font-label uppercase tracking-[0.3em] text-primary mb-4 block text-center">{t('about.presence.subtitle')}</span>
-            <h2 className="font-headline text-3xl text-center">{t('about.presence.title_1')} <span>{t('about.presence.title_2')}</span></h2>
+            <span className="text-sm font-label uppercase tracking-[0.3em]  mb-4 block text-center">{t('about.presence.subtitle')}</span>
+            <h2 className="tracking-[0.1em] uppercase font-urbanist text-3xl text-center">{t('about.presence.title_1')} <span>{t('about.presence.title_2')}</span></h2>
+            <p className=" mb-6 pt-10 leading-relaxed text-center">{t('about.presence.portal_desc')}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px]">
             <div className="md:col-span-2 md:row-span-2 bg-surface-container-highest p-8 md:p-12 flex flex-col justify-end relative overflow-hidden group min-h-[300px]">
-              <Image className="object-cover opacity-5 group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/nosotros-1.png" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
-              <div className="relative z-10">
-                <h1 className="text-3xl font-headline mb-4">{t('about.presence.portal_title')}</h1>
-                <p className="text-on-surface-variant mb-6 text-sm md:text-xl">{t('about.presence.portal_desc')}</p>
-              </div>
+              <Image className="object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Skyline of high-end Caribbean condominiums" src="/nosotros-1.png" alt="Skyline of high-end Caribbean condominiums" fill quality={100} />
             </div>
             <div className="md:col-span-2 bg-primary text-on-primary p-8 md:p-12 flex justify-center items-center min-h-[200px]">
               <div>
-                <span className="text-4xl md:text-5xl font-headline mb-2 block text-center">
-                  <AnimatedCounter value={t('about.presence.properties_developed')} />+
+                <span className="text-4xl md:text-5xl font-headline mb-2 block text-center text-bone-white">
+                  <AnimatedCounter className="text-bone-white" value={t('about.presence.properties_developed')} />+
                 </span>
-                <p className="text-xs md:text-sm font-label uppercase tracking-widest opacity-80">{t('about.presence.properties_lbl')}</p>
+                <p className="text-xs md:text-sm font-label uppercase tracking-widest opacity-80 text-bone-white">{t('about.presence.properties_lbl')}</p>
               </div>
             </div>
             <div className="md:col-span-2 bg-surface-container-lowest p-8 flex flex-col justify-center text-center min-h-[150px]">

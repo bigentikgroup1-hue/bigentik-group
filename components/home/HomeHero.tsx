@@ -34,7 +34,7 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
             {t('home.hero.subtitle')}
           </span>
           <div className="flex gap-6">
-            <a href={`/${locale}/projects`} className="editorial-gradient px-10 py-4 text-xs uppercase tracking-widest font-bold text-on-primary cursor-pointer">
+            <a href={`/${locale}/projects`} className="bg-transparent border border-white px-10 py-4 text-xs uppercase tracking-widest font-bold text-white hover:bg-white hover:text-on-surface transition-colors duration-300 cursor-pointer">
               {t('home.hero.portfolio_btn')}
             </a>
           </div>

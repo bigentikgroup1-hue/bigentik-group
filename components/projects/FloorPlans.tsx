@@ -9,7 +9,7 @@ export const FloorPlans = async ({ locale }: { locale: string }) => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div>
-            <span className="font-label uppercase tracking-widest text-primary mb-4 block">
+            <span className="font-label uppercase tracking-widest  mb-4 block">
               {t('projects.floor_plans.subtitle')}
             </span>
             <h2 className="font-headline text-4xl">{t('projects.floor_plans.title')}</h2>
@@ -37,25 +37,25 @@ export const FloorPlans = async ({ locale }: { locale: string }) => {
           <div className="space-y-10">
             <div>
               <h4 className="font-headline text-2xl mb-4">{t('projects.floor_plans.level_title')}</h4>
-              <p className="text-on-surface-variant leading-relaxed">
+              <p className=" leading-relaxed">
                 {t('projects.floor_plans.level_desc')}
               </p>
             </div>
             <ul className="space-y-4">
-              <li className="flex items-center gap-4 text-on-surface-variant">
-                <span className="material-symbols-outlined text-primary" data-weight="fill">
+              <li className="flex items-center gap-4 ">
+                <span className="material-symbols-outlined " data-weight="fill">
                   check_circle
                 </span>{" "}
                 {t('projects.floor_plans.features.0')}
               </li>
-              <li className="flex items-center gap-4 text-on-surface-variant">
-                <span className="material-symbols-outlined text-primary" data-weight="fill">
+              <li className="flex items-center gap-4 ">
+                <span className="material-symbols-outlined " data-weight="fill">
                   check_circle
                 </span>{" "}
                 {t('projects.floor_plans.features.1')}
               </li>
-              <li className="flex items-center gap-4 text-on-surface-variant">
-                <span className="material-symbols-outlined text-primary" data-weight="fill">
+              <li className="flex items-center gap-4 ">
+                <span className="material-symbols-outlined " data-weight="fill">
                   check_circle
                 </span>{" "}
                 {t('projects.floor_plans.features.2')}

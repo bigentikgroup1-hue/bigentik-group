@@ -180,6 +180,7 @@
     }
   },
   "projects": {
+    "view_details": "Ver Detalles del Proyecto",
     "hero": {
       "subtitle": "Nuestro Portafolio",
       "title_1": "Excelencia y",

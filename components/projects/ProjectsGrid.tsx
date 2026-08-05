@@ -23,7 +23,7 @@ export const ProjectsGrid = async ({ locale, filter = 'all' }: { locale: string;
   if (!filteredProjects || filteredProjects.length === 0) {
     return (
       <div className="py-20 text-center">
-        <p className="text-on-surface-variant font-headline text-2xl">No projects found for this filter</p>
+        <p className=" font-headline text-2xl">No projects found for this filter</p>
       </div>
     );
   }
@@ -52,6 +52,7 @@ export const ProjectsGrid = async ({ locale, filter = 'all' }: { locale: string;
             location={location}
             status={project.status}
             statusText={statusText}
+            buttonText={t('projects.view_details')}
             link={`/${locale}/projects/${project.slug}`}
           />
         );

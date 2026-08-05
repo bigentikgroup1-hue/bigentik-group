@@ -34,8 +34,8 @@ export function Header({ dict }: HeaderProps) {
     const isActive = pathname === localizedPath || pathname === path;
 
     return `text-[11px] uppercase tracking-[0.2em] transition-colors w-full inline-block py-2 ${isActive
-      ? "text-primary font-bold"
-      : "text-on-surface/80 hover:text-primary font-semibold"
+      ? "text-coffee-intense font-bold"
+      : "text-coffee-medium/80 hover: font-semibold"
       }`;
   };
 
@@ -48,11 +48,11 @@ export function Header({ dict }: HeaderProps) {
   return (
     <>
       <nav className="fixed left-0 right-0 z-40">
-        <div className="mx-auto glass-nav px-6 md:px-10 h-16 md:h-24 flex items-center justify-between shadow-2xl border border-white/30 backdrop-blur-xl">
+        <div className="mx-auto bg-[#e7ded5] px-6 md:px-10 h-16 md:h-24 flex items-center justify-between shadow-2xl border border-white/30">
           {/* Left: Hamburger Icon */}
           <div className="flex-1 flex justify-start">
             <button
-              className="text-on-surface hover:text-primary transition-colors focus:outline-none flex items-center justify-center p-2 -ml-2 cursor-pointer"
+              className="text-coffee-intense hover: transition-colors focus:outline-none flex items-center justify-center p-2 -ml-2 cursor-pointer"
               onClick={() => setIsMenuOpen(true)}
               aria-label="Open menu"
               aria-expanded={isMenuOpen}
@@ -106,7 +106,7 @@ export function Header({ dict }: HeaderProps) {
       >
         <div className="flex items-center justify-end p-8 border-b border-white/10">
           <button
-            className="text-on-surface/60 hover:text-primary transition-colors focus:outline-none p-2 rounded-full hover:bg-white/10"
+            className="text-on-surface/60 hover: transition-colors focus:outline-none p-2 rounded-full hover:bg-white/10"
             onClick={closeMenu}
             aria-label="Close menu"
           >

@@ -18,9 +18,9 @@ export const LifestyleSection = async ({ locale }: { locale: string }) => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
         <div>
           <h2 className="font-headline text-6xl leading-tight mb-8">
-            {t('home.lifestyle.title_1')} <br /><span className="italic text-primary-fixed">{t('home.lifestyle.title_2')}</span>
+            {t('home.lifestyle.title_1')} <br /><span className="italic -fixed">{t('home.lifestyle.title_2')}</span>
           </h2>
-          <div className="pl-8 border-l border-primary-fixed/30 space-y-8">
+          <div className="pl-8 border-l border-coffee-intense/30 space-y-8">
             <p className="text-xl text-background/80 italic font-headline">
               {t('home.lifestyle.quote')}
             </p>
@@ -36,7 +36,7 @@ export const LifestyleSection = async ({ locale }: { locale: string }) => {
               </div>
               <div>
                 <p className="text-xs uppercase tracking-widest font-bold">{t('home.lifestyle.author_name')}</p>
-                <p className="text-[10px] uppercase tracking-widest text-primary-fixed/60">
+                <p className="text-[10px] uppercase tracking-widest -fixed/60">
                   {t('home.lifestyle.author_role')}
                 </p>
               </div>

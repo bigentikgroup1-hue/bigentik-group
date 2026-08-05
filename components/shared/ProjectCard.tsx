@@ -15,6 +15,7 @@ export interface ProjectCardProps {
   status?: string;
   statusText?: string;
   link?: string;
+  buttonText?: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -28,22 +29,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   status,
   statusText,
   link = "#",
+  buttonText = "Ver Detalles del Proyecto",
 }) => {
-  const getStatusClasses = (status?: string) => {
-    switch (status) {
-      case 'preSale':
-      case 'Preventa':
-        return 'bg-primary text-on-primary';
-      case 'sold':
-      case 'Vendido':
-        return 'bg-on-surface text-surface';
-      case 'in construction':
-      case 'En Construcción':
-        return 'bg-secondary text-on-secondary';
-      default:
-        return 'bg-outline text-surface';
-    }
-  };
 
   return (
     <section className="relative h-[90vh] w-full overflow-hidden group">
@@ -72,7 +59,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           <div>
             <div className="flex items-center gap-3 mb-4">
               {status && (
-                <span className={`${getStatusClasses(status)} text-[10px] uppercase tracking-widest px-3 py-1 font-bold`}>
+                <span className="bg-transparent border border-white text-white text-[10px] uppercase tracking-widest px-3 py-1 font-bold">
                   {statusText || status}
                 </span>
               )}
@@ -89,7 +76,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
           <div>
             <a className="inline-flex items-center gap-4 text-white group/btn" href={link}>
-              <span className="text-sm tracking-widest uppercase">Ver Detalles del Proyecto</span>
+              <span className="text-sm tracking-widest text-white uppercase">{buttonText}</span>
               <span className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center group-hover/btn:bg-white group-hover/btn:text-on-surface transition-all">
                 <span className="material-symbols-outlined">arrow_forward</span>
               </span>

@@ -180,6 +180,7 @@
     }
   },
   "projects": {
+    "view_details": "View Project Details",
     "hero": {
       "subtitle": "Our Portfolio",
       "title_1": "Excellence and Architectural",

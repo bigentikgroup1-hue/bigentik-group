@@ -180,6 +180,7 @@
     }
   },
   "projects": {
+    "view_details": "Voir les détails du projet",
     "hero": {
       "subtitle": "Notre Portefeuille",
       "title_1": "Excellence et",

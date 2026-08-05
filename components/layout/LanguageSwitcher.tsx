@@ -33,9 +33,9 @@ export const LanguageSwitcher = () => {
       <div className={`hidden lg:flex group items-center border border-outline-variant/30 rounded-full p-1 bg-surface/50 backdrop-blur-md transition-all duration-300 ${isPending ? 'opacity-70 pointer-events-none' : ''}`}>
         <div className="flex items-center pl-2 pr-1">
           {isPending ? (
-            <span className="material-symbols-outlined text-[14px] text-primary animate-spin">sync</span>
+            <span className="material-symbols-outlined text-[14px]  animate-spin">sync</span>
           ) : (
-            <span className="material-symbols-outlined text-[14px] text-on-surface/80 group-hover:text-primary transition-colors">public</span>
+            <span className="material-symbols-outlined text-[14px] group-hover: transition-colors">public</span>
           )}
         </div>
         <div className="flex items-center">
@@ -51,7 +51,7 @@ export const LanguageSwitcher = () => {
                 <button
                   key={loc}
                   onClick={() => handleLocaleChange(loc)}
-                  className="text-[9px] uppercase font-bold tracking-widest px-3 py-1.5 rounded-full text-on-surface/60 hover:text-primary hover:bg-white/50 transition-colors shrink-0 cursor-pointer"
+                  className="text-[9px] uppercase font-bold tracking-widest px-3 py-1.5 rounded-full hover: hover:bg-white/50 transition-colors shrink-0 cursor-pointer"
                 >
                   {loc}
                 </button>
@@ -68,8 +68,8 @@ export const LanguageSwitcher = () => {
             key={loc}
             onClick={() => handleLocaleChange(loc)}
             className={`text-[9px] uppercase font-bold tracking-widest px-3 py-1.5 rounded-full transition-colors flex items-center justify-center ${currentLocale === loc
-              ? 'bg-primary text-on-primary shadow-sm'
-              : 'text-on-surface/60 hover:text-primary hover:bg-white/50'
+              ? 'bg-coffee-intense text-white shadow-sm'
+              : 'hover: hover:bg-white/50'
               }`}
           >
             {isPending && currentLocale === loc ? (
