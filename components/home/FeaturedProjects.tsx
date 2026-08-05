@@ -21,7 +21,7 @@ export const FeaturedProjects = async ({ locale }: { locale: string }) => {
             <span className=" text-xs uppercase tracking-[0.3em] font-bold">{t('home.featured_projects.subtitle')}</span>
             <h2 className="font-headline text-3xl mt-4">{t('home.featured_projects.title')}</h2>
           </div>
-          <a href={`/${locale}/projects`} className="text-xs uppercase tracking-widest font-bold border-b-2 border-coffee-intense pb-2">
+          <a href={`/${locale}/projects`} className="text-coffee-intense text-xs uppercase tracking-widest font-bold border-b-2 border-coffee-intense pb-2">
             {t('home.featured_projects.link')}
           </a>
         </div>

@@ -8,7 +8,7 @@ export const ProjectsHero = ({ dict, currentFilter = 'all' }: { dict: Dictionary
   const getFilterClass = (filter: string) => {
     return currentFilter === filter
       ? "px-8 py-3 bg-coffee-intense text-surface text-xs font-label uppercase tracking-widest transition-all"
-      : "px-8 py-3 bg-bone-white text-xs font-label uppercase tracking-widest hover:bg-white transition-all";
+      : "px-8 py-3 text-coffee-intense bg-bone-white text-xs font-label uppercase tracking-widest hover:bg-coffee-intense/60 hover:text-white transition-all";
   };
 
   return (

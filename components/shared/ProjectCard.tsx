@@ -69,7 +69,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                 </span>
               )}
             </div>
-            <h2 className="font-headline text-3xl md:text-4xl text-white mb-2">{title}</h2>
+            <h2 className="tracking-[0.05em] uppercase font-urbanist text-3xl md:text-4xl text-white mb-2">{title}</h2>
             {description && (
               <p className="text-white/60 max-w-md font-light line-clamp-3">{description}</p>
             )}

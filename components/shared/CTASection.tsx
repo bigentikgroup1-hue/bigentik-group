@@ -25,7 +25,7 @@ export const CTASection = async ({ locale, children }: { locale: string; childre
           href={`https://wa.me/18097575168?text=${encodeURIComponent("Hola Grupo BIGENTIK, Estaba viendo su web y me interesa más información sobre los proyectos. Mi nombre es: ")}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="border border-outline-variant/40 px-12 py-4 font-label text-sm tracking-widest uppercase hover:bg-surface-container transition-colors inline-block text-center"
+          className="text-coffee-intense border border-outline-variant/40 px-12 py-4 font-label text-sm tracking-widest uppercase hover:bg-surface-container transition-colors inline-block text-center"
         >
           {t('home.cta.whatsapp_btn')}
         </a>

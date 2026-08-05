@@ -10,24 +10,24 @@ export const InvestmentBenefits = async ({ locale }: { locale: string }) => {
           <span className=" text-xs uppercase tracking-[0.3em] font-bold">{t('home.investment.subtitle')}</span>
           <h2 className="font-headline text-3xl mt-4 leading-tight">{t('home.investment.title')}</h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-16">
+        <div className="grid md:grid-cols-3 gap-12">
           <div className="space-y-6">
             <div className="h-1 w-12 bg-primary"></div>
-            <h3 className="font-headline text-2xl">{t('home.investment.cards.0.title')}</h3>
+            <h3 className="tracking-[0.05em] uppercase font-urbanist text-2xl">{t('home.investment.cards.0.title')}</h3>
             <p className=" leading-relaxed">
               {t('home.investment.cards.0.description')}
             </p>
           </div>
           <div className="space-y-6">
             <div className="h-1 w-12 bg-primary"></div>
-            <h3 className="font-headline text-2xl">{t('home.investment.cards.1.title')}</h3>
+            <h3 className="tracking-[0.05em] uppercase font-urbanist text-2xl">{t('home.investment.cards.1.title')}</h3>
             <p className=" leading-relaxed">
               {t('home.investment.cards.1.description')}
             </p>
           </div>
           <div className="space-y-6">
             <div className="h-1 w-12 bg-primary"></div>
-            <h3 className="font-headline text-2xl">{t('home.investment.cards.2.title')}</h3>
+            <h3 className="tracking-[0.05em] uppercase font-urbanist text-2xl">{t('home.investment.cards.2.title')}</h3>
             <p className=" leading-relaxed">
               {t('home.investment.cards.2.description')}
             </p>
