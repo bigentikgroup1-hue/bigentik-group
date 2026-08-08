@@ -12,7 +12,7 @@ export const HomeHero = async ({ locale }: { locale: string }) => {
         <Image
           className="object-cover hidden md:block"
           alt="Aerial cinematic view of Las Terrenas coastline and luxury villas"
-          src="/home-hero-bg.png"
+          src="/home-hero.png"
           fill
           priority
           quality={100}

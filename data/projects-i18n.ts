@@ -22,8 +22,8 @@ export const projects: Project[] = [
       es: "•3 piscinas \n•Cancha de padel \n•Recepción \n•Restaurante \n•GYM \n•SPA \n•Ascensores \n•Áreas verdes rec. \n•Área de niños \n•Paseos verdes \n•Tres hoyos de golf \n•Seguridad 24/7 \n•Golf ejecutivo 3 hoyos",
       fr: "•3 piscines \n•Court de padel \n•Réception \n•Restaurant \n•GYM \n•SPA \n•Ascenseurs \n•Espaces verts rec. \n•Espace enfants \n•Promenades vertes \n•Trois trous de golf \n•Sécurité 24/7 \n•Golf exécutif 3 trous"
     },
-    coverImage: "1_phbegh",
-    coverImageMobile: "xiwara-project-mobile_n4zwas",
+    coverImage: "xiwara-portada_mw624w",
+    coverImageMobile: "xiwara-portada-mobile_dhvj48",
     images: [
       "1_phbegh",
       "2_ibs2la",
