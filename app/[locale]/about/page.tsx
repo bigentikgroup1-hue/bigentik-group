@@ -62,8 +62,13 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       <section className="py-20 md:py-32 bg-surface">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 order-1 lg:order-1">
-            <div className="relative w-full max-w-md lg:max-w-none aspect-square bg-surface-container overflow-hidden p-4 md:p-6 mx-auto">
-              <Image className="object-fit" data-alt="Professional portrait of a founder in a modern office" src="/nicolas-benjamin.png" alt="Professional portrait of a founder in a modern office" fill quality={100} />
+            <div className="relative w-full max-w-[500px] h-[600px] mx-auto overflow-hidden">
+              <Image
+                className="object-contain"
+                src="/nicolas-benjamin.jpg"
+                alt="Professional portrait of a founder in a modern office"
+                fill
+                quality={100} />
             </div>
           </div>
           <div className="lg:col-span-6 order-2 lg:order-2 flex justify-center">
@@ -97,8 +102,13 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             </div>
           </div>
           <div className="lg:col-span-6 order-1 lg:order-2 flex justify-center">
-            <div className="relative w-full max-w-md lg:max-w-none aspect-square bg-surface-container overflow-hidden p-4 md:p-6 mx-auto">
-              <Image className="object-fit" data-alt="Professional portrait of a founder in a modern office" src="/jose-manuel.png" alt="Professional portrait of a founder in a modern office" fill quality={100} />
+            <div className="relative w-full max-w-[500px] h-[600px] mx-auto overflow-hidden">
+              <Image
+                className="object-contain"
+                src="/jose-manuel.jpg"
+                alt="Professional portrait of a founder in a modern office"
+                fill
+                quality={100} />
             </div>
           </div>
         </div>
