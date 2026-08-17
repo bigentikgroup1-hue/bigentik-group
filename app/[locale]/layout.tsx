@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Bigentik Group',
   description: 'Bigentik Group',
   icons: {
-    icon: '/bigentik-logo.svg',
+    icon: '/icon-bigentik.png',
   },
 };
 
@@ -26,6 +26,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
+        <link rel="icon" href="/icon-bigentik.png" type="image/png" />
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
         <link href="https://fonts.cdnfonts.com/css/aileron" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
