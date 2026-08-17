@@ -58,57 +58,149 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         </div>
       </section>
 
-      {/* Founders Stories: Pull Quote Style */}
-      <section className="py-20 md:py-32 bg-surface">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-6 order-1 lg:order-1">
-            <div className="relative w-full max-w-[500px] h-[600px] mx-auto overflow-hidden">
-              <Image
-                className="object-contain"
-                src="/nicolas-benjamin.jpg"
-                alt="Professional portrait of a founder in a modern office"
-                fill
-                quality={100} />
-            </div>
+      {/* Founders Section */}
+      <section className="py-20 md:pt-24 bg-surface">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="mb-12 md:mb-16 text-center">
+            <span className="text-sm font-label uppercase tracking-[0.3em] mb-4 block text-center">
+              {t('about.founders.subtitle')}
+            </span>
+            <h2 className="tracking-[0.1em] uppercase font-urbanist text-3xl text-center">
+              {t('about.founders.title')}
+            </h2>
           </div>
-          <div className="lg:col-span-6 order-2 lg:order-2 flex justify-center">
-            <div className="border-l-4 border-coffee-intense pl-6 md:pl-12 py-4">
-              <blockquote className="font-headline text-2xl leading-relaxed mb-8 break-words text-balance">{t('about.founder1.quote')}</blockquote>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-px bg-outline"></div>
-                <div>
-                  <p className="font-semibold uppercase tracking-widest text-sm">{t('about.founder1.name')}</p>
-                  <p className="text-xs  uppercase tracking-widest">{t('about.founder1.role')}</p>
+
+          <div className="space-y-16 md:space-y-24">
+            {/* Founder 1 */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+              <div className="lg:col-span-6 order-1 lg:order-1">
+                <div className="relative w-full max-w-[500px] h-[550px] md:h-[600px] mx-auto overflow-hidden">
+                  <Image
+                    className="object-contain"
+                    src="/nicolas-benjamin.jpg"
+                    alt={t('about.founder1.name')}
+                    fill
+                    quality={100}
+                  />
+                </div>
+              </div>
+              <div className="lg:col-span-6 order-2 lg:order-2 flex justify-center">
+                <div className="border-l-4 border-coffee-intense pl-6 md:pl-12 py-4">
+                  <blockquote className="font-headline text-2xl leading-relaxed mb-8 break-words text-balance">
+                    {t('about.founder1.quote')}
+                  </blockquote>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-px bg-outline"></div>
+                    <div>
+                      <p className="font-semibold uppercase tracking-widest text-sm">
+                        {t('about.founder1.name')}
+                      </p>
+                      <p className="text-xs uppercase tracking-widest">{t('about.founder1.role')}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
+            {/* Founder 2 */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+              <div className="lg:col-span-6 order-2 lg:order-1 flex justify-center">
+                <div className="border-r-4 border-coffee-intense pr-6 md:pr-12 py-4 text-right">
+                  <blockquote className="font-headline text-2xl leading-relaxed mb-8 break-words text-balance">
+                    {t('about.founder2.quote')}
+                  </blockquote>
+                  <div className="flex items-center justify-end gap-4">
+                    <div>
+                      <p className="font-semibold uppercase tracking-widest text-sm">
+                        {t('about.founder2.name')}
+                      </p>
+                      <p className="text-xs uppercase tracking-widest">{t('about.founder2.role')}</p>
+                    </div>
+                    <div className="w-12 h-px bg-outline"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:col-span-6 order-1 lg:order-2 flex justify-center">
+                <div className="relative w-full max-w-[500px] h-[550px] md:h-[600px] mx-auto overflow-hidden">
+                  <Image
+                    className="object-contain"
+                    src="/jose-manuel.jpg"
+                    alt={t('about.founder2.name')}
+                    fill
+                    quality={100}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 md:py-32 bg-surface">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-6 order-2 lg:order-1">
-            <div className="border-r-4 border-coffee-intense pl-6 md:pl-12 py-4">
-              <blockquote className="font-headline text-2xl leading-relaxed mb-8 break-words text-balance">{t('about.founder2.quote')}</blockquote>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-px bg-outline"></div>
-                <div>
-                  <p className="font-semibold uppercase tracking-widest text-sm">{t('about.founder2.name')}</p>
-                  <p className="text-xs  uppercase tracking-widest">{t('about.founder2.role')}</p>
+      {/* Our Team Section */}
+      <section className="pb-20 md:pb-24 bg-surface">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="mb-12 md:mb-16 text-center">
+            <span className="text-sm font-label uppercase tracking-[0.3em] mb-4 block text-center">
+              {t('about.team.subtitle')}
+            </span>
+            <h2 className="tracking-[0.1em] uppercase font-urbanist text-3xl text-center">
+              {t('about.team.title')}
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            {/* Field Team */}
+            <div className="flex flex-col group">
+              <div className="relative aspect-[16/10] w-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-500 rounded-sm">
+                <Image
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  src="/bigentik-team-field.jpeg"
+                  alt={t('about.team.field_title')}
+                  fill
+                  quality={100}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-500" />
+                <div className="absolute bottom-6 left-6 right-6 text-white z-10">
+                  <span className="text-xs uppercase tracking-[0.25em] font-semibold text-bone-white block mb-1">
+                    01 / {t('about.team.field_title')}
+                  </span>
                 </div>
               </div>
+              <div className="pt-4 border-l-2 border-primary/40 pl-4 mt-3">
+                {/* <h3 className="text-lg font-semibold uppercase tracking-wider mb-1">
+                  {t('about.team.field_title')}
+                </h3> */}
+                <p className="text-sm opacity-80 leading-relaxed">
+                  {t('about.team.field_desc')}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="lg:col-span-6 order-1 lg:order-2 flex justify-center">
-            <div className="relative w-full max-w-[500px] h-[600px] mx-auto overflow-hidden">
-              <Image
-                className="object-contain"
-                src="/jose-manuel.jpg"
-                alt="Professional portrait of a founder in a modern office"
-                fill
-                quality={100} />
+
+            {/* Office Team */}
+            <div className="flex flex-col group">
+              <div className="relative aspect-[16/10] w-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-500 rounded-sm">
+                <Image
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  src="/bigentik-team-office.jpeg"
+                  alt={t('about.team.office_title')}
+                  fill
+                  quality={100}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-500" />
+                <div className="absolute bottom-6 left-6 right-6 text-white z-10">
+                  <span className="text-xs uppercase tracking-[0.25em] font-semibold text-bone-white block mb-1">
+                    02 / {t('about.team.office_title')}
+                  </span>
+                </div>
+              </div>
+              <div className="pt-4 border-l-2 border-primary/40 pl-4 mt-3">
+                {/* <h3 className="text-lg font-semibold uppercase tracking-wider mb-1">
+                  {t('about.team.office_title')}
+                </h3> */}
+                <p className="text-sm opacity-80 leading-relaxed">
+                  {t('about.team.office_desc')}
+                </p>
+              </div>
             </div>
           </div>
         </div>

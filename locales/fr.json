@@ -135,6 +135,10 @@
       "clients_number": "200+",
       "clients_lbl": "clients satisfaits"
     },
+    "founders": {
+      "subtitle": "Leadership",
+      "title": "Fondateurs"
+    },
     "founder1": {
       "quote": "Architecte de profession avec plus de 15 ans d'expérience dans la conception et le développement de projets, en particulier dans le domaine du tourisme et de l'immobilier.",
       "name": "Nicolás Benjamín",
@@ -144,6 +148,14 @@
       "quote": "Avec plus de 15 ans d'expérience dans la vente de biens immobiliers",
       "name": "Jose Manuel King Medina",
       "role": "Cofondateur"
+    },
+    "team": {
+      "subtitle": "Excellence Humaine",
+      "title": "Notre Équipe",
+      "field_title": "Équipe de Terrain",
+      "field_desc": "Supervision directe et exécution des projets selon les normes de qualité les plus élevées.",
+      "office_title": "Équipe Corporative",
+      "office_desc": "Gestion stratégique, conception et accompagnement personnalisé de nos clients."
     }
   },
   "contact": {

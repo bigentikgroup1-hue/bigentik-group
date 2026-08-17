@@ -124,6 +124,10 @@
         }
       ]
     },
+    "founders": {
+      "subtitle": "Liderazgo",
+      "title": "Fundadores"
+    },
     "founder1": {
       "quote": "Arquitecto de profesión mas de 15 años de experiencia en el diseño y desarrollo de proyectos, especialmente turísticos  inmobiliarios",
       "name": "Nicolás Benjamín",
@@ -133,6 +137,14 @@
       "quote": "Con más de 15 años de experienca en venta de propiedades inmobiliarias",
       "name": "Jose Manuel King Medina",
       "role": "Cofundador"
+    },
+    "team": {
+      "subtitle": "Excelencia Humana",
+      "title": "Nuestro Equipo",
+      "field_title": "Equipo de Terreno",
+      "field_desc": "Supervisión directa y desarrollo de obras con los más altos estándares de calidad.",
+      "office_title": "Equipo Corporativo",
+      "office_desc": "Gestión estratégica, diseño y atención personalizada a nuestros clientes."
     },
     "presence": {
       "subtitle": "Nuestra Presencia",
