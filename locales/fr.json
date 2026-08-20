@@ -317,5 +317,15 @@
     "legal": "Légal",
     "nav_terms": "Conditions de Service",
     "copyright": "© 2024 Bigentik Group. Tous droits réservés."
+  },
+  "not_found": {
+    "code": "404",
+    "subtitle": "Page Non Trouvée",
+    "title_1": "Page Non",
+    "title_2": "Trouvée.",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée. Nous vous invitons à explorer notre portefeuille exclusif de projets ou à retourner à l'accueil.",
+    "home_btn": "Retour à l'Accueil",
+    "projects_btn": "Explorer les Projets",
+    "contact_btn": "Nous Contacter"
   }
 }
