@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Base URL -->
+  <url>
+    <loc>https://bigentik.com</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr"/>
+  </url>
+
+  <!-- Home Page (ES) -->
+  <url>
+    <loc>https://bigentik.com/es</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr"/>
+  </url>
+
+  <!-- Home Page (EN) -->
+  <url>
+    <loc>https://bigentik.com/en</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr"/>
+  </url>
+
+  <!-- Home Page (FR) -->
+  <url>
+    <loc>https://bigentik.com/fr</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr"/>
+  </url>
+
+  <!-- Projects Index (ES) -->
+  <url>
+    <loc>https://bigentik.com/es/projects</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects"/>
+  </url>
+
+  <!-- Projects Index (EN) -->
+  <url>
+    <loc>https://bigentik.com/en/projects</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects"/>
+  </url>
+
+  <!-- Projects Index (FR) -->
+  <url>
+    <loc>https://bigentik.com/fr/projects</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects"/>
+  </url>
+
+  <!-- About (ES) -->
+  <url>
+    <loc>https://bigentik.com/es/about</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/about"/>
+  </url>
+
+  <!-- About (EN) -->
+  <url>
+    <loc>https://bigentik.com/en/about</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/about"/>
+  </url>
+
+  <!-- About (FR) -->
+  <url>
+    <loc>https://bigentik.com/fr/about</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/about"/>
+  </url>
+
+  <!-- Contact (ES) -->
+  <url>
+    <loc>https://bigentik.com/es/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/contact"/>
+  </url>
+
+  <!-- Contact (EN) -->
+  <url>
+    <loc>https://bigentik.com/en/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/contact"/>
+  </url>
+
+  <!-- Contact (FR) -->
+  <url>
+    <loc>https://bigentik.com/fr/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/contact"/>
+  </url>
+
+  <!-- Project: xiwara -->
+  <url>
+    <loc>https://bigentik.com/es/projects/xiwara</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/xiwara"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/xiwara"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/xiwara"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/en/projects/xiwara</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/xiwara"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/xiwara"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/xiwara"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/fr/projects/xiwara</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/xiwara"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/xiwara"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/xiwara"/>
+  </url>
+
+  <!-- Project: manuela-aparthotel -->
+  <url>
+    <loc>https://bigentik.com/es/projects/manuela-aparthotel</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/manuela-aparthotel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/manuela-aparthotel"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/manuela-aparthotel"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/en/projects/manuela-aparthotel</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/manuela-aparthotel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/manuela-aparthotel"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/manuela-aparthotel"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/fr/projects/manuela-aparthotel</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/manuela-aparthotel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/manuela-aparthotel"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/manuela-aparthotel"/>
+  </url>
+
+  <!-- Project: sol-de-arena-II -->
+  <url>
+    <loc>https://bigentik.com/es/projects/sol-de-arena-II</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/sol-de-arena-II"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/sol-de-arena-II"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/sol-de-arena-II"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/en/projects/sol-de-arena-II</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/sol-de-arena-II"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/sol-de-arena-II"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/sol-de-arena-II"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/fr/projects/sol-de-arena-II</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/sol-de-arena-II"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/sol-de-arena-II"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/sol-de-arena-II"/>
+  </url>
+
+  <!-- Project: sol-de-arena -->
+  <url>
+    <loc>https://bigentik.com/es/projects/sol-de-arena</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/sol-de-arena"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/sol-de-arena"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/sol-de-arena"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/en/projects/sol-de-arena</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/sol-de-arena"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/sol-de-arena"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/sol-de-arena"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/fr/projects/sol-de-arena</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/sol-de-arena"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/sol-de-arena"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/sol-de-arena"/>
+  </url>
+
+  <!-- Project: luxury-hills -->
+  <url>
+    <loc>https://bigentik.com/es/projects/luxury-hills</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/luxury-hills"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/luxury-hills"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/luxury-hills"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/en/projects/luxury-hills</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/luxury-hills"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/luxury-hills"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/luxury-hills"/>
+  </url>
+  <url>
+    <loc>https://bigentik.com/fr/projects/luxury-hills</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bigentik.com/es/projects/luxury-hills"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigentik.com/en/projects/luxury-hills"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bigentik.com/fr/projects/luxury-hills"/>
+  </url>
+</urlset>
