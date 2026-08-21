@@ -25,9 +25,9 @@ export const projects: Project[] = [
     coverImage: "xiwara-portada_mw624w",
     coverImageMobile: "xiwara-portada-mobile_dhvj48",
     images: [
-      "1_phbegh",
       "2_ibs2la",
       "3_r07grk",
+      "xiwara-portada_mw624w",
       "4_r7qnfv",
       "5_p5eksk",
       "6_srnupb",
